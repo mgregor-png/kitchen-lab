@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab Kitchen</title>
+
+  <!-- Tailwind CSS with plugins -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <!-- marked.js for markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+
+  <!-- Tailwind config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary-fixed': '#2ff801',
+            'tertiary': '#0846ed',
+            'on-background': '#2d2f2f',
+            'background': '#f6f6f6',
+            'surface-white': '#ffffff',
+            'outline': '#757777',
+            'outline-variant': '#acadad',
+          },
+          fontFamily: {
+            headline: ['"Space Grotesk"', 'sans-serif'],
+            body: ['"Newsreader"', 'serif'],
+          },
+          borderRadius: {
+            DEFAULT: '0px',
+            none: '0px',
+            sm: '0px',
+            md: '0px',
+            lg: '0px',
+            xl: '0px',
+            '2xl': '0px',
+            '3xl': '0px',
+            full: '0px',
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    * { border-radius: 0 !important; }
+
+    .neo-shadow {
+      box-shadow: 4px 4px 0px 0px #2d2f2f;
+    }
+
+    /* Recipe content markdown styles */
+    .recipe-content h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 900;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 3px solid #2d2f2f;
+      padding-bottom: 0.25rem;
+      margin-top: 1.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .recipe-content h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: #2d2f2f;
+    }
+
+    .recipe-content ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1rem 0;
+    }
+
+    .recipe-content li {
+      font-family: 'Newsreader', serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      padding: 0.35rem 0;
+      border-bottom: 1px solid #acadad;
+    }
+
+    .recipe-content li:last-child {
+      border-bottom: none;
+    }
+
+    .recipe-content p {
+      font-family: 'Newsreader', serif;
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 0.85rem;
+      color: #2d2f2f;
+    }
+
+    .recipe-content strong {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+    }
+
+    .recipe-content ol {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1rem 0;
+      counter-reset: step-counter;
+    }
+
+    .recipe-content ol li {
+      counter-increment: step-counter;
+      font-family: 'Newsreader', serif;
+      font-size: 1rem;
+      line-height: 1.7;
+      padding: 0.5rem 0 0.5rem 2.5rem;
+      border-bottom: 1px solid #acadad;
+      position: relative;
+    }
+
+    .recipe-content ol li::before {
+      content: counter(step-counter);
+      position: absolute;
+      left: 0;
+      top: 0.5rem;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 900;
+      font-size: 1.1rem;
+      color: #2ff801;
+      background: #2d2f2f;
+      width: 1.75rem;
+      height: 1.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+    }
+  </style>
+</head>
+
+<body class="bg-background min-h-screen font-body text-on-background">
+
+  <!-- Fixed Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-surface-white border-b-4 border-on-background">
+    <div class="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#/" class="flex items-center gap-2 no-underline">
+        <span class="material-symbols-outlined text-primary-fixed text-3xl" style="font-variation-settings:'FILL' 1,'wght' 700;">biotech</span>
+        <span class="font-headline font-black text-3xl uppercase italic tracking-tighter text-on-background leading-none">Lab Kitchen</span>
+      </a>
+
+      <!-- Back button (hidden on home) -->
+      <a id="back-btn" href="#/" class="hidden font-headline font-bold text-sm uppercase tracking-widest border-2 border-on-background px-3 py-1 text-on-background no-underline hover:bg-on-background hover:text-surface-white transition-colors">
+        &larr; Back
+      </a>
+    </div>
+  </header>
+
+  <!-- Main content (offset for fixed header) -->
+  <main class="pt-14 min-h-screen">
+    <div id="app"></div>
+  </main>
+
+  <script>
+    const REPO = 'mgregor-png/kitchen-lab';
+    const BRANCH = 'main';
+    const RAW = `https://raw.githubusercontent.com/${REPO}/${BRANCH}`;
+
+    // ─── Tag pill helper ───────────────────────────────────────────────────────
+
+    function tagPillStyle(tag) {
+      const t = tag.toLowerCase();
+      if (t === 'ottolenghi') {
+        return 'background:#2d2f2f; color:#2ff801;';
+      }
+      if (['prep', 'project', 'sunday'].some(k => t.includes(k))) {
+        return 'background:#2ff801; color:#000;';
+      }
+      if (['bowl', 'quick', 'one-pot', 'wrap', 'salad'].some(k => t.includes(k))) {
+        return 'background:#0846ed; color:#fff;';
+      }
+      if (['protein', 'cal', 'carb', 'vegan', 'gluten'].some(k => t.includes(k))) {
+        return 'background:transparent; color:#2d2f2f; border:1px solid #999;';
+      }
+      return 'background:transparent; color:#2d2f2f; border:1px solid #999;';
+    }
+
+    function renderTagPill(tag, extraClass = '') {
+      return `<span class="font-headline font-bold text-xs uppercase tracking-widest px-2 py-0.5 ${extraClass}" style="${tagPillStyle(tag)}">${tag}</span>`;
+    }
+
+    // ─── Frontmatter parser ────────────────────────────────────────────────────
+
+    function parseFrontmatter(raw) {
+      const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+      if (!match) return { meta: {}, body: raw };
+      const meta = {};
+      match[1].split('\n').forEach(line => {
+        const idx = line.indexOf(':');
+        if (idx === -1) return;
+        const key = line.slice(0, idx).trim();
+        const val = line.slice(idx + 1).trim();
+        if (val.startsWith('[')) {
+          try { meta[key] = JSON.parse(val); } catch { meta[key] = val; }
+        } else {
+          meta[key] = val.replace(/^["']|["']$/g, '');
+        }
+      });
+      return { meta, body: match[2] };
+    }
+
+    // ─── Ingredient parser ─────────────────────────────────────────────────────
+
+    function extractIngredients(body) {
+      const match = body.match(/## Ingredients\n([\s\S]*?)(?=\n## |\n$|$)/);
+      if (!match) return [];
+      return match[1]
+        .split('\n')
+        .map(l => l.replace(/^[-*]\s*/, '').trim())
+        .filter(Boolean);
+    }
+
+    function parseIngredient(str) {
+      // Try to split "quantity unit name" or "name - quantity"
+      const patterns = [
+        /^([\d\/\s.,]+(?:g|kg|ml|l|tsp|tbsp|cup|cups|oz|lb|x|pcs|slice|slices|bunch|cloves?|cans?|tins?)\.?)\s+(.+)$/i,
+        /^(.+?)\s*[-–]\s*([\d\/\s.,]+.*)$/,
+      ];
+      for (const re of patterns) {
+        const m = str.match(re);
+        if (m) return { quantity: m[1].trim(), name: m[2].trim() };
+      }
+      return { quantity: null, name: str };
+    }
+
+    function bodyWithoutIngredients(body) {
+      return body.replace(/## Ingredients\n[\s\S]*?(?=\n## |$)/, '').trim();
+    }
+
+    // ─── Shopping list localStorage ────────────────────────────────────────────
+
+    function shopKey(slug) { return `kitchen-lab-shop-${slug}`; }
+    function loadChecked(slug) {
+      try { return JSON.parse(localStorage.getItem(shopKey(slug)) || '[]'); } catch { return []; }
+    }
+    function saveChecked(slug, arr) {
+      localStorage.setItem(shopKey(slug), JSON.stringify(arr));
+    }
+
+    // ─── Router ────────────────────────────────────────────────────────────────
+
+    const backBtn = document.getElementById('back-btn');
+
+    function router() {
+      const hash = location.hash || '#/';
+      const app = document.getElementById('app');
+
+      const shopMatch = hash.match(/^#\/recipe\/([^/]+)\/shop$/);
+      const detailMatch = hash.match(/^#\/recipe\/([^/]+)$/);
+
+      if (shopMatch) {
+        const slug = shopMatch[1];
+        backBtn.href = `#/recipe/${slug}`;
+        backBtn.classList.remove('hidden');
+        renderShop(slug, app);
+      } else if (detailMatch) {
+        const slug = detailMatch[1];
+        backBtn.href = '#/';
+        backBtn.classList.remove('hidden');
+        renderDetail(slug, app);
+      } else {
+        backBtn.classList.add('hidden');
+        renderList(app);
+      }
+    }
+
+    // ─── View: Recipe List ─────────────────────────────────────────────────────
+
+    let allRecipes = null;
+    let activeFilters = new Set();
+
+    async function renderList(container) {
+      container.innerHTML = '<div class="max-w-2xl mx-auto px-4 py-8 text-center font-headline">Loading...</div>';
+
+      if (!allRecipes) {
+        try {
+          const res = await fetch(`${RAW}/recipes.json`);
+          allRecipes = await res.json();
+        } catch (e) {
+          container.innerHTML = `<div class="max-w-2xl mx-auto px-4 py-8 text-center font-headline text-red-600">Failed to load recipes.</div>`;
+          return;
+        }
+      }
+
+      // Collect all unique tags
+      const allTags = [];
+      allRecipes.forEach(r => (r.tags || []).forEach(t => { if (!allTags.includes(t)) allTags.push(t); }));
+
+      // Filter recipes
+      const filtered = activeFilters.size === 0
+        ? allRecipes
+        : allRecipes.filter(r => (r.tags || []).some(t => activeFilters.has(t)));
+
+      const filterBar = `
+        <div class="flex flex-wrap gap-2 mb-6">
+          <button
+            onclick="toggleFilter(null)"
+            class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors ${activeFilters.size === 0 ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}"
+          >ALL</button>
+          ${allTags.map(tag => `
+            <button
+              onclick="toggleFilter('${tag}')"
+              class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors ${activeFilters.has(tag) ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}"
+            >${tag}</button>
+          `).join('')}
+        </div>
+      `;
+
+      const cards = filtered.map(recipe => {
+        const tags = (recipe.tags || []).map(t => renderTagPill(t, 'inline-block mt-1')).join(' ');
+        return `
+          <a href="#/recipe/${recipe.slug}" class="block border-4 border-on-background bg-surface-white p-4 neo-shadow mb-4 no-underline text-on-background hover:translate-x-[-2px] hover:translate-y-[-2px] transition-transform" style="hover:box-shadow:6px 6px 0px 0px #2d2f2f;">
+            <div class="flex items-start justify-between gap-4">
+              <div class="flex-1 min-w-0">
+                <div class="font-headline font-black text-xl uppercase leading-tight mb-1">${recipe.title}</div>
+                <div class="font-body italic text-sm text-outline mb-2">${recipe.description || ''}</div>
+                <div class="flex flex-wrap gap-1">${tags}</div>
+              </div>
+              <div class="border-l-[3px] border-on-background pl-3 min-w-[60px] text-right flex-shrink-0">
+                <div class="font-headline font-black text-3xl leading-none">${recipe.time}</div>
+                <div class="font-headline font-bold text-[10px] uppercase tracking-widest">MIN</div>
+              </div>
+            </div>
+          </a>
+        `;
+      }).join('');
+
+      container.innerHTML = `
+        <div class="max-w-2xl mx-auto px-4 py-8">
+          ${filterBar}
+          ${filtered.length === 0 ? '<div class="font-headline text-outline text-center py-8">No recipes match.</div>' : cards}
+        </div>
+      `;
+    }
+
+    window.toggleFilter = function(tag) {
+      if (tag === null) {
+        activeFilters.clear();
+      } else {
+        if (activeFilters.has(tag)) activeFilters.delete(tag);
+        else activeFilters.add(tag);
+      }
+      renderList(document.getElementById('app'));
+    };
+
+    // ─── View: Recipe Detail ───────────────────────────────────────────────────
+
+    async function renderDetail(slug, container) {
+      container.innerHTML = '<div class="max-w-5xl mx-auto px-4 py-8 text-center font-headline">Loading...</div>';
+
+      let raw;
+      try {
+        const res = await fetch(`${RAW}/recipes/${slug}.md`);
+        if (!res.ok) throw new Error('Not found');
+        raw = await res.text();
+      } catch {
+        container.innerHTML = `<div class="max-w-5xl mx-auto px-4 py-8 text-center font-headline">Recipe not found.</div>`;
+        return;
+      }
+
+      const { meta, body } = parseFrontmatter(raw);
+      const ingredients = extractIngredients(body);
+      const mainBody = bodyWithoutIngredients(body);
+      const renderedBody = marked.parse(mainBody);
+
+      const title = meta.title || slug;
+      const time = meta.time || '';
+      const tags = (meta.tags ? (Array.isArray(meta.tags) ? meta.tags : [meta.tags]) : [])
+        .map(t => renderTagPill(t, 'inline-block')).join(' ');
+
+      const ingredientRows = ingredients.map(ing => {
+        const { quantity, name } = parseIngredient(ing);
+        return `
+          <div class="flex items-start justify-between gap-2 py-2 border-b border-outline border-opacity-30 last:border-b-0">
+            <span class="font-body italic text-surface-white text-sm leading-snug flex-1">${name}</span>
+            ${quantity ? `<span class="font-headline font-bold text-primary-fixed text-sm flex-shrink-0">${quantity}</span>` : ''}
+          </div>
+        `;
+      }).join('');
+
+      // Mobile: collapsible ingredients toggle
+      const mobileIngBlock = ingredients.length > 0 ? `
+        <div class="md:hidden border-b-4 border-on-background">
+          <button
+            onclick="document.getElementById('mobile-ings').classList.toggle('hidden')"
+            class="w-full flex items-center justify-between bg-on-background text-surface-white px-4 py-3 font-headline font-bold text-sm uppercase tracking-widest"
+          >
+            <span>Ingredients (${ingredients.length})</span>
+            <span class="material-symbols-outlined text-base">expand_more</span>
+          </button>
+          <div id="mobile-ings" class="hidden bg-on-background px-4 pb-4">
+            ${ingredientRows}
+            <a href="#/recipe/${slug}/shop" class="block mt-4 text-center bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-2 neo-shadow">
+              Shopping List
+            </a>
+          </div>
+        </div>
+      ` : '';
+
+      container.innerHTML = `
+        ${mobileIngBlock}
+        <div class="max-w-5xl mx-auto md:grid md:grid-cols-12 min-h-[calc(100vh-3.5rem)]">
+          <!-- Left sidebar: ingredients (desktop only) -->
+          ${ingredients.length > 0 ? `
+          <div class="hidden md:block md:col-span-4 bg-on-background text-surface-white p-6 border-r-4 border-on-background sticky top-14 h-[calc(100vh-3.5rem)] overflow-y-auto">
+            <div class="font-headline font-black text-xs uppercase tracking-widest text-primary-fixed mb-4">Ingredients</div>
+            ${ingredientRows}
+            <a href="#/recipe/${slug}/shop" class="block mt-6 text-center bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-black px-4 py-3 neo-shadow">
+              Shopping List
+            </a>
+          </div>
+          ` : ''}
+
+          <!-- Right main: recipe body -->
+          <div class="${ingredients.length > 0 ? 'md:col-span-8' : 'md:col-span-12'} bg-surface-white p-6 md:p-10">
+            <div class="mb-6">
+              <h1 class="font-headline font-black text-3xl md:text-4xl uppercase leading-tight mb-3">${title}</h1>
+              <div class="flex flex-wrap items-center gap-3">
+                ${time ? `<span class="font-headline font-black text-on-background"><span class="text-2xl">${time}</span> <span class="text-xs font-bold uppercase tracking-widest">MIN</span></span>` : ''}
+                ${tags}
+              </div>
+            </div>
+            <div class="recipe-content">${renderedBody}</div>
+          </div>
+        </div>
+      `;
+    }
+
+    // ─── View: Shopping List ───────────────────────────────────────────────────
+
+    async function renderShop(slug, container) {
+      container.innerHTML = '<div class="max-w-2xl mx-auto px-4 py-8 text-center font-headline">Loading...</div>';
+
+      let raw;
+      try {
+        const res = await fetch(`${RAW}/recipes/${slug}.md`);
+        if (!res.ok) throw new Error('Not found');
+        raw = await res.text();
+      } catch {
+        container.innerHTML = `<div class="max-w-2xl mx-auto px-4 py-8 text-center font-headline">Recipe not found.</div>`;
+        return;
+      }
+
+      const { meta, body } = parseFrontmatter(raw);
+      const ingredients = extractIngredients(body);
+      const title = meta.title || slug;
+
+      if (ingredients.length === 0) {
+        container.innerHTML = `<div class="max-w-2xl mx-auto px-4 py-8 font-headline text-center">No ingredients found.</div>`;
+        return;
+      }
+
+      renderShopView(slug, title, ingredients, container);
+    }
+
+    function renderShopView(slug, title, ingredients, container) {
+      const checked = loadChecked(slug);
+
+      // Sort: unchecked first, checked last
+      const indexed = ingredients.map((ing, i) => ({ ing, i }));
+      indexed.sort((a, b) => {
+        const ac = checked.includes(a.i);
+        const bc = checked.includes(b.i);
+        if (ac === bc) return a.i - b.i;
+        return ac ? 1 : -1;
+      });
+
+      const items = indexed.map(({ ing, i }) => {
+        const isChecked = checked.includes(i);
+        return `
+          <label class="flex items-center gap-3 p-4 border-4 border-on-background mb-3 cursor-pointer select-none transition-all ${isChecked ? 'opacity-40 bg-background' : 'bg-surface-white neo-shadow'}" onclick="toggleShopItem('${slug}', ${i})">
+            <div class="w-6 h-6 border-2 border-on-background flex items-center justify-center flex-shrink-0 ${isChecked ? 'bg-on-background' : 'bg-surface-white'}">
+              ${isChecked ? '<span class="material-symbols-outlined text-surface-white text-base">check</span>' : ''}
+            </div>
+            <span class="font-body text-base flex-1 ${isChecked ? 'line-through text-outline' : ''}">${ing}</span>
+          </label>
+        `;
+      }).join('');
+
+      container.innerHTML = `
+        <div class="max-w-2xl mx-auto px-4 py-8">
+          <div class="mb-6">
+            <div class="font-headline font-bold text-xs uppercase tracking-widest text-outline mb-1">Shopping List</div>
+            <h1 class="font-headline font-black text-2xl uppercase">${title}</h1>
+          </div>
+
+          <div class="flex gap-3 mb-6">
+            <button
+              id="copy-btn"
+              onclick="copyUnchecked('${slug}')"
+              class="flex-1 bg-on-background text-surface-white font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-3 neo-shadow hover:opacity-80 transition-opacity"
+            >Copy Needed Items</button>
+            <button
+              onclick="resetShop('${slug}')"
+              class="bg-surface-white text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-3 neo-shadow hover:bg-background transition-colors"
+            >Reset</button>
+          </div>
+
+          <div id="shop-items">
+            ${items}
+          </div>
+        </div>
+      `;
+    }
+
+    window._shopState = {};
+
+    window.toggleShopItem = function(slug, idx) {
+      const checked = loadChecked(slug);
+      const pos = checked.indexOf(idx);
+      if (pos === -1) checked.push(idx);
+      else checked.splice(pos, 1);
+      saveChecked(slug, checked);
+
+      // Re-render shop view — need recipe data
+      const container = document.getElementById('app');
+      renderShop(slug, container);
+    };
+
+    window.copyUnchecked = async function(slug) {
+      const checked = loadChecked(slug);
+      const container = document.getElementById('app');
+      const labels = container.querySelectorAll('#shop-items label');
+      const lines = [];
+      labels.forEach(label => {
+        const span = label.querySelector('span.font-body');
+        if (!span) return;
+        const text = span.textContent.trim();
+        // Determine index from onclick attr
+        const onclick = label.getAttribute('onclick') || '';
+        const m = onclick.match(/toggleShopItem\('[^']+',\s*(\d+)\)/);
+        if (!m) return;
+        const i = parseInt(m[1]);
+        if (!checked.includes(i)) lines.push(`- ${text}`);
+      });
+
+      try {
+        await navigator.clipboard.writeText(lines.join('\n'));
+      } catch {
+        // Fallback
+        const ta = document.createElement('textarea');
+        ta.value = lines.join('\n');
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        ta.remove();
+      }
+
+      const btn = document.getElementById('copy-btn');
+      if (btn) {
+        const orig = btn.textContent;
+        btn.textContent = 'Copied!';
+        btn.style.background = '#2ff801';
+        btn.style.color = '#000';
+        btn.style.borderColor = '#000';
+        setTimeout(() => {
+          btn.textContent = orig;
+          btn.style.background = '';
+          btn.style.color = '';
+          btn.style.borderColor = '';
+        }, 1500);
+      }
+    };
+
+    window.resetShop = function(slug) {
+      localStorage.removeItem(shopKey(slug));
+      renderShop(slug, document.getElementById('app'));
+    };
+
+    // ─── Init ──────────────────────────────────────────────────────────────────
+
+    window.addEventListener('hashchange', router);
+    document.addEventListener('DOMContentLoaded', router);
+  </script>
+</body>
+</html>
