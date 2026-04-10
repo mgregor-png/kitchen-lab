@@ -3,6 +3,7 @@ title: Roman Fried Chicken with Tomatoes and Crisp Oregano
 time: 55
 tags: [ottolenghi, chicken, mains, mediterranean]
 description: Crispy chicken thighs with pancetta-tomato sauce
+image: "https://ottolenghi.co.uk/cdn/shop/files/Photo_29-01-2026_12_02_01.jpg?v=1772122226"
 ---
 
 # Roman Fried Chicken with Tomatoes and Crisp Oregano

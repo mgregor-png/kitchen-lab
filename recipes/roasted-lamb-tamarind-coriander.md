@@ -3,6 +3,7 @@ title: Roasted Lamb with Tamarind, Coriander and Radish Salsa
 time: 335
 tags: [ottolenghi, meat, mains, middle-eastern, weekend]
 description: Slow-roast lamb shoulder with tamarind glaze
+image: "https://ottolenghi.co.uk/cdn/shop/files/Photo_26-02-2026_16_41_17.jpg?v=1773416549"
 ---
 
 # Roasted Lamb with Tamarind, Coriander and Radish Salsa

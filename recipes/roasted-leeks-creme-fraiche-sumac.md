@@ -3,6 +3,7 @@ title: Roasted Leeks with Creme Fraiche, Hazelnuts and Sumac
 time: 90
 tags: [ottolenghi, vegetables, sides, vegetarian]
 description: Charred leeks with hazelnut-sumac salsa
+image: "https://ottolenghi.co.uk/cdn/shop/files/Roasted_leeks_1.jpg?v=1772645114"
 ---
 
 # Roasted Leeks with Creme Fraiche, Hazelnuts and Sumac

@@ -3,6 +3,7 @@ title: Sticky Date Spiced Carrots
 time: 55
 tags: [ottolenghi, vegetables, sides, middle-eastern]
 description: Roasted carrots with date dressing and herbs
+image: "https://ottolenghi.co.uk/cdn/shop/files/Sticky_carrots.jpg?v=1774015236"
 ---
 
 # Sticky Date Spiced Carrots

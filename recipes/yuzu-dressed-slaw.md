@@ -3,6 +3,7 @@ title: Yuzu Dressed Slaw with Fried Peanuts and Thai Basil
 time: 35
 tags: [ottolenghi, salad, vegetables, asian]
 description: Sharp yuzu slaw with peanuts and seaweed
+image: "https://ottolenghi.co.uk/cdn/shop/files/IMG_9513_2.heic?v=1775135345"
 ---
 
 # Yuzu Dressed Slaw with Fried Peanuts and Thai Basil

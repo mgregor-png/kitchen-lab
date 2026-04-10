@@ -3,6 +3,7 @@ title: Chopped Broccoli Salad with Peanut and Goji Dressing
 time: 35
 tags: [ottolenghi, salad, vegetables, vegan]
 description: Hearty broccoli salad with nutty goji dressing
+image: "https://ottolenghi.co.uk/cdn/shop/files/broccoli_freekeh_2.0.heic?v=1774618070"
 ---
 
 # Chopped Broccoli Salad with Peanut and Goji Dressing

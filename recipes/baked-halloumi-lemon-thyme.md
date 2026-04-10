@@ -3,6 +3,7 @@ title: Baked Halloumi with Lemon and Thyme
 time: 33
 tags: [ottolenghi, vegetarian, mains, quick, cheese]
 description: Golden halloumi baked with lemon and honey
+image: "https://ottolenghi.co.uk/cdn/shop/files/IMG_2545.jpg?v=1774455263"
 ---
 
 # Baked Halloumi with Lemon and Thyme
