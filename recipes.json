@@ -71,5 +71,23 @@
     "time": 55,
     "tags": ["ottolenghi", "chicken", "mains", "mediterranean"],
     "description": "Crispy chicken thighs with pancetta-tomato sauce"
+  },
+  {
+    "slug": "bacon-egg-tomato-rice",
+    "title": "Bacon Egg & Tomato Rice",
+    "time": 25,
+    "tags": ["finn-tonry", "high-protein", "quick", "bowls"],
+    "description": "sushi rice, crispy bacon, runny omelette",
+    "chef": "Finn Tonry",
+    "image": "https://i4.ytimg.com/vi/3pPK3tyT-jE/hqdefault.jpg"
+  },
+  {
+    "slug": "spicy-peanut-chicken-noodles",
+    "title": "Spicy Peanut Chicken Noodles",
+    "time": 25,
+    "tags": ["finn-tonry", "high-protein", "quick", "asian", "chicken"],
+    "description": "miso peanut sauce, gochujang chicken, udon",
+    "chef": "Finn Tonry",
+    "image": "https://i1.ytimg.com/vi/pKkersUM3EM/hqdefault.jpg"
   }
 ]
