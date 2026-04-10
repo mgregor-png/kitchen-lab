@@ -180,9 +180,12 @@
 
     // ─── Tag pill helper ───────────────────────────────────────────────────────
 
+    // Chef/source tags get the black+green treatment
+    const CHEF_TAGS = ['ottolenghi', 'chatgpt', 'finn-tonry'];
+
     function tagPillStyle(tag) {
       const t = tag.toLowerCase();
-      if (t === 'ottolenghi') {
+      if (CHEF_TAGS.includes(t)) {
         return 'background:#2d2f2f; color:#2ff801;';
       }
       if (['prep', 'project', 'sunday'].some(k => t.includes(k))) {
