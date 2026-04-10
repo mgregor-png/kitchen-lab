@@ -19,5 +19,54 @@
     "time": 20,
     "tags": ["bowls", "meal-prep", "high-protein"],
     "description": "black beans, corn, avocado, crema"
+  },
+  {
+    "slug": "yuzu-dressed-slaw",
+    "title": "Yuzu Dressed Slaw with Fried Peanuts and Thai Basil",
+    "time": 35,
+    "tags": ["ottolenghi", "salad", "vegetables", "asian"],
+    "description": "Sharp yuzu slaw with peanuts and seaweed"
+  },
+  {
+    "slug": "baked-halloumi-lemon-thyme",
+    "title": "Baked Halloumi with Lemon and Thyme",
+    "time": 33,
+    "tags": ["ottolenghi", "vegetarian", "mains", "quick", "cheese"],
+    "description": "Golden halloumi baked with lemon and honey"
+  },
+  {
+    "slug": "chopped-broccoli-salad",
+    "title": "Chopped Broccoli Salad with Peanut and Goji Dressing",
+    "time": 35,
+    "tags": ["ottolenghi", "salad", "vegetables", "vegan"],
+    "description": "Hearty broccoli salad with nutty goji dressing"
+  },
+  {
+    "slug": "sticky-date-spiced-carrots",
+    "title": "Sticky Date Spiced Carrots",
+    "time": 55,
+    "tags": ["ottolenghi", "vegetables", "sides", "middle-eastern"],
+    "description": "Roasted carrots with date dressing and herbs"
+  },
+  {
+    "slug": "roasted-leeks-creme-fraiche-sumac",
+    "title": "Roasted Leeks with Creme Fraiche, Hazelnuts and Sumac",
+    "time": 90,
+    "tags": ["ottolenghi", "vegetables", "sides", "vegetarian"],
+    "description": "Charred leeks with hazelnut-sumac salsa"
+  },
+  {
+    "slug": "roasted-lamb-tamarind-coriander",
+    "title": "Roasted Lamb with Tamarind, Coriander and Radish Salsa",
+    "time": 335,
+    "tags": ["ottolenghi", "meat", "mains", "middle-eastern", "weekend"],
+    "description": "Slow-roast lamb shoulder with tamarind glaze"
+  },
+  {
+    "slug": "roman-fried-chicken",
+    "title": "Roman Fried Chicken with Tomatoes and Crisp Oregano",
+    "time": 55,
+    "tags": ["ottolenghi", "chicken", "mains", "mediterranean"],
+    "description": "Crispy chicken thighs with pancetta-tomato sauce"
   }
 ]
