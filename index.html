@@ -180,24 +180,35 @@
 
     // ─── Tag pill helper ───────────────────────────────────────────────────────
 
-    // Chef/source tags get the black+green treatment
-    const CHEF_TAGS = ['ottolenghi', 'chatgpt', 'finn-tonry'];
+    // Tag color system - categorized by meaning
+    const TAG_CATEGORIES = {
+      // Chef / source - black bg, green text
+      chef:       { style: 'background:#2d2f2f; color:#2ff801;',
+                    tags: ['ottolenghi', 'chatgpt', 'finn-tonry'] },
+      // Meal type - green bg, black text
+      meal:       { style: 'background:#2ff801; color:#000;',
+                    tags: ['meal-prep', 'mains', 'sides', 'salad', 'bowls', 'dessert', 'soup', 'bread', 'pasta', 'grains', 'snack'] },
+      // Cuisine - blue bg, white text
+      cuisine:    { style: 'background:#0846ed; color:#fff;',
+                    tags: ['middle-eastern', 'asian', 'mediterranean', 'mexican', 'italian', 'indian', 'thai', 'japanese', 'french'] },
+      // Diet / nutrition - outline
+      diet:       { style: 'background:transparent; color:#2d2f2f; border:1px solid #999;',
+                    tags: ['high-protein', 'low-cal', 'vegan', 'vegetarian', 'gluten-free', 'dairy-free', 'keto'] },
+      // Ingredient / protein - dark gray bg, white text
+      ingredient: { style: 'background:#555; color:#fff;',
+                    tags: ['chicken', 'meat', 'fish', 'vegetables', 'cheese', 'lamb', 'beef', 'pork', 'seafood', 'tofu', 'eggs'] },
+      // Time descriptor - green outline
+      time:       { style: 'background:transparent; color:#0f6b00; border:1px solid #2ff801;',
+                    tags: ['quick', 'weekend', 'one-pot', 'no-cook'] },
+    };
 
     function tagPillStyle(tag) {
       const t = tag.toLowerCase();
-      if (CHEF_TAGS.includes(t)) {
-        return 'background:#2d2f2f; color:#2ff801;';
+      for (const cat of Object.values(TAG_CATEGORIES)) {
+        if (cat.tags.includes(t)) return cat.style;
       }
-      if (['prep', 'project', 'sunday'].some(k => t.includes(k))) {
-        return 'background:#2ff801; color:#000;';
-      }
-      if (['bowl', 'quick', 'one-pot', 'wrap', 'salad'].some(k => t.includes(k))) {
-        return 'background:#0846ed; color:#fff;';
-      }
-      if (['protein', 'cal', 'carb', 'vegan', 'gluten'].some(k => t.includes(k))) {
-        return 'background:transparent; color:#2d2f2f; border:1px solid #999;';
-      }
-      return 'background:transparent; color:#2d2f2f; border:1px solid #999;';
+      // Default - outline
+      return 'background:transparent; color:#2d2f2f; border:1px solid #ccc;';
     }
 
     function renderTagPill(tag, extraClass = '') {
