@@ -1,8 +1,9 @@
 ---
 title: Taco Beef Bowl Classic
 time: 20
-tags: [bowls, meal-prep, high-protein]
+tags: [chatgpt, bowls, meal-prep, high-protein]
 description: black beans, corn, avocado, crema
+chef: ChatGPT
 ---
 
 # Taco Beef Bowl Classic

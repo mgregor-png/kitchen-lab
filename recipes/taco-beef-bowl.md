@@ -1,8 +1,9 @@
 ---
 title: Taco Beef Bowl
 time: 30
-tags: [bowls, low-cal]
+tags: [finn-tonry, bowls, low-cal]
 description: sweet potato, goat cheese, hot honey
+chef: Finn Tonry
 ---
 # Taco Beef Bowl with Sweet Potato & Whipped Goat's Cheese
 

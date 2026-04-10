@@ -1,8 +1,9 @@
 ---
 title: Gyros / Shawarma Meal Prep
 time: 25
-tags: [meal-prep, high-protein]
+tags: [chatgpt, meal-prep, high-protein]
 description: roasted veg, rice, tzatziki
+chef: ChatGPT
 ---
 # Gyros / Shawarma Meal Prep Guide
 
