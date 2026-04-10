@@ -1,19 +1,35 @@
-# Cooking App
-Collaborative social cooking app — save/share recipes with friends, cook together in real-time, manage shared shopping lists. MVP prototype.
+# Kitchen Lab
 
-## Domain Learnings
-<!-- Claude captures key findings here as work progresses.
-     One bullet per finding. Group by topic. Max ~100 lines. -->
+Recipes, meal planning, and Rohlik shopping list generation.
 
-## Metadata
-- **Status:** Active
-- **Last updated:** 2026-03-24
+## How It Works
 
-## Inputs Processing
-- Drop raw inputs into `inputs/` and log them in `inputs/.processed.md`
-- Processed knowledge goes into `knowledge/`
+1. **Recipes** live in `recipes/` as markdown files with a `## Ingredients` section
+2. **Product preferences** in `product-preferences.md` map ingredients to specific Rohlik products
+3. To make a shopping list: read recipe ingredients, match against preferences first, search Rohlik live for the rest, create list via MCP
+
+## Adding Recipes
+
+- Paste text - save as structured md in `recipes/`
+- Instagram/URL - try `get_url_content` first, fall back to paste text/screenshot
+- Screenshot - read image, extract recipe
+
+## Product Selection Rules
+
+- **FIRST:** check `shopping-rules.md` - skip items Martin makes at home, break down spice mixes
+- **Meat:** always prefer farm ("od farmáře") and BIO
+- **Everything else:** prefer user's Rohlik favourites
+- Check `product-preferences.md` before searching
 
 ## Key Files
-- `inputs/` — raw source material
-- `knowledge/` — processed knowledge and synthesis
-- `deliverables/` — output artefacts
+
+- `recipes/` - recipe markdown files
+- `product-preferences.md` - ingredient-to-Rohlik-product mappings
+- `shopping-rules.md` - what to skip, make at home, or ask about before buying
+
+## Domain Learnings
+
+- Rohlik MCP `batch_search_products` handles up to 4 queries at once; plan batches of 4 for efficiency
+- Product search results include `favourite: true` flag - use this to pick user-preferred products
+- `get_url_content` supports browser actions (click, scroll, wait) for dynamic pages like Instagram
+- Rohlik shopping lists support up to 15 products per `add_products_to_shopping_list` call
