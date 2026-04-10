@@ -290,6 +290,7 @@
 
     let allRecipes = null;
     let activeFilters = new Set();
+    let activeTimeFilter = null; // null, 'quick', 'medium', 'long'
 
     async function renderList(container) {
       container.innerHTML = '<div class="max-w-2xl mx-auto px-4 py-8 text-center font-headline">Loading...</div>';
@@ -308,39 +309,71 @@
       const allTags = [];
       allRecipes.forEach(r => (r.tags || []).forEach(t => { if (!allTags.includes(t)) allTags.push(t); }));
 
-      // Filter recipes
-      const filtered = activeFilters.size === 0
-        ? allRecipes
+      // Filter recipes by tags
+      let filtered = activeFilters.size === 0
+        ? [...allRecipes]
         : allRecipes.filter(r => (r.tags || []).some(t => activeFilters.has(t)));
 
+      // Filter by time
+      if (activeTimeFilter === 'quick') filtered = filtered.filter(r => r.time < 30);
+      else if (activeTimeFilter === 'medium') filtered = filtered.filter(r => r.time >= 30 && r.time <= 60);
+      else if (activeTimeFilter === 'long') filtered = filtered.filter(r => r.time > 60);
+
+      const timeBtn = (label, value, icon) => `
+        <button onclick="setTimeFilter('${value}')"
+          class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 transition-colors flex items-center gap-1 ${activeTimeFilter === value ? 'bg-primary-fixed text-on-background border-on-background' : 'bg-surface-white text-on-background border-outline-variant hover:border-on-background'}">
+          <span class="material-symbols-outlined text-sm">${icon}</span>${label}
+        </button>`;
+
       const filterBar = `
-        <div class="flex flex-wrap gap-2 mb-6">
-          <button
-            onclick="toggleFilter(null)"
-            class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors ${activeFilters.size === 0 ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}"
-          >ALL</button>
-          ${allTags.map(tag => `
+        <div class="mb-4">
+          <div class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline mb-2">Time to cook</div>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <button onclick="setTimeFilter(null)"
+              class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors ${!activeTimeFilter ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}">Any</button>
+            ${timeBtn('&lt;30 min', 'quick', 'bolt')}
+            ${timeBtn('30-60 min', 'medium', 'schedule')}
+            ${timeBtn('60+ min', 'long', 'local_fire_department')}
+          </div>
+        </div>
+        <div class="mb-4">
+          <div class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline mb-2">Tags</div>
+          <div class="flex flex-wrap gap-2 mb-6">
             <button
-              onclick="toggleFilter('${tag}')"
-              class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors ${activeFilters.has(tag) ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}"
-            >${tag}</button>
-          `).join('')}
+              onclick="toggleFilter(null)"
+              class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors ${activeFilters.size === 0 ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}"
+            >ALL</button>
+            ${allTags.map(tag => `
+              <button
+                onclick="toggleFilter('${tag}')"
+                class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors ${activeFilters.has(tag) ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}"
+              >${tag}</button>
+            `).join('')}
+          </div>
         </div>
       `;
 
       const cards = filtered.map(recipe => {
         const tags = (recipe.tags || []).map(t => renderTagPill(t, 'inline-block mt-1')).join(' ');
+        const imgHtml = recipe.image
+          ? `<div class="w-20 h-20 md:w-24 md:h-24 flex-shrink-0 border-r-[3px] border-on-background overflow-hidden">
+               <img src="${recipe.image}" alt="${recipe.title}" class="w-full h-full object-cover" loading="lazy" onerror="this.parentElement.style.display='none'">
+             </div>`
+          : '';
         return `
-          <a href="#/recipe/${recipe.slug}" class="block border-4 border-on-background bg-surface-white p-4 neo-shadow mb-4 no-underline text-on-background hover:translate-x-[-2px] hover:translate-y-[-2px] transition-transform" style="hover:box-shadow:6px 6px 0px 0px #2d2f2f;">
-            <div class="flex items-start justify-between gap-4">
-              <div class="flex-1 min-w-0">
-                <div class="font-headline font-black text-xl uppercase leading-tight mb-1">${recipe.title}</div>
-                <div class="font-body italic text-sm text-outline mb-2">${recipe.description || ''}</div>
-                <div class="flex flex-wrap gap-1">${tags}</div>
-              </div>
-              <div class="border-l-[3px] border-on-background pl-3 min-w-[60px] text-right flex-shrink-0">
-                <div class="font-headline font-black text-3xl leading-none">${recipe.time}</div>
-                <div class="font-headline font-bold text-[10px] uppercase tracking-widest">MIN</div>
+          <a href="#/recipe/${recipe.slug}" class="block border-4 border-on-background bg-surface-white neo-shadow mb-4 no-underline text-on-background hover:translate-x-[-2px] hover:translate-y-[-2px] transition-transform overflow-hidden">
+            <div class="flex items-stretch">
+              ${imgHtml}
+              <div class="flex-1 p-4 flex items-start justify-between gap-4 min-w-0">
+                <div class="flex-1 min-w-0">
+                  <div class="font-headline font-black text-xl uppercase leading-tight mb-1">${recipe.title}</div>
+                  <div class="font-body italic text-sm text-outline mb-2">${recipe.description || ''}</div>
+                  <div class="flex flex-wrap gap-1">${tags}</div>
+                </div>
+                <div class="border-l-[3px] border-on-background pl-3 min-w-[60px] text-right flex-shrink-0">
+                  <div class="font-headline font-black text-3xl leading-none">${recipe.time}</div>
+                  <div class="font-headline font-bold text-[10px] uppercase tracking-widest">MIN</div>
+                </div>
               </div>
             </div>
           </a>
@@ -362,6 +395,11 @@
         if (activeFilters.has(tag)) activeFilters.delete(tag);
         else activeFilters.add(tag);
       }
+      renderList(document.getElementById('app'));
+    };
+
+    window.setTimeFilter = function(value) {
+      activeTimeFilter = activeTimeFilter === value ? null : value;
       renderList(document.getElementById('app'));
     };
 
