@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "gyros",
+    "title": "Gyros / Shawarma Meal Prep",
+    "time": 25,
+    "tags": ["meal-prep", "high-protein"],
+    "description": "roasted veg, rice, tzatziki"
+  },
+  {
+    "slug": "taco-beef-bowl",
+    "title": "Taco Beef Bowl",
+    "time": 30,
+    "tags": ["bowls", "low-cal"],
+    "description": "sweet potato, goat cheese, hot honey"
+  },
+  {
+    "slug": "taco-beef-bowl-classic",
+    "title": "Taco Beef Bowl Classic",
+    "time": 20,
+    "tags": ["bowls", "meal-prep", "high-protein"],
+    "description": "black beans, corn, avocado, crema"
+  }
+]
