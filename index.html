@@ -305,6 +305,7 @@
     let allRecipes = null;
     let activeFilters = new Set();
     let activeTimeFilter = null; // null, 'quick', 'medium', 'long'
+    let searchQuery = '';
 
     async function renderList(container) {
       container.innerHTML = '<div class="max-w-2xl mx-auto px-4 py-8 text-center font-headline">Loading...</div>';
@@ -333,6 +334,16 @@
       else if (activeTimeFilter === 'medium') filtered = filtered.filter(r => r.time >= 30 && r.time <= 60);
       else if (activeTimeFilter === 'long') filtered = filtered.filter(r => r.time > 60);
 
+      // Filter by search query
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        filtered = filtered.filter(r =>
+          (r.title || '').toLowerCase().includes(q) ||
+          (r.description || '').toLowerCase().includes(q) ||
+          (r.ingredients || []).some(ing => ing.toLowerCase().includes(q))
+        );
+      }
+
       const timeBtn = (label, value, icon) => `
         <button onclick="setTimeFilter('${value}')"
           class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 transition-colors flex items-center gap-1 ${activeTimeFilter === value ? 'bg-primary-fixed text-on-background border-on-background' : 'bg-surface-white text-on-background border-outline-variant hover:border-on-background'}">
@@ -340,6 +351,25 @@
         </button>`;
 
       const filterBar = `
+        <div class="mb-6">
+          <div class="relative">
+            <input
+              id="search-input"
+              type="text"
+              value="${searchQuery.replace(/"/g, '&quot;')}"
+              placeholder="Search recipes or ingredients..."
+              oninput="handleSearch(this.value)"
+              class="w-full font-headline text-sm bg-surface-white border-4 border-on-background px-4 py-3 pr-10 placeholder:text-outline-variant focus:outline-none focus:border-primary-fixed"
+            />
+            ${searchQuery ? `
+              <button onclick="clearSearch()" class="absolute right-3 top-1/2 -translate-y-1/2 text-outline hover:text-on-background">
+                <span class="material-symbols-outlined text-xl">close</span>
+              </button>
+            ` : `
+              <span class="material-symbols-outlined text-xl text-outline-variant absolute right-3 top-1/2 -translate-y-1/2">search</span>
+            `}
+          </div>
+        </div>
         <div class="mb-4">
           <div class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline mb-2">Time to cook</div>
           <div class="flex flex-wrap gap-2 mb-4">
@@ -364,6 +394,12 @@
               >${tag}</button>
             `).join('')}
           </div>
+        </div>
+      `;
+
+      const resultCount = `
+        <div class="font-headline font-bold text-xs uppercase tracking-widest text-outline mb-4">
+          ${filtered.length} recipe${filtered.length !== 1 ? 's' : ''}${searchQuery ? ` matching "${searchQuery}"` : ''}
         </div>
       `;
 
@@ -397,6 +433,7 @@
       container.innerHTML = `
         <div class="max-w-2xl mx-auto px-4 py-8">
           ${filterBar}
+          ${resultCount}
           ${filtered.length === 0 ? '<div class="font-headline text-outline text-center py-8">No recipes match.</div>' : cards}
         </div>
       `;
@@ -414,6 +451,26 @@
 
     window.setTimeFilter = function(value) {
       activeTimeFilter = activeTimeFilter === value ? null : value;
+      renderList(document.getElementById('app'));
+    };
+
+    let _searchTimeout = null;
+    window.handleSearch = function(value) {
+      clearTimeout(_searchTimeout);
+      _searchTimeout = setTimeout(() => {
+        searchQuery = value;
+        renderList(document.getElementById('app'));
+        // Restore focus and cursor position after re-render
+        const input = document.getElementById('search-input');
+        if (input) {
+          input.focus();
+          input.setSelectionRange(input.value.length, input.value.length);
+        }
+      }, 300);
+    };
+
+    window.clearSearch = function() {
+      searchQuery = '';
       renderList(document.getElementById('app'));
     };
 
