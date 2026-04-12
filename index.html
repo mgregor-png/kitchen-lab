@@ -169,10 +169,12 @@
         <span class="font-headline font-black text-3xl uppercase italic tracking-tighter text-on-background leading-none">Lab Kitchen</span>
       </a>
 
-      <!-- Back button (hidden on home) -->
-      <a id="back-btn" href="#/" class="hidden font-headline font-bold text-sm uppercase tracking-widest border-2 border-on-background px-3 py-1 text-on-background no-underline hover:bg-on-background hover:text-surface-white transition-colors">
-        &larr; Back
-      </a>
+      <div class="flex items-center gap-2">
+        <button onclick="location.hash='#/add'" class="font-headline font-bold text-sm border-2 border-on-background w-8 h-8 flex items-center justify-center hover:bg-primary-fixed transition-colors">+</button>
+        <a id="back-btn" href="#/" class="hidden font-headline font-bold text-sm uppercase tracking-widest border-2 border-on-background px-3 py-1 text-on-background no-underline hover:bg-on-background hover:text-surface-white transition-colors">
+          &larr; Back
+        </a>
+      </div>
     </div>
   </header>
 
@@ -289,10 +291,15 @@
       const hash = location.hash || '#/';
       const app = document.getElementById('app');
 
+      const addMatch = hash === '#/add';
       const shopMatch = hash.match(/^#\/recipe\/([^/]+)\/shop$/);
       const detailMatch = hash.match(/^#\/recipe\/([^/]+)$/);
 
-      if (shopMatch) {
+      if (addMatch) {
+        backBtn.href = '#/';
+        backBtn.classList.remove('hidden');
+        renderAddRecipe(app);
+      } else if (shopMatch) {
         const slug = shopMatch[1];
         backBtn.href = `#/recipe/${slug}`;
         backBtn.classList.remove('hidden');
@@ -441,6 +448,7 @@
       container.innerHTML = `
         <div class="max-w-2xl mx-auto px-4 py-8">
           ${filterBar}
+          ${renderDraftsSection()}
           ${resultCount}
           ${filtered.length === 0 ? '<div class="font-headline text-outline text-center py-8">No recipes match.</div>' : cards}
         </div>
@@ -836,6 +844,156 @@
     window.resetShop = function(slug) {
       localStorage.removeItem(shopKey(slug));
       renderShop(slug, document.getElementById('app'));
+    };
+
+    // --- Draft system ---
+
+    const DRAFTS_KEY = 'kitchen-lab-drafts';
+
+    function loadDrafts() {
+      try { return JSON.parse(localStorage.getItem(DRAFTS_KEY) || '[]'); } catch { return []; }
+    }
+
+    function saveDraft(draft) {
+      const drafts = loadDrafts();
+      drafts.push({ ...draft, id: Date.now(), createdAt: new Date().toISOString() });
+      localStorage.setItem(DRAFTS_KEY, JSON.stringify(drafts));
+    }
+
+    function deleteDraft(id) {
+      const drafts = loadDrafts().filter(d => d.id !== id);
+      localStorage.setItem(DRAFTS_KEY, JSON.stringify(drafts));
+    }
+
+    function renderDraftsSection() {
+      const drafts = loadDrafts();
+      if (drafts.length === 0) return '';
+      const items = drafts.map(d => {
+        const icon = d.type === 'url' ? 'link' : d.type === 'photo' ? 'photo_camera' : 'notes';
+        const preview = d.type === 'url' ? d.content : d.type === 'text' ? d.content.slice(0, 80) + '...' : 'Photo';
+        const date = new Date(d.createdAt).toLocaleDateString();
+        return `
+          <div class="flex items-center gap-3 p-3 border-4 border-dashed border-outline-variant mb-2 bg-surface-white">
+            <span class="material-symbols-outlined text-outline">${icon}</span>
+            <span class="font-body text-sm flex-1 truncate">${preview}</span>
+            <span class="font-headline text-[10px] uppercase tracking-widest text-outline">${date}</span>
+            <button onclick="event.stopPropagation(); deleteDraftAndRefresh(${d.id})" class="text-outline hover:text-on-background">
+              <span class="material-symbols-outlined text-sm">close</span>
+            </button>
+          </div>
+        `;
+      }).join('');
+      return `
+        <div class="mb-6 p-4 border-4 border-on-background bg-background">
+          <div class="font-headline font-bold text-xs uppercase tracking-widest text-outline mb-3">
+            <span class="material-symbols-outlined text-sm align-middle">edit_note</span>
+            Drafts (${drafts.length})
+          </div>
+          ${items}
+        </div>
+      `;
+    }
+
+    window.deleteDraftAndRefresh = function(id) {
+      deleteDraft(id);
+      renderList(document.getElementById('app'));
+    };
+
+    function renderAddRecipe(container) {
+      container.innerHTML = `
+        <div class="max-w-2xl mx-auto px-4 py-8">
+          <h1 class="font-headline font-black text-2xl uppercase mb-6">Add Recipe</h1>
+
+          <div class="flex gap-2 mb-6">
+            <button onclick="switchAddTab('url')" id="tab-url" class="flex-1 font-headline font-bold text-xs uppercase tracking-widest px-3 py-2 border-4 border-on-background bg-on-background text-surface-white">URL</button>
+            <button onclick="switchAddTab('text')" id="tab-text" class="flex-1 font-headline font-bold text-xs uppercase tracking-widest px-3 py-2 border-4 border-on-background bg-surface-white text-on-background">Text</button>
+            <button onclick="switchAddTab('photo')" id="tab-photo" class="flex-1 font-headline font-bold text-xs uppercase tracking-widest px-3 py-2 border-4 border-on-background bg-surface-white text-on-background">Photo</button>
+          </div>
+
+          <div id="add-form-url">
+            <input id="draft-url" type="url" placeholder="Paste Instagram or recipe URL..." class="w-full font-headline text-sm bg-surface-white border-4 border-on-background px-4 py-3 placeholder:text-outline-variant focus:outline-none focus:border-primary-fixed mb-4" />
+          </div>
+
+          <div id="add-form-text" class="hidden">
+            <textarea id="draft-text" rows="8" placeholder="Paste or type the recipe..." class="w-full font-body text-sm bg-surface-white border-4 border-on-background px-4 py-3 placeholder:text-outline-variant focus:outline-none focus:border-primary-fixed mb-4 resize-y"></textarea>
+          </div>
+
+          <div id="add-form-photo" class="hidden">
+            <label class="block border-4 border-dashed border-outline-variant p-8 text-center cursor-pointer hover:border-on-background transition-colors mb-4">
+              <span class="material-symbols-outlined text-4xl text-outline-variant block mb-2">photo_camera</span>
+              <span class="font-headline font-bold text-sm uppercase tracking-widest text-outline">Take or choose a photo</span>
+              <input id="draft-photo" type="file" accept="image/*" capture="environment" class="hidden" onchange="previewPhoto(this)" />
+            </label>
+            <div id="photo-preview" class="hidden mb-4">
+              <img id="photo-preview-img" class="w-full border-4 border-on-background" />
+            </div>
+          </div>
+
+          <button onclick="submitDraft()" class="w-full bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-3 neo-shadow hover:opacity-80 transition-opacity">
+            Save Draft
+          </button>
+        </div>
+      `;
+    }
+
+    window._activeAddTab = 'url';
+
+    window.switchAddTab = function(tab) {
+      window._activeAddTab = tab;
+      ['url', 'text', 'photo'].forEach(t => {
+        document.getElementById('add-form-' + t).classList.toggle('hidden', t !== tab);
+        const btn = document.getElementById('tab-' + t);
+        if (t === tab) {
+          btn.classList.add('bg-on-background', 'text-surface-white');
+          btn.classList.remove('bg-surface-white', 'text-on-background');
+        } else {
+          btn.classList.remove('bg-on-background', 'text-surface-white');
+          btn.classList.add('bg-surface-white', 'text-on-background');
+        }
+      });
+    };
+
+    window.previewPhoto = function(input) {
+      const file = input.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const img = new Image();
+        img.onload = function() {
+          const maxW = 800;
+          const scale = Math.min(1, maxW / img.width);
+          const canvas = document.createElement('canvas');
+          canvas.width = img.width * scale;
+          canvas.height = img.height * scale;
+          canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+          const compressed = canvas.toDataURL('image/jpeg', 0.7);
+          document.getElementById('photo-preview-img').src = compressed;
+          document.getElementById('photo-preview').classList.remove('hidden');
+          window._draftPhotoData = compressed;
+        };
+        img.src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    };
+
+    window.submitDraft = function() {
+      const tab = window._activeAddTab;
+      let draft;
+      if (tab === 'url') {
+        const val = document.getElementById('draft-url').value.trim();
+        if (!val) return alert('Paste a URL first');
+        draft = { type: 'url', content: val };
+      } else if (tab === 'text') {
+        const val = document.getElementById('draft-text').value.trim();
+        if (!val) return alert('Type or paste a recipe first');
+        draft = { type: 'text', content: val };
+      } else if (tab === 'photo') {
+        if (!window._draftPhotoData) return alert('Take or choose a photo first');
+        draft = { type: 'photo', content: window._draftPhotoData };
+        window._draftPhotoData = null;
+      }
+      saveDraft(draft);
+      location.hash = '#/';
     };
 
     // ─── Init ──────────────────────────────────────────────────────────────────
