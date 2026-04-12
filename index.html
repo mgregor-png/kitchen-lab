@@ -624,26 +624,97 @@
       renderShopView(slug, title, ingredients, container);
     }
 
+    // --- Shopping rules engine ---
+
+    const PANTRY_STAPLES = [
+      'olive oil', 'salt', 'pepper', 'black pepper', 'sea salt',
+      'paprika', 'cumin', 'oregano', 'chili', 'chilli', 'chili powder',
+      'garlic', 'dried spices', 'flaky sea salt', 'kosher salt',
+      'ground cumin', 'ground coriander', 'ground cinnamon', 'ground turmeric',
+      'vegetable oil', 'sunflower oil', 'neutral oil', 'rapeseed oil',
+    ];
+
+    const MAKE_AT_HOME = [
+      'pickled red onion', 'pickled red onions', 'pickled onion', 'pickled onions',
+      'pickled vegetables', 'quick-pickled',
+    ];
+
+    const SPICE_MIX_BREAKDOWNS = {
+      'taco seasoning': ['cumin', 'chili powder', 'paprika', 'garlic powder', 'onion powder', 'oregano'],
+      'gyros seasoning': ['paprika', 'cumin', 'oregano', 'garlic powder', 'onion powder', 'coriander'],
+      'fajita seasoning': ['cumin', 'paprika', 'chili powder', 'garlic powder', 'onion powder', 'oregano'],
+    };
+
+    function classifyIngredient(ingredientStr) {
+      const lower = ingredientStr.toLowerCase();
+      for (const term of MAKE_AT_HOME) {
+        if (lower.includes(term)) return { category: 'make-at-home', label: 'MAKE AT HOME' };
+      }
+      for (const [mix, components] of Object.entries(SPICE_MIX_BREAKDOWNS)) {
+        if (lower.includes(mix)) return { category: 'spice-mix', label: mix.toUpperCase(), components };
+      }
+      for (const staple of PANTRY_STAPLES) {
+        if (lower.includes(staple) || staple.includes(lower.replace(/s$/, ''))) return { category: 'pantry', label: 'PANTRY' };
+      }
+      return { category: 'buy', label: null };
+    }
+
     function renderShopView(slug, title, ingredients, container) {
       const checked = loadChecked(slug);
 
-      // Sort: unchecked first, checked last
-      const indexed = ingredients.map((ing, i) => ({ ing, i }));
-      indexed.sort((a, b) => {
-        const ac = checked.includes(a.i);
-        const bc = checked.includes(b.i);
-        if (ac === bc) return a.i - b.i;
-        return ac ? 1 : -1;
+      const classified = [];
+      ingredients.forEach((ing, i) => {
+        const cls = classifyIngredient(ing);
+        if (cls.category === 'spice-mix') {
+          classified.push({ ing, i, ...cls, isHeader: true });
+          cls.components.forEach((comp, ci) => {
+            classified.push({ ing: comp, i: `mix-${i}-${ci}`, category: 'buy', label: null, isHeader: false });
+          });
+        } else {
+          classified.push({ ing, i, ...cls, isHeader: false });
+        }
       });
 
-      const items = indexed.map(({ ing, i }) => {
-        const isChecked = checked.includes(i);
+      const items = classified.map(item => {
+        if (item.isHeader) {
+          return `
+            <div class="font-headline font-bold text-xs uppercase tracking-widest text-outline mt-6 mb-2 flex items-center gap-2">
+              <span class="material-symbols-outlined text-sm">blender</span>
+              ${item.ing}
+              <span class="font-headline font-bold text-[10px] uppercase tracking-widest px-2 py-0.5 bg-primary-fixed text-on-background">${item.label}</span>
+            </div>
+          `;
+        }
+
+        const idx = item.i;
+        const isChecked = typeof idx === 'number' && checked.includes(idx);
+        const isPantry = item.category === 'pantry';
+        const isMakeAtHome = item.category === 'make-at-home';
+        const isAutoSkipped = isPantry || isMakeAtHome;
+
+        let bgClass = 'bg-surface-white neo-shadow';
+        let textClass = '';
+        if (isChecked) { bgClass = 'opacity-40 bg-background'; textClass = 'line-through text-outline'; }
+        else if (isPantry) { bgClass = 'bg-background'; textClass = 'text-outline'; }
+        else if (isMakeAtHome) { bgClass = 'bg-background'; textClass = 'line-through text-outline'; }
+
+        const chip = item.label
+          ? `<span data-category="${item.category}" class="font-headline font-bold text-[10px] uppercase tracking-widest px-2 py-0.5 flex-shrink-0 ${
+              isMakeAtHome ? 'bg-primary-fixed text-on-background' : 'bg-outline-variant text-surface-white'
+            }">${item.label}</span>`
+          : '';
+
+        const onclickAttr = typeof idx === 'number'
+          ? `onclick="toggleShopItem('${slug}', ${idx})"`
+          : '';
+
         return `
-          <label class="flex items-center gap-3 p-4 border-4 border-on-background mb-3 cursor-pointer select-none transition-all ${isChecked ? 'opacity-40 bg-background' : 'bg-surface-white neo-shadow'}" onclick="toggleShopItem('${slug}', ${i})">
+          <label class="flex items-center gap-3 p-4 border-4 ${isAutoSkipped && !isChecked ? 'border-outline-variant' : 'border-on-background'} mb-3 cursor-pointer select-none transition-all ${bgClass}" ${onclickAttr}>
             <div class="w-6 h-6 border-2 border-on-background flex items-center justify-center flex-shrink-0 ${isChecked ? 'bg-on-background' : 'bg-surface-white'}">
               ${isChecked ? '<span class="material-symbols-outlined text-surface-white text-base">check</span>' : ''}
             </div>
-            <span class="font-body text-base flex-1 ${isChecked ? 'line-through text-outline' : ''}">${ing}</span>
+            <span class="font-body text-base flex-1 ${textClass}">${item.ing}</span>
+            ${chip}
           </label>
         `;
       }).join('');
@@ -655,16 +726,23 @@
             <h1 class="font-headline font-black text-2xl uppercase">${title}</h1>
           </div>
 
-          <div class="flex gap-3 mb-6">
+          <div class="flex flex-col gap-3 mb-6">
+            <div class="flex gap-3">
+              <button
+                id="copy-rohlik-btn"
+                onclick="copyForRohlik('${slug}')"
+                class="flex-1 bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-3 neo-shadow hover:opacity-80 transition-opacity flex items-center justify-center gap-2"
+              ><span class="material-symbols-outlined text-base">content_copy</span>Copy for Rohlik</button>
+              <button
+                onclick="resetShop('${slug}')"
+                class="bg-surface-white text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-3 neo-shadow hover:bg-background transition-colors"
+              >Reset</button>
+            </div>
             <button
-              id="copy-btn"
-              onclick="copyUnchecked('${slug}')"
-              class="flex-1 bg-on-background text-surface-white font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-3 neo-shadow hover:opacity-80 transition-opacity"
-            >Copy Needed Items</button>
-            <button
-              onclick="resetShop('${slug}')"
-              class="bg-surface-white text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-3 neo-shadow hover:bg-background transition-colors"
-            >Reset</button>
+              id="copy-claude-btn"
+              onclick="copyForClaude('${slug}')"
+              class="w-full bg-on-background text-surface-white font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-3 neo-shadow hover:opacity-80 transition-opacity flex items-center justify-center gap-2"
+            ><span class="material-symbols-outlined text-base">smart_toy</span>Send to Claude</button>
           </div>
 
           <div id="shop-items">
@@ -688,50 +766,68 @@
       renderShop(slug, container);
     };
 
-    window.copyUnchecked = async function(slug) {
+    window.copyForRohlik = async function(slug) {
       const checked = loadChecked(slug);
-      const container = document.getElementById('app');
-      const labels = container.querySelectorAll('#shop-items label');
+      const labels = document.querySelectorAll('#shop-items label');
       const lines = [];
       labels.forEach(label => {
-        const span = label.querySelector('span.font-body');
-        if (!span) return;
-        const text = span.textContent.trim();
-        // Determine index from onclick attr
         const onclick = label.getAttribute('onclick') || '';
         const m = onclick.match(/toggleShopItem\('[^']+',\s*(\d+)\)/);
         if (!m) return;
         const i = parseInt(m[1]);
-        if (!checked.includes(i)) lines.push(`- ${text}`);
+        if (checked.includes(i)) return;
+        // Skip items with a category chip (pantry / make-at-home)
+        if (label.querySelector('[data-category]')) return;
+        const span = label.querySelector('span.font-body');
+        if (span) lines.push(span.textContent.trim());
       });
+      await clipboardCopy(lines.join('\n'));
+      flashButton('copy-rohlik-btn', 'Copied!');
+    };
 
+    window.copyForClaude = async function(slug) {
+      const titleEl = document.querySelector('#app h1');
+      const title = titleEl ? titleEl.textContent.trim() : slug;
+      const labels = document.querySelectorAll('#shop-items label');
+      const ings = [];
+      labels.forEach(label => {
+        const onclick = label.getAttribute('onclick') || '';
+        const m = onclick.match(/toggleShopItem\('[^']+',\s*(\d+)\)/);
+        if (!m) return;
+        const span = label.querySelector('span.font-body');
+        if (span) ings.push(span.textContent.trim());
+      });
+      const prompt = `Create a Rohlik shopping list for: ${title}\n\nIngredients:\n${ings.map(i => `- ${i}`).join('\n')}\n\nCheck product-preferences.md and shopping-rules.md.`;
+      await clipboardCopy(prompt);
+      flashButton('copy-claude-btn', 'Copied!');
+    };
+
+    async function clipboardCopy(text) {
       try {
-        await navigator.clipboard.writeText(lines.join('\n'));
+        await navigator.clipboard.writeText(text);
       } catch {
-        // Fallback
         const ta = document.createElement('textarea');
-        ta.value = lines.join('\n');
+        ta.value = text;
         document.body.appendChild(ta);
         ta.select();
         document.execCommand('copy');
         ta.remove();
       }
+    }
 
-      const btn = document.getElementById('copy-btn');
-      if (btn) {
-        const orig = btn.textContent;
-        btn.textContent = 'Copied!';
-        btn.style.background = '#2ff801';
-        btn.style.color = '#000';
-        btn.style.borderColor = '#000';
-        setTimeout(() => {
-          btn.textContent = orig;
-          btn.style.background = '';
-          btn.style.color = '';
-          btn.style.borderColor = '';
-        }, 1500);
-      }
-    };
+    function flashButton(btnId, msg) {
+      const btn = document.getElementById(btnId);
+      if (!btn) return;
+      const orig = btn.innerHTML;
+      btn.textContent = msg;
+      btn.style.background = '#2ff801';
+      btn.style.color = '#000';
+      setTimeout(() => {
+        btn.innerHTML = orig;
+        btn.style.background = '';
+        btn.style.color = '';
+      }, 1500);
+    }
 
     window.resetShop = function(slug) {
       localStorage.removeItem(shopKey(slug));
