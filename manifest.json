@@ -1,0 +1,15 @@
+{
+  "name": "Lab Kitchen",
+  "short_name": "Lab Kitchen",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6f6f6",
+  "theme_color": "#2ff801",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%232d2f2f'/><text y='.9em' x='50%' text-anchor='middle' font-size='70'>🧪</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
