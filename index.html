@@ -258,6 +258,25 @@
       return `<span class="font-headline font-bold text-xs uppercase tracking-widest px-2 py-0.5 ${extraClass}" style="${tagPillStyle(tag)}">${tag}</span>`;
     }
 
+    // Hero-specific tag style - ensures readability over images
+    function heroTagPillStyle(tag) {
+      const t = tag.toLowerCase();
+      // Categories with solid colored backgrounds are fine as-is
+      for (const [key, cat] of Object.entries(TAG_CATEGORIES)) {
+        if (cat.tags.includes(t)) {
+          if (key === 'diet') return 'background:rgba(0,0,0,0.6); color:#fff; border:1px solid rgba(255,255,255,0.4);';
+          if (key === 'time') return 'background:rgba(0,0,0,0.6); color:#2ff801; border:1px solid #2ff801;';
+          if (key === 'ingredient') return 'background:rgba(0,0,0,0.7); color:#fff;';
+          return cat.style;
+        }
+      }
+      return 'background:rgba(0,0,0,0.6); color:#fff; border:1px solid rgba(255,255,255,0.3);';
+    }
+
+    function renderHeroTagPill(tag) {
+      return `<span class="font-headline font-bold text-xs uppercase tracking-widest px-2 py-0.5" style="${heroTagPillStyle(tag)}">${tag}</span>`;
+    }
+
     // ─── Frontmatter parser ────────────────────────────────────────────────────
 
     function parseFrontmatter(raw) {
@@ -647,8 +666,9 @@
 
       const title = meta.title || slug;
       const time = meta.time || '';
-      const tags = (meta.tags ? (Array.isArray(meta.tags) ? meta.tags : [meta.tags]) : [])
-        .map(t => renderTagPill(t, 'inline-block')).join(' ');
+      const tagList = meta.tags ? (Array.isArray(meta.tags) ? meta.tags : [meta.tags]) : [];
+      const tags = tagList.map(t => renderTagPill(t, 'inline-block')).join(' ');
+      const heroTags = tagList.map(t => renderHeroTagPill(t)).join(' ');
 
       const ingredientRows = ingredients.map(ing => {
         const { quantity, name } = parseIngredient(ing);
@@ -739,9 +759,9 @@
           />
           <div class="hero-gradient relative flex flex-col justify-end p-6 md:p-10 min-h-[250px] md:min-h-[400px]">
             <h1 class="font-headline font-black text-2xl md:text-5xl uppercase leading-tight text-white mb-2">${title}</h1>
-            <div class="flex flex-wrap items-center gap-3">
+            <div class="flex flex-wrap items-center gap-2">
               ${time ? `<span class="font-headline font-black text-white"><span class="text-2xl">${time}</span> <span class="text-xs font-bold uppercase tracking-widest">MIN</span></span>` : ''}
-              ${tags}
+              ${heroTags}
               ${sourceIcon ? `<span class="text-white">${sourceIcon}</span>` : ''}
             </div>
           </div>
