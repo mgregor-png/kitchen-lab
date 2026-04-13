@@ -533,6 +533,7 @@
       container.innerHTML = `
         <div class="max-w-2xl mx-auto px-4 py-8">
           ${filterBar}
+          ${await renderWeeklySection()}
           ${await renderDraftsSection()}
           ${resultCount}
           ${filtered.length === 0 ? '<div class="font-headline text-outline text-center py-8">No recipes match.</div>' : cards}
@@ -658,9 +659,23 @@
             <a href="#/recipe/${slug}/cook" class="block mt-2 text-center bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-2 neo-shadow">
               Start Cooking
             </a>
+            ${weeklyBtnMobile}
           </div>
         </div>
       ` : '';
+
+      // Check weekly plan status
+      const inWeeklyPlan = await isInWeeklyPlan(slug);
+      const weeklyBtn = `
+        <button onclick="toggleWeeklyPlan('${slug}')" class="block w-full mt-3 text-center font-headline font-bold text-sm uppercase tracking-widest border-4 px-4 py-3 neo-shadow transition-colors ${inWeeklyPlan ? 'bg-on-background text-primary-fixed border-primary-fixed' : 'bg-surface-white text-on-background border-on-background hover:bg-background'}">
+          <span class="material-symbols-outlined text-base align-middle" style="font-variation-settings:'FILL' ${inWeeklyPlan ? 1 : 0};">bookmark</span>
+          ${inWeeklyPlan ? 'Saved for This Week' : 'Save for This Week'}
+        </button>`;
+      const weeklyBtnMobile = `
+        <button onclick="toggleWeeklyPlan('${slug}')" class="block w-full mt-2 text-center font-headline font-bold text-sm uppercase tracking-widest border-4 px-4 py-2 neo-shadow transition-colors ${inWeeklyPlan ? 'bg-on-background text-primary-fixed border-primary-fixed' : 'bg-surface-white text-on-background border-on-background hover:bg-background'}">
+          <span class="material-symbols-outlined text-base align-middle" style="font-variation-settings:'FILL' ${inWeeklyPlan ? 1 : 0};">bookmark</span>
+          ${inWeeklyPlan ? 'Saved' : 'This Week'}
+        </button>`;
 
       // Look up image from allRecipes cache (avoid re-fetching)
       const recipeData = allRecipes ? allRecipes.find(r => r.slug === slug) : null;
@@ -710,6 +725,7 @@
             <a href="#/recipe/${slug}/cook" class="block mt-3 text-center bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-black px-4 py-3 neo-shadow">
               Start Cooking
             </a>
+            ${weeklyBtn}
           </div>
           ` : ''}
 
@@ -1315,6 +1331,112 @@
     window.deleteDraftAndRefresh = async function(id) {
       await deleteDraft(id);
       renderList(document.getElementById('app'));
+    };
+
+    // --- Weekly Plan (Supabase) ---
+
+    let weeklyPlanCache = null;
+
+    async function loadWeeklyPlan() {
+      try {
+        const { data, error } = await sb.from('weekly_plan').select('*').order('added_at', { ascending: true });
+        if (error) throw error;
+        weeklyPlanCache = data || [];
+        return weeklyPlanCache;
+      } catch {
+        return weeklyPlanCache || [];
+      }
+    }
+
+    async function addToWeeklyPlan(slug) {
+      try {
+        const { error } = await sb.from('weekly_plan').upsert({ slug }, { onConflict: 'slug' });
+        if (error) throw error;
+        weeklyPlanCache = null;
+      } catch {}
+    }
+
+    async function removeFromWeeklyPlan(slug) {
+      try {
+        const { error } = await sb.from('weekly_plan').delete().eq('slug', slug);
+        if (error) throw error;
+        weeklyPlanCache = null;
+      } catch {}
+    }
+
+    async function clearWeeklyPlan() {
+      try {
+        const { error } = await sb.from('weekly_plan').delete().neq('id', '00000000-0000-0000-0000-000000000000');
+        if (error) throw error;
+        weeklyPlanCache = null;
+      } catch {}
+    }
+
+    async function isInWeeklyPlan(slug) {
+      const plan = await loadWeeklyPlan();
+      return plan.some(p => p.slug === slug);
+    }
+
+    async function renderWeeklySection() {
+      const plan = await loadWeeklyPlan();
+      if (plan.length === 0) return '';
+      if (!allRecipes) return '';
+
+      const items = plan.map(p => {
+        const recipe = allRecipes.find(r => r.slug === p.slug);
+        if (!recipe) return '';
+        const imgHtml = recipe.image
+          ? `<img src="${recipe.image}" alt="${recipe.title}" class="w-16 h-16 object-cover border-r-[3px] border-on-background flex-shrink-0" loading="lazy" onerror="this.style.display='none'">`
+          : '';
+        return `
+          <a href="#/recipe/${recipe.slug}" class="flex items-stretch border-4 border-on-background bg-surface-white mb-2 no-underline text-on-background hover:translate-x-[-1px] hover:translate-y-[-1px] transition-transform overflow-hidden">
+            ${imgHtml}
+            <div class="flex-1 p-3 flex items-center justify-between gap-2 min-w-0">
+              <div class="min-w-0">
+                <div class="font-headline font-bold text-sm uppercase leading-tight truncate">${recipe.title}</div>
+                <div class="font-headline text-[10px] uppercase tracking-widest text-outline">${recipe.time} min</div>
+              </div>
+              <button onclick="event.preventDefault(); event.stopPropagation(); removeWeeklyAndRefresh('${recipe.slug}')" class="text-outline hover:text-on-background flex-shrink-0">
+                <span class="material-symbols-outlined text-sm">close</span>
+              </button>
+            </div>
+          </a>
+        `;
+      }).join('');
+
+      return `
+        <div class="mb-4">
+          <div class="flex items-center justify-between mb-2">
+            <div class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm" style="font-variation-settings:'FILL' 1;">calendar_month</span>
+              This Week (${plan.length})
+            </div>
+            <button onclick="clearWeeklyAndRefresh()" class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline hover:text-on-background">Clear</button>
+          </div>
+          ${items}
+        </div>
+      `;
+    }
+
+    window.removeWeeklyAndRefresh = async function(slug) {
+      await removeFromWeeklyPlan(slug);
+      renderList(document.getElementById('app'));
+    };
+
+    window.clearWeeklyAndRefresh = async function() {
+      await clearWeeklyPlan();
+      renderList(document.getElementById('app'));
+    };
+
+    window.toggleWeeklyPlan = async function(slug) {
+      const inPlan = await isInWeeklyPlan(slug);
+      if (inPlan) {
+        await removeFromWeeklyPlan(slug);
+      } else {
+        await addToWeeklyPlan(slug);
+      }
+      // Re-render the detail page to update button state
+      renderDetail(slug, document.getElementById('app'));
     };
 
     function renderAddRecipe(container) {
