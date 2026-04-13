@@ -411,8 +411,13 @@
         </button>`;
 
       // Separate chef tags from other tags
-      const chefTags = TAG_CATEGORIES.chef.tags.filter(t => allTags.includes(t));
-      const nonChefTags = allTags.filter(t => !TAG_CATEGORIES.chef.tags.includes(t));
+      // Chef tags in preferred order
+      const chefOrder = ['finn-tonry', 'chatgpt', 'ottolenghi'];
+      const chefTags = chefOrder.filter(t => allTags.includes(t));
+      // Non-chef tags: prioritized first, then the rest
+      const priorityTags = ['quick', 'meal-prep', 'low-cal'];
+      const otherTags = allTags.filter(t => !TAG_CATEGORIES.chef.tags.includes(t) && !priorityTags.includes(t));
+      const nonChefTags = [...priorityTags.filter(t => allTags.includes(t)), ...otherTags];
 
       const filterBtn = (tag, isActive) => `
         <button
@@ -950,6 +955,21 @@
             <div class="h-1 mx-4 md:mx-6 flex-shrink-0" style="background:#444;">
               <div class="h-1 transition-all" style="background:#2ff801; width:${progress}%;"></div>
             </div>
+
+            <!-- Mobile ingredients toggle -->
+            ${ingredients.length > 0 ? `
+            <div class="md:hidden flex-shrink-0">
+              <button
+                onclick="document.getElementById('cook-mobile-ings').classList.toggle('hidden'); this.querySelector('.expand-icon').textContent = document.getElementById('cook-mobile-ings').classList.contains('hidden') ? 'expand_more' : 'expand_less';"
+                class="w-full flex items-center justify-between px-4 py-2 text-left" style="background:#1a1a1a; border-bottom:2px solid #444;">
+                <span class="font-headline font-bold text-[10px] uppercase tracking-widest text-primary-fixed">Ingredients (${ingredients.length})</span>
+                <span class="expand-icon material-symbols-outlined text-sm text-primary-fixed">expand_more</span>
+              </button>
+              <div id="cook-mobile-ings" class="hidden px-4 pb-3 max-h-48 overflow-y-auto" style="background:#1a1a1a;">
+                ${ingRows}
+              </div>
+            </div>
+            ` : ''}
 
             <!-- Step content - scrollable if needed -->
             <div class="flex-1 overflow-y-auto px-4 md:px-12 py-6">
