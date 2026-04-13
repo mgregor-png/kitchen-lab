@@ -94,6 +94,11 @@
       background: linear-gradient(to top, rgba(45, 47, 47, 0.85) 0%, rgba(45, 47, 47, 0.4) 50%, transparent 100%);
     }
 
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
     /* Recipe content markdown styles */
     .recipe-content h2 {
       font-family: 'Space Grotesk', sans-serif;
@@ -321,12 +326,18 @@
 
       const addMatch = hash === '#/add';
       const shopMatch = hash.match(/^#\/recipe\/([^/]+)\/shop$/);
+      const cookMatch = hash.match(/^#\/recipe\/([^/]+)\/cook$/);
       const detailMatch = hash.match(/^#\/recipe\/([^/]+)$/);
 
       if (addMatch) {
         backBtn.href = '#/';
         backBtn.classList.remove('hidden');
         renderAddRecipe(app);
+      } else if (cookMatch) {
+        const slug = cookMatch[1];
+        backBtn.href = `#/recipe/${slug}`;
+        backBtn.classList.remove('hidden');
+        renderCook(slug, app);
       } else if (shopMatch) {
         const slug = shopMatch[1];
         backBtn.href = `#/recipe/${slug}`;
@@ -644,6 +655,9 @@
             <a href="#/recipe/${slug}/shop" class="block mt-4 text-center bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-2 neo-shadow">
               Shopping List
             </a>
+            <a href="#/recipe/${slug}/cook" class="block mt-2 text-center bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-2 neo-shadow">
+              Start Cooking
+            </a>
           </div>
         </div>
       ` : '';
@@ -693,6 +707,9 @@
             <a href="#/recipe/${slug}/shop" class="block mt-6 text-center bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-black px-4 py-3 neo-shadow">
               Shopping List
             </a>
+            <a href="#/recipe/${slug}/cook" class="block mt-3 text-center bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-black px-4 py-3 neo-shadow">
+              Start Cooking
+            </a>
           </div>
           ` : ''}
 
@@ -731,6 +748,244 @@
 
       renderShopView(slug, title, ingredients, container);
     }
+
+    // ─── View: Cook Mode ──────────────────────────────────────────────────────
+
+    let cookState = { steps: [], current: 0, timers: [], ingredients: [], ingredientNames: [] };
+
+    async function renderCook(slug, container) {
+      container.innerHTML = '<div class="min-h-screen bg-on-background flex items-center justify-center"><div class="font-headline text-primary-fixed">Loading cook mode...</div></div>';
+
+      if (!allRecipes) {
+        try {
+          const listRes = await fetch(`${RAW}/recipes.json`);
+          allRecipes = await listRes.json();
+        } catch {}
+      }
+
+      let raw;
+      try {
+        const res = await fetch(`${RAW}/recipes/${slug}.md`);
+        if (!res.ok) throw new Error('Not found');
+        raw = await res.text();
+      } catch {
+        container.innerHTML = '<div class="min-h-screen bg-on-background flex items-center justify-center"><div class="font-headline text-surface-white">Recipe not found.</div></div>';
+        return;
+      }
+
+      const { meta, body } = parseFrontmatter(raw);
+      const title = meta.title || slug;
+      const ingredients = extractIngredients(body);
+      const ingredientNames = ingredients.map(ing => parseIngredient(ing).name.toLowerCase());
+
+      const mainBody = bodyWithoutIngredients(body);
+      const renderedHtml = marked.parse(mainBody);
+      const tempDiv = document.createElement('div');
+      tempDiv.innerHTML = renderedHtml;
+
+      let steps = [];
+      const ol = tempDiv.querySelector('ol');
+      if (ol) {
+        steps = Array.from(ol.querySelectorAll('li')).map(li => li.innerHTML.trim());
+      } else {
+        steps = Array.from(tempDiv.querySelectorAll('p'))
+          .map(p => p.innerHTML.trim())
+          .filter(t => t.length > 20);
+      }
+
+      if (steps.length === 0) {
+        container.innerHTML = '<div class="min-h-screen bg-on-background flex items-center justify-center"><div class="font-headline text-surface-white">No method steps found.</div></div>';
+        return;
+      }
+
+      cookState = { steps, current: 0, timers: [], ingredients, ingredientNames };
+      renderCookStep(slug, title, container);
+
+      const keyHandler = (e) => {
+        if (e.key === 'ArrowRight') { navigateCook(slug, title, container, 1); }
+        else if (e.key === 'ArrowLeft') { navigateCook(slug, title, container, -1); }
+      };
+      document.addEventListener('keydown', keyHandler);
+
+      let touchStartX = 0;
+      const touchStart = (e) => { touchStartX = e.touches[0].clientX; };
+      const touchEnd = (e) => {
+        const delta = e.changedTouches[0].clientX - touchStartX;
+        if (Math.abs(delta) > 50) {
+          navigateCook(slug, title, container, delta < 0 ? 1 : -1);
+        }
+      };
+      container.addEventListener('touchstart', touchStart, { passive: true });
+      container.addEventListener('touchend', touchEnd, { passive: true });
+
+      const cleanup = () => {
+        document.removeEventListener('keydown', keyHandler);
+        container.removeEventListener('touchstart', touchStart);
+        container.removeEventListener('touchend', touchEnd);
+        cookState.timers.forEach(t => clearInterval(t.interval));
+        cookState.timers = [];
+        window.removeEventListener('hashchange', cleanup);
+      };
+      window.addEventListener('hashchange', cleanup);
+    }
+
+    function navigateCook(slug, title, container, direction) {
+      const newStep = cookState.current + direction;
+      if (newStep < 0) return;
+      if (newStep >= cookState.steps.length) {
+        location.hash = `#/recipe/${slug}`;
+        return;
+      }
+      cookState.current = newStep;
+      renderCookStep(slug, title, container);
+    }
+
+    const TIMER_RE = /(\d+)[\s-]*(minutes?|mins?|seconds?|secs?|hours?|hrs?)/gi;
+
+    function parseTimers(stepHtml) {
+      const timers = [];
+      let match;
+      const re = new RegExp(TIMER_RE.source, TIMER_RE.flags);
+      while ((match = re.exec(stepHtml)) !== null) {
+        const value = parseInt(match[1]);
+        const unit = match[2].toLowerCase();
+        let seconds;
+        if (unit.startsWith('h')) seconds = value * 3600;
+        else if (unit.startsWith('s')) seconds = value;
+        else seconds = value * 60;
+        timers.push({ text: match[0], seconds, id: `timer-${Date.now()}-${timers.length}` });
+      }
+      return timers;
+    }
+
+    function formatTime(seconds) {
+      const m = Math.floor(seconds / 60);
+      const s = seconds % 60;
+      return `${m}:${s.toString().padStart(2, '0')}`;
+    }
+
+    function renderCookStep(slug, title, container) {
+      const { steps, current, ingredients, ingredientNames } = cookState;
+      const stepHtml = steps[current];
+      const total = steps.length;
+      const progress = ((current + 1) / total) * 100;
+
+      const timers = parseTimers(stepHtml);
+      let displayHtml = stepHtml.replace(new RegExp(TIMER_RE.source, TIMER_RE.flags), '<span style="color:#2ff801; font-weight:700;">$&</span>');
+
+      const timerCallouts = timers.map(t => `
+        <button onclick="startCookTimer('${t.id}', ${t.seconds})" id="btn-${t.id}" class="flex items-center gap-3 mt-4 px-4 py-3" style="border:3px solid #2ff801;">
+          <span class="material-symbols-outlined text-xl" style="color:#2ff801; font-variation-settings:'FILL' 1;">timer</span>
+          <span id="display-${t.id}" class="font-headline font-black text-lg" style="color:#2ff801;">${formatTime(t.seconds)}</span>
+          <span class="font-headline font-bold text-xs uppercase tracking-widest text-outline-variant">TAP TO START</span>
+        </button>
+      `).join('');
+
+      const activeTimerPills = cookState.timers
+        .filter(t => t.remaining > 0)
+        .map(t => `
+          <div class="flex items-center gap-2 px-3 py-1" style="background:#1a1a1a; border:2px solid #2ff801;">
+            <span class="material-symbols-outlined text-sm" style="color:#2ff801;">timer</span>
+            <span id="pill-${t.id}" class="font-headline font-bold text-xs" style="color:#2ff801;">${formatTime(t.remaining)}</span>
+          </div>
+        `).join('');
+
+      const stepTextLower = stepHtml.toLowerCase();
+      const ingRows = ingredients.map((ing, i) => {
+        const { quantity, name } = parseIngredient(ing);
+        const mentioned = ingredientNames[i] && stepTextLower.includes(ingredientNames[i]);
+        return `
+          <div class="flex items-start justify-between gap-2 py-2 border-b border-outline border-opacity-30 last:border-b-0 transition-opacity ${mentioned ? 'opacity-100' : 'opacity-30'}">
+            <span class="font-body italic text-sm leading-snug flex-1 ${mentioned ? 'text-surface-white' : 'text-outline'}">${name}</span>
+            ${quantity ? `<span class="font-headline font-bold text-sm flex-shrink-0 ${mentioned ? 'text-primary-fixed' : 'text-outline'}">${quantity}</span>` : ''}
+          </div>
+        `;
+      }).join('');
+
+      const safeTitle = title.replace(/'/g, "\\'");
+
+      container.innerHTML = `
+        <div class="min-h-screen bg-on-background text-surface-white md:grid md:grid-cols-12">
+          ${ingredients.length > 0 ? `
+          <div class="hidden md:block md:col-span-4 p-6 border-r-4 border-outline sticky top-14 h-screen overflow-y-auto" style="background:#1a1a1a;">
+            <div class="font-headline font-black text-xs uppercase tracking-widest text-primary-fixed mb-4">Ingredients</div>
+            ${ingRows}
+          </div>
+          ` : ''}
+
+          <div class="${ingredients.length > 0 ? 'md:col-span-8' : 'md:col-span-12'} flex flex-col min-h-screen">
+            <div class="flex items-center justify-between px-6 pt-6 pb-2">
+              <div class="font-headline font-black text-xs uppercase tracking-widest text-primary-fixed">Cook Mode</div>
+              ${activeTimerPills ? `<div class="flex gap-2">${activeTimerPills}</div>` : ''}
+              <div class="flex items-center gap-4">
+                <div class="font-headline font-bold text-xs uppercase tracking-widest text-outline">Step ${current + 1} of ${total}</div>
+                <a href="#/recipe/${slug}" class="text-outline hover:text-surface-white">
+                  <span class="material-symbols-outlined text-xl">close</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="h-1 mx-6" style="background:#444;">
+              <div class="h-1 transition-all" style="background:#2ff801; width:${progress}%;"></div>
+            </div>
+
+            <div class="flex-1 flex flex-col justify-center px-6 md:px-12 py-8">
+              <div class="font-body text-xl md:text-2xl leading-relaxed" style="line-height:1.7;">
+                ${displayHtml}
+              </div>
+              ${timerCallouts}
+            </div>
+
+            <div class="flex items-center justify-between px-6 pb-6 pt-2 border-t-2" style="border-color:#444;">
+              ${current > 0 ? `
+                <button onclick="navigateCook('${slug}', '${safeTitle}', document.getElementById('app'), -1)" class="font-headline font-bold text-sm uppercase tracking-widest text-outline hover:text-surface-white">
+                  &larr; Prev
+                </button>
+              ` : '<div></div>'}
+              <button onclick="navigateCook('${slug}', '${safeTitle}', document.getElementById('app'), 1)" class="bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-black px-6 py-3 neo-shadow">
+                ${current === total - 1 ? 'Done' : 'Next Step'} &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    window.startCookTimer = function(id, totalSeconds) {
+      const existing = cookState.timers.find(t => t.id === id);
+      if (existing) return;
+
+      const timer = { id, remaining: totalSeconds, interval: null };
+      timer.interval = setInterval(() => {
+        timer.remaining--;
+        const display = document.getElementById(`display-${id}`);
+        if (display) display.textContent = formatTime(timer.remaining);
+        const pill = document.getElementById(`pill-${id}`);
+        if (pill) pill.textContent = formatTime(timer.remaining);
+
+        if (timer.remaining <= 0) {
+          clearInterval(timer.interval);
+          if (display) {
+            display.textContent = 'DONE!';
+            display.style.animation = 'pulse 1s infinite';
+          }
+          if (pill) {
+            pill.textContent = 'DONE!';
+            pill.style.animation = 'pulse 1s infinite';
+          }
+        }
+      }, 1000);
+
+      cookState.timers.push(timer);
+
+      const btn = document.getElementById(`btn-${id}`);
+      if (btn) {
+        const label = btn.querySelector('.text-outline-variant');
+        if (label) label.textContent = 'RUNNING';
+      }
+    };
+
+    window.navigateCook = navigateCook;
 
     // --- Shopping rules engine ---
 
