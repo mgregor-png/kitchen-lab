@@ -32,7 +32,6 @@ Serves 2
 
 ## Ingredients
 
-### Chilli
 - 2tbsp Olive Oil
 - 400g Beef Mince
 - 1 Brown Onion
@@ -49,7 +48,6 @@ Serves 2
 - Salt
 - Black Pepper
 
-### To Serve
 - 300g Cooked Rice (to serve)
 - Sour Cream (to serve)
 - Cheddar Cheese (to serve)

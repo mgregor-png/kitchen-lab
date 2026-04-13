@@ -26,7 +26,6 @@ Serves 4
 
 ## Ingredients
 
-### Sauce
 - 3tbsp Honey
 - 4tsp Dijon Mustard
 - 4tbsp Soy Sauce
@@ -34,21 +33,17 @@ Serves 4
 - 3tbsp Oyster Sauce
 - .25tsp Black Pepper
 
-### Chicken
 - 880g Boneless Skinless Chicken Thigh
 - 1tbsp Vegetable Oil
 
-### Sesame Spinach
 - 600g Spinach
 - 1tbsp Tahini
 - 2tsp Soy Sauce
 - 1tsp Rice Wine Vinegar
 - 30g Toasted Sesame Seeds
 
-### Rice
 - 150g Sushi Rice
 
-### To Serve
 - 2 Spring Onion
 - 2 Lemon Wedge
 - Shichimi Togarashi (to serve)

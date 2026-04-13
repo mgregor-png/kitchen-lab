@@ -30,7 +30,6 @@ Serves 2
 
 ## Ingredients
 
-### Chorizo Bean Stew
 - 70g Chorizo
 - 1 Red Onion
 - 2Clove Garlic
@@ -41,11 +40,9 @@ Serves 2
 - 2tsp Paprika
 - Salt
 
-### Cod
 - 200g Cod Fillet
 - 10g Olive Oil
 
-### To Serve
 - 10g Fresh Parsley
 - 1 Lemon
 - 60g 0% Fat Greek Yoghurt⁣

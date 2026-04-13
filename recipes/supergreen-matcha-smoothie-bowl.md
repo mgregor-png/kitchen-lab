@@ -20,7 +20,6 @@ Serves 1
 
 ## Ingredients
 
-### Smoothie Base
 - 100g Frozen Banana
 - 75g Frozen Mango
 - 75g Frozen Pineapple
@@ -32,7 +31,6 @@ Serves 1
 - 1tsp Honey
 - 10g Chia Seed
 
-### Toppings
 - 1 Kiwi
 - Strawberry
 - Desiccated Coconut

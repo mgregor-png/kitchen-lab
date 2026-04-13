@@ -28,7 +28,6 @@ Serves 2
 
 ## Ingredients
 
-### Pork
 - 300g Pork Mince
 - 1tbsp Fennel Seed
 - 1tsp Chilli Flakes
@@ -38,7 +37,6 @@ Serves 2
 - Salt
 - Black Pepper
 
-### Sauce
 - 2tbsp Olive Oil
 - 2 Shallot
 - 2Clove Garlic
@@ -48,7 +46,6 @@ Serves 2
 - 40g Parmesan
 - 1tbsp Pasta Water
 
-### Pasta
 - 180g Fusilli
 - 80g Spinach
 - Parmesan

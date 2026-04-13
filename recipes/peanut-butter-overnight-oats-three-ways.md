@@ -22,7 +22,6 @@ Serves 6
 
 ## Ingredients
 
-### Oats
 - 75g Crunchy Peanut Butter
 - 180g Rolled Oat
 - 280ml Unsweetened Almond Milk
@@ -33,13 +32,11 @@ Serves 6
 - 120g Blueberry
 - 1tsp Salt
 
-### Yoghurt Topping
 - 800g 0% Fat Greek Yoghurt⁣
 - 225g 0% Fat Greek Yoghurt⁣
 - 40g Honey
 - 60ml Unsweetened Almond Milk
 
-### Toppings
 - Crunchy Nut Cornflakes (to serve)
 - 1tsp Ground Cinnamon (to serve)
 - Banana (to serve)

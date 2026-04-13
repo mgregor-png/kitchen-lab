@@ -28,7 +28,6 @@ Serves 4
 
 ## Ingredients
 
-### Sauce
 - 4 Garlic Clove
 - 3tbsp Miso Paste
 - 3tbsp Sriracha
@@ -36,11 +35,9 @@ Serves 4
 - 2tbsp Fish Sauce
 - 1tbsp Rice Wine Vinegar
 
-### Salmon
 - 500g Skinless Salmon Fillet
 - 4 Spring Onion
 
-### Sesame Rice
 - 200g Sushi Rice
 - 250ml Water
 - 1.5tbsp Rice Wine Vinegar
@@ -49,7 +46,6 @@ Serves 4
 - 2Sheet Nori Seaweed
 - 2tbsp Toasted Sesame Seeds
 
-### Spinach
 - 3 Garlic Clove
 - 20g Butter
 - 200g Spinach

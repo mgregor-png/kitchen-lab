@@ -26,7 +26,6 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
 - 300g Chicken Breast
 - 2tbsp White Miso
 - 2tbsp Rice Vinegar
@@ -34,16 +33,13 @@ Serves 2
 - 1tsp Vegetable Oil
 - 10g Butter
 
-### Sesame Broccoli
 - 150g Broccoli
 - 1tbsp Soy Sauce
 - 1tsp Sesame Seeds
 
-### Rice
 - 100g Sushi Rice
 - 120ml Water
 - Salt
 
-### To Serve
 - 1 Lemon
 

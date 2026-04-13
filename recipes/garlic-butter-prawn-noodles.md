@@ -34,7 +34,6 @@ Serves 2
 
 ## Ingredients
 
-### Sauce
 - 2tbsp Oyster Sauce
 - 1tbsp Dark Soy Sauce
 - 1tbsp Light Soy Sauce
@@ -42,7 +41,6 @@ Serves 2
 - 1tbsp Sriracha
 - 1tbsp Sugar
 
-### Prawns & Noodles
 - 400g Raw Peeled King Prawn
 - 400g Udon Noodle
 - 100g Spinach
@@ -53,7 +51,6 @@ Serves 2
 - Olive Oil
 - Salt
 
-### To Serve
 - 20g Cashew Nut
 - 1 Spring Onion
 - Chilli Oil (to serve)

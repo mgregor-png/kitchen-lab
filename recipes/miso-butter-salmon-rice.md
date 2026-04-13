@@ -30,17 +30,14 @@ Serves 2
 
 ## Ingredients
 
-### Salmon
 - 500g Salmon
 - 20g White Miso
 - 30g Butter
 - Salt
 
-### Rice
 - 150g Sushi Rice
 - 180ml Water
 
-### Pickled Cucumber
 - 1 Cucumber
 - 1tbsp Rice Vinegar
 - 1tsp Sugar
@@ -48,6 +45,5 @@ Serves 2
 - 1 Lemon
 - 3 Spring Onion
 
-### Eggs
 - 2 Egg
 

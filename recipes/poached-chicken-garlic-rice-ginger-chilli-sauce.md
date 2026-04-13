@@ -30,20 +30,17 @@ Serves 2
 
 ## Ingredients
 
-### Rice
 - 250g Jasmine Rice
 - 4Clove Garlic
 - Salt
 - Black Pepper
 
-### Sauce
 - 30g Fresh Ginger
 - 2tbsp Oyster Sauce
 - 1tbsp Butter
 - 2tbsp Sriracha
 - 1 Lime
 
-### Salad
 - 100g Sugar Snap Pea
 - 15g Fresh Coriander
 

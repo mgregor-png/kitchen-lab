@@ -28,7 +28,6 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
 - 300g Skinless Chicken Thigh
 - 1tsp Onion Powder
 - 1tbsp Paprika
@@ -39,10 +38,8 @@ Serves 2
 - 1tsp Salt
 - 250g 0% Fat Greek Yoghurt⁣
 
-### Tzatziki
 - 0.5 Cucumber
 
-### To Assemble
 - 2 Pitta
 - 1 Red Onion
 - 1 Tomato

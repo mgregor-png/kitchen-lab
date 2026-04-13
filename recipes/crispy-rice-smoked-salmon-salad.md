@@ -30,19 +30,16 @@ Serves 2
 
 ## Ingredients
 
-### Crispy Rice
 - 2x 250g Packet Microwave Rice
 - 2tbsp Soy Sauce
 - 1tbsp Vegetable Oil
 
-### Dressing
 - 20g Crunchy Peanut Butter
 - 2tbsp Soy Sauce
 - 3tbsp Sriracha
 - 2 Lime
 - Salt
 
-### Salad
 - 4Fillet Hot Smoked Salmon Fillet
 - 250g Cherry Tomatoes
 - 200g Baby Cucumber

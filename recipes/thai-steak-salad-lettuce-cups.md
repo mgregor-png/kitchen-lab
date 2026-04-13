@@ -28,14 +28,12 @@ Serves 2
 
 ## Ingredients
 
-### Dressing
 - 2tbsp Fish Sauce
 - 1tbsp Sugar
 - 2 Lime
 - 1tbsp Chilli Powder
 - 25g Jasmine Rice
 
-### Steak & Salad
 - 400g Rump Steak
 - 2 Shallot
 - 15g Fresh Coriander
@@ -46,7 +44,6 @@ Serves 2
 - Salt
 - Black Pepper
 
-### To Serve
 - 100g Cooked Jasmine Rice
 - 1Head Lettuce
 - 2 Lime Wedge

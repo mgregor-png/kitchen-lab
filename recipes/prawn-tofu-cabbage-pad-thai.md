@@ -34,14 +34,12 @@ Serves 2
 
 ## Ingredients
 
-### Sauce
 - 60g Tamarind Puree
 - 30g Brown Sugar
 - 3tbsp Fish Sauce
 - 1tbsp Dark Soy Sauce
 - 3Clove Garlic
 
-### Noodles & Stir-Fry
 - 120g Dried Rice Noodles
 - 200g Raw Prawn
 - 60g Firm Tofu
@@ -51,7 +49,6 @@ Serves 2
 - 100g Beansprouts
 - 1tbsp Vegetable Oil
 
-### To Serve
 - 20g Roasted Peanuts
 - Fresh Coriander (to serve)
 - 1 Lime (to serve)

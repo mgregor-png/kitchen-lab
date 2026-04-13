@@ -30,10 +30,8 @@ Serves 2
 
 ## Ingredients
 
-### Halloumi
 - 250g Halloumi
 
-### Saag
 - 1tbsp Ghee
 - 1 Brown Onion
 - 3Clove Garlic
@@ -46,7 +44,6 @@ Serves 2
 - 1 Lemon
 - Salt
 
-### To Serve
 - 300g Cooked Rice
 - 1 Red Chilli
 - 1 Green Chilli  (optional)

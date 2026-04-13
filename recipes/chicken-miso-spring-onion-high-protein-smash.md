@@ -22,7 +22,6 @@ Serves 2
 
 ## Ingredients
 
-### Smash
 - 2 Cooked Chicken Breast
 - 3 Spring Onion
 - 1Stick Celery
@@ -35,6 +34,5 @@ Serves 2
 - Salt
 - Black Pepper
 
-### To Serve
 - 2Slice Sourdough
 

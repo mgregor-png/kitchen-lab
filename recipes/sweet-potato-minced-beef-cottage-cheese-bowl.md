@@ -28,7 +28,6 @@ Serves 2
 
 ## Ingredients
 
-### Bowl
 - 260g Sweet Potato
 - 5g Vegetable Oil Spray
 - 300g 5% Fat Beef Mince
@@ -40,7 +39,6 @@ Serves 2
 - Salt
 - Black Pepper
 
-### To Serve
 - 30g Hot Honey
 - Chilli Flakes (optional)
 

@@ -31,15 +31,12 @@ Scatter the spring onions, beansprouts, coriander, mint and chillies over each b
 
 ## Ingredients
 
-### Broth
 - 2tbsp Fish Sauce
 - 1tsp Sugar
 - 1tsp Salt
 
-### Noodles
 - 200g Flat Rice Noodle
 
-### To Serve
 - 100g Beansprouts
 - 3 Spring Onion
 - 2 Red Bird's Eye Chilli

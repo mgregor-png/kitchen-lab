@@ -33,10 +33,8 @@ Place the chicken thighs skin-side down on a chopping board. Run a knife along e
 
 ## Ingredients
 
-### Chicken
 - 4 Bone-In Skin-On Chicken Thigh
 
-### Salad
 - 200g Tenderstem Broccoli
 - 100g Sourdough
 - 1Head Romaine Lettuce
@@ -46,7 +44,6 @@ Place the chicken thighs skin-side down on a chopping board. Run a knife along e
 - 1 Lemon
 - Olive Oil
 
-### Dressing
 - 120g Cottage Cheese
 - 10g Anchovy
 - 1Clove Garlic

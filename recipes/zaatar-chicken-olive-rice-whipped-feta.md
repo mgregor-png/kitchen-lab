@@ -28,7 +28,6 @@ Serves 4
 
 ## Ingredients
 
-### Olive Rice
 - 200g Jasmine Rice
 - 250g Chicken Stock
 - 6 Garlic Clove
@@ -37,7 +36,6 @@ Serves 4
 - 20g Dill
 - 20g Parsley
 
-### Chicken
 - 1kg Boneless Skinless Chicken Thigh
 - 2 White Onion
 - 2tbsp Smoked Paprika
@@ -45,12 +43,10 @@ Serves 4
 - 2tsp Black Pepper
 - 2tbsp Olive Oil
 
-### Whipped Feta
 - 200g Feta
 - 400g Greek Yoghurt
 - 1tsp Chilli Flakes
 
-### Salad
 - 1 Cucumber
 - 1 Red Onion
 - 3 Red Chilli

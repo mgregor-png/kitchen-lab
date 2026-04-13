@@ -35,21 +35,18 @@ To make crispy shallots and garlic (if using), thinly slice both and fry in a go
 
 ## Ingredients
 
-### Yoghurt Tahini
 - 250g Skyr Natural Yoghurt
 - 15g Tahini
 - 1Clove Garlic
 - .5 Lemon
 - Salt
 
-### Za’atar Croutons
 - 2 Pitta
 - 1tbsp Olive Oil
 - 1tbsp Za’atar
 - Salt
 - Black Pepper
 
-### Salad
 - 2 Tomato
 - .5 Courgette
 - 20g Green Olive
@@ -58,7 +55,6 @@ To make crispy shallots and garlic (if using), thinly slice both and fry in a go
 - 1 Shallot (to serve)
 - 1Clove Garlic (to serve)
 
-### Dressing
 - 2tbsp Olive Oil
 - 1 Lemon
 - 1tsp Sumac

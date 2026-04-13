@@ -30,14 +30,12 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
 - 4 Boneless Skinless Chicken Thigh
 - 1 Lime
 - 1tbsp Soy Sauce
 - Salt
 - Black Pepper
 
-### Satay Sauce
 - 3tbsp Peanut Butter
 - 1tbsp Sriracha
 - 1tbsp Soy Sauce
@@ -45,7 +43,6 @@ Serves 2
 - 1tsp Honey
 - 1tbsp Water
 
-### Grain Bowl
 - 250g Kale
 - 400g Cooked Mixed Grains
 - 1x 400g Can Cooked Butter Beans

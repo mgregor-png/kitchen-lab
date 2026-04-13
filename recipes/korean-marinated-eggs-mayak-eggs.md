@@ -24,10 +24,8 @@ Serves 4
 
 ## Ingredients
 
-### Eggs
 - 12 Egg
 
-### Marinade
 - 6 Garlic Clove
 - 6 Spring Onion
 - 4 Red Chilli
@@ -38,6 +36,5 @@ Serves 4
 - 100g Honey
 - 40g Sesame Seeds
 
-### To Serve
 - Cooked Rice (to serve)
 

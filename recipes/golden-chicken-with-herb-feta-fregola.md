@@ -30,20 +30,17 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
 - 2 Chicken Breast
 - 30g Plain Flour
 - 1tbsp Unsalted Butter
 - 1tbsp Capers
 - Olive Oil
 
-### Garlic Yoghurt
 - 100g Greek Yoghurt
 - 1Clove Garlic
 - 1 Lemon
 - Salt
 
-### Herby Feta Fregola
 - 150g Fregola
 - 15g Fresh Parsley
 - 15g Fresh Dill

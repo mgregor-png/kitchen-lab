@@ -30,18 +30,15 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
 - 200g Chicken Breast
 - 100g 0% Fat Greek Yoghurt⁣
 - 1tbsp Paprika
 - 3Clove Garlic
 - Salt
 
-### Whipped Feta
 - 40g Feta
 - 150g 0% Fat Greek Yoghurt⁣
 
-### Tomato Salad
 - 100g Cherry Tomatoes
 - 100g Cucumber
 - 0.5 Red Onion
@@ -49,7 +46,6 @@ Serves 2
 - 1tbsp Sumac (optional)
 - Salt
 
-### To Serve
 - 2 Flatbread
 - 10g Fresh Parsley
 - 10g Fresh Mint

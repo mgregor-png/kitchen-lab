@@ -26,7 +26,6 @@ Serves 2
 
 ## Ingredients
 
-### Pork
 - 400g 5% Fat Pork Mince
 - 4 Spring Onion
 - 2 Garlic Clove
@@ -35,7 +34,6 @@ Serves 2
 - 1tsp Sesame Oil
 - .5tsp Ground White Pepper
 
-### Broth
 - 600ml Chicken Stock
 - 1tbsp Light Soy Sauce
 - .5tsp Ground White Pepper
@@ -43,11 +41,9 @@ Serves 2
 - 2 Baby Pak Choi
 - 5 Wonton Wrapper (optional)
 
-### Rice
 - 120g Jasmine Rice
 - 240ml Water
 
-### To Serve
 - 1tsp Crispy Chilli Oil
 - 1tsp Toasted Sesame Seeds
 

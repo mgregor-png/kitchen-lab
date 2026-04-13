@@ -24,7 +24,6 @@ Serves 2
 
 ## Ingredients
 
-### Tuna Smash
 - 100g Tuna in Spring Water
 - 100g Cottage Cheese
 - 60g Greek Yoghurt
@@ -41,6 +40,5 @@ Serves 2
 - Salt
 - Black Pepper
 
-### To Serve
 - 2Slice Sourdough
 

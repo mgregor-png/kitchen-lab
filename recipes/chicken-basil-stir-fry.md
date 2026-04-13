@@ -30,7 +30,6 @@ Serves 4
 
 ## Ingredients
 
-### Sauce
 - 2 Shallot
 - 5 Garlic Clove
 - 2 Red Chilli
@@ -39,16 +38,13 @@ Serves 4
 - 3tbsp Dark Soy Sauce (to serve)
 - Fish Sauce (to taste)
 
-### Stir-Fry
 - 500g Chicken Mince
 - 30ml Vegetable Oil
 - 200g Tenderstem Broccoli
 - 20g Thai Basil
 
-### Rice
 - 200g Jasmine Rice
 
-### To Serve
 - 4 Egg
 - 3.5tbsp Sriracha
 

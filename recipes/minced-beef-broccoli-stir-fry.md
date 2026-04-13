@@ -32,7 +32,6 @@ Serves 2
 
 ## Ingredients
 
-### Sauce
 - 2tbsp Light Soy Sauce
 - 1tbsp Dark Soy Sauce
 - 1tbsp Oyster Sauce
@@ -41,7 +40,6 @@ Serves 2
 - 0.25tsp Ground White Pepper
 - 1tbsp Cornflour
 
-### Stir Fry
 - 250g 5% Fat Beef Mince
 - 1tbsp Vegetable Oil
 - 1 Broccoli

@@ -22,7 +22,6 @@ Serves 1
 
 ## Ingredients
 
-### Smoothie
 - 100g Frozen Strawberry
 - 75g Frozen Raspberry
 - 50g Pitted Frozen Cherries
@@ -33,7 +32,6 @@ Serves 1
 - 10ml Lime Juice
 - 10g Chia Seed
 
-### Toppings
 - Strawberry
 - Coconut Flake
 - Granola

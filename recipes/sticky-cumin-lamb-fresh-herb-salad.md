@@ -28,7 +28,6 @@ Serves 2
 
 ## Ingredients
 
-### Lamb
 - 350g Lamb Mince
 - 1tbsp Cumin Seeds
 - 10g Fresh Ginger
@@ -39,13 +38,11 @@ Serves 2
 - 2 Green Chilli 
 - Salt
 
-### Salad
 - 15g Fresh Coriander
 - 2 Spring Onion
 - 2 Shallot
 - .5 Lime
 
-### To Serve
 - 300g Cooked Jasmine Rice
 - Egg
 - 1tbsp Olive Oil

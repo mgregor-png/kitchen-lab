@@ -34,7 +34,6 @@ Serves 2
 
 ## Ingredients
 
-### Broth
 - 1000ml Chicken Broth
 - 300g Chicken Breast
 - 1 Onion
@@ -46,7 +45,6 @@ Serves 2
 - 1tsp MSG
 - 2tbsp Fish Sauce
 
-### To Serve
 - 120g Flat Rice Noodle
 - 100g Beansprouts
 - 2 Spring Onion

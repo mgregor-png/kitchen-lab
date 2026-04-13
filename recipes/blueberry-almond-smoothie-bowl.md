@@ -22,7 +22,6 @@ Serves 1
 
 ## Ingredients
 
-### Smoothie
 - 100g Frozen Blueberries
 - 50g Frozen Blackberry
 - 50g Frozen Banana
@@ -33,7 +32,6 @@ Serves 1
 - 10g Chia Seed
 - 1 Lime
 
-### Toppings
 - Fresh Berries
 - Granola
 - Flaked Almond

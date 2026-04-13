@@ -22,7 +22,6 @@ Serves 1
 
 ## Ingredients
 
-### Smoothie Base
 - 50g Frozen Mango
 - 100g Frozen Pineapple
 - 50g Frozen Banana
@@ -33,7 +32,6 @@ Serves 1
 - 5g Fresh Ginger
 - 30g Vanilla Protein Powder
 
-### Toppings
 - Banana
 - Toasted Coconut Flake
 - Granola

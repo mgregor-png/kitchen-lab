@@ -34,7 +34,6 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
 - 300g Chicken Breast
 - 1 Egg
 - 20g Plain Flour
@@ -42,12 +41,10 @@ Serves 2
 - Salt
 - Black Pepper
 
-### Tomato Sauce
 - 1x 400g Can Chopped Tomatoes
 - 30g Olive Oil
 - 1Clove Garlic
 
-### Spaghetti
 - 150g Spaghetti
 - 30g Parmesan
 - 60g Cottage Cheese

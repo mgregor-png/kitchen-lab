@@ -29,13 +29,11 @@ These eggs will last for up to 4 days in the fridge, the flavour gets stronger e
 
 ## Ingredients
 
-### Eggs
 - 6 Egg
 - Olive Oil (to serve)
 - Feta (to serve)
 - Black Pepper
 
-### Marinade
 - 100g Cooked Beetroot
 - 2Clove Garlic
 - Lemon

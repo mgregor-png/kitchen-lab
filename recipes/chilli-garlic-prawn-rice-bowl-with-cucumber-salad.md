@@ -28,17 +28,14 @@ Serves 2
 
 ## Ingredients
 
-### Rice
 - 100g Sushi Rice
 - 120ml Water
 - Salt
 
-### Cucumber Salad
 - 1 Cucumber
 - 2tbsp Rice Vinegar
 - 1tbsp Soy Sauce
 
-### Prawns
 - 300g Raw Prawn
 - 20g Unsalted Butter
 - 3Clove Garlic

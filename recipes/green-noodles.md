@@ -30,7 +30,6 @@ Serves 5
 
 ## Ingredients
 
-### Crispy Topping
 - 4 Garlic Clove
 - 2 Red Chilli
 - 2 Shallot
@@ -38,7 +37,6 @@ Serves 5
 - 1tsp Sugar
 - 1tsp MSG (optional)
 
-### Green Sauce
 - 200g Cavolo Nero
 - 100g Baby Spinach
 - 15g Fresh Coriander
@@ -49,7 +47,6 @@ Serves 5
 - 30g Miso Paste
 - 25ml Light Soy Sauce
 
-### Noodles
 - 750g Udon Noodle
 - 2 Egg
 

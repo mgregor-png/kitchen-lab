@@ -28,7 +28,6 @@ Serves 2
 
 ## Ingredients
 
-### Beef Mince
 - 400g Beef Mince
 - 2tbsp Neutral Oil
 - 2 Spring Onion
@@ -38,7 +37,6 @@ Serves 2
 - .5tsp Dark Soy Sauce
 - 1tsp Sugar
 
-### Dan Dan Sauce
 - 2Clove Garlic
 - 45g Peanut Butter
 - 1tbsp Light Soy Sauce
@@ -47,7 +45,6 @@ Serves 2
 - 1tbsp Chinese Black Vinegar
 - .5tsp Sugar (optional)
 
-### Noodles
 - 2Nest Fresh Wheat Noodles
 - 200g Choy Sum
 - 30g Peanut

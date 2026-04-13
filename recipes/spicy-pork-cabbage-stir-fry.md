@@ -30,7 +30,6 @@ Serves 2
 
 ## Ingredients
 
-### Sauce
 - 3Clove Garlic
 - 20g Fresh Ginger
 - 2tbsp Sriracha
@@ -40,14 +39,12 @@ Serves 2
 - 2tsp Sugar
 - 1tbsp Chinese Black Vinegar
 
-### Stir-Fry
 - 250g 5% Fat Pork Mince
 - 1 Hispi Cabbage
 - 2 Spring Onion
 - 100g Dried Rice Noodles
 - 2tsp Sesame Oil
 
-### To Serve
 - 0.5 Cucumber
 - 10g Fresh Coriander
 - 1tsp Sesame Seeds

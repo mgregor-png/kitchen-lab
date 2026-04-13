@@ -30,10 +30,8 @@ Serves 6
 
 ## Ingredients
 
-### Eggs
 - 6 Egg
 
-### Marinade
 - 200ml Olive Oil
 - 150ml Balsamic Vinegar
 - 1tbsp Fennel Seed

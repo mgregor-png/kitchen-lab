@@ -32,10 +32,8 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
 - 4 Bone-In Skin-On Chicken Thigh
 
-### Rice & Chickpeas
 - 250g Cooked Brown Rice
 - 200g Chickpeas
 - 1 Courgette
@@ -45,13 +43,11 @@ Serves 2
 - 1tsp Ground Cumin
 - 1tsp Ground Coriander
 
-### Tzatziki
 - .5 Cucumber
 - 200g 5% Fat Greek Yoghurt
 - 1Clove Garlic
 - 1 Lemon
 
-### To Serve
 - 15g Fresh Parsley
 - 2 Lemon Wedge (to serve)
 

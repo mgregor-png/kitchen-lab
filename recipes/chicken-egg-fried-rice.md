@@ -32,7 +32,6 @@ Serves 2
 
 ## Ingredients
 
-### Sauce
 - 1tbsp Oyster Sauce
 - 1tbsp Dark Soy Sauce
 - 1tbsp Light Soy Sauce
@@ -40,7 +39,6 @@ Serves 2
 - 1tsp Sugar
 - 1tsp MSG
 
-### Fried Rice
 - 400g Boneless Skinless Chicken Thigh
 - 4 Egg
 - 300g Cooked Rice

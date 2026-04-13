@@ -30,7 +30,6 @@ Serves 2
 
 ## Ingredients
 
-### Pesto
 - 60g Pine Nuts
 - 100g Parmesan
 - 50g Fresh Basil
@@ -38,7 +37,6 @@ Serves 2
 - 1 Lemon
 - 3tbsp Cold Water
 
-### Chicken
 - 200g Chicken Mince
 - 1tbsp Olive Oil
 - 1 Garlic Clove
@@ -48,7 +46,6 @@ Serves 2
 - 15g Parmesan
 - Black Pepper
 
-### Pasta
 - 200g Spaghetti
 - 200g Asparagus
 - 100g Petit Pois

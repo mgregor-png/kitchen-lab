@@ -28,7 +28,6 @@ Serves 4
 
 ## Ingredients
 
-### Broth
 - 700ml Beef Stock
 - 10g Fresh Ginger
 - 1 Star Anise
@@ -37,7 +36,6 @@ Serves 4
 - Fish Sauce (to taste)
 - 2 Lime
 
-### Beef
 - 500g Beef Mince
 - 2tbsp Oyster Sauce
 - 1.5tbsp Sugar
@@ -49,7 +47,6 @@ Serves 4
 - Salt
 - Black Pepper
 
-### To Serve
 - 2x 250g Pouch Microwave Rice
 - 1 Brown Onion
 - 1 Red Chilli

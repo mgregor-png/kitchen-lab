@@ -28,7 +28,6 @@ Serves 4
 
 ## Ingredients
 
-### Soup
 - 680g Chicken Sausage
 - 2 White Onion
 - 4Stalk Celery
@@ -43,7 +42,6 @@ Serves 4
 - 1L Chicken Stock
 - Olive Oil
 
-### To Serve
 - 2Slice Sourdough
 - 80g Parmesan
 - 10g Fresh Parsley

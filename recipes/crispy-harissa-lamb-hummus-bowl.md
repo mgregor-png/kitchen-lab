@@ -29,7 +29,6 @@ Slice the green chillies into thin rounds and scatter half into the pan for extr
 
 ## Ingredients
 
-### Lamb
 - 300g Lamb Mince
 - 1tbsp Harissa Paste
 - 1tsp Ground Cumin
@@ -37,7 +36,6 @@ Slice the green chillies into thin rounds and scatter half into the pan for extr
 - 2 Green Bird's Eye Chilli
 - Olive Oil
 
-### Salad
 - .5 Red Onion
 - .5 Cucumber
 - 100g Cherry Tomatoes
@@ -49,7 +47,6 @@ Slice the green chillies into thin rounds and scatter half into the pan for extr
 - Salt
 - Black Pepper
 
-### To Serve
 - 250g Hummus
 - 2 Flatbread
 

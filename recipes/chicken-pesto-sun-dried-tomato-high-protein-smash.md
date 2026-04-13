@@ -22,7 +22,6 @@ Serves 2
 
 ## Ingredients
 
-### Smash
 - 300g Cooked Chicken
 - 150g Cottage Cheese
 - 60g Pesto
@@ -34,6 +33,5 @@ Serves 2
 - Salt
 - Black Pepper
 
-### To Serve
 - 2Slice Sourdough
 

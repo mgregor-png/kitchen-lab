@@ -30,24 +30,20 @@ Serves 2
 
 ## Ingredients
 
-### Spicy Tuna
 - 2x 165g Can Tuna
 - 20g Light Mayonnaise
 - 30g Sriracha
 - 1tbsp Soy Sauce
 
-### Miso Dressing
 - 1tbsp Miso
 - 2tbsp Rice Vinegar
 - 1tbsp Soy Sauce
 - 1tbsp Honey
 
-### Slaw
 - 2 Carrot
 - 100g Red Cabbage
 - 30g Edamame
 
-### To Serve
 - 200g Cooked Sushi Rice
 - 1 Lime
 - 2tsp Sesame Seeds (to serve)

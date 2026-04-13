@@ -30,14 +30,12 @@ Serves 4
 
 ## Ingredients
 
-### Chicken
 - 8 Boneless Skinless Chicken Thigh
 - 2 Garlic Clove
 - 0.5 Lemon
 - 1tsp Dried Oregano
 - Olive Oil
 
-### Salad
 - 250g Cooked Quinoa
 - 200g Cavolo Nero
 - 480g Drained Cooked Cannellini Beans
@@ -46,7 +44,6 @@ Serves 4
 - Salt
 - Black Pepper
 
-### Dressing
 - 1 Garlic Clove
 - 60ml Olive Oil
 - 125g Pickled Jalapeño

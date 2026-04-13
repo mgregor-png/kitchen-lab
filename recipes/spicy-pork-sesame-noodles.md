@@ -32,7 +32,6 @@ Serves 4
 
 ## Ingredients
 
-### Tahini Miso Sauce
 - 120g Tahini
 - 50g White Miso
 - 40ml Shoyu Soy Sauce
@@ -40,7 +39,6 @@ Serves 4
 - 1tsp MSG (optional)
 - 130ml Water
 
-### Spicy Pork
 - 1kg 5% Fat Pork Mince
 - 8 Spring Onion
 - 6 Garlic Clove
@@ -51,11 +49,9 @@ Serves 4
 - 1tbsp Sugar
 - Vegetable Oil
 
-### Herb Salad
 - 1 Cucumber
 - 15g Fresh Coriander
 - 15g Fresh Mint
 
-### Noodles
 - 400g Egg Noodle
 

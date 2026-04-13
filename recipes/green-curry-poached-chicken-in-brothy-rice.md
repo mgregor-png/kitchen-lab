@@ -32,11 +32,9 @@ Serves 4
 
 ## Ingredients
 
-### Chicken
 - 4 Chicken Breast
 - 175g Baby Corn
 
-### Green Curry Broth
 - 1x 400ml Can Coconut Milk
 - 70g Thai Green Curry Paste
 - 500ml Chicken Stock
@@ -45,7 +43,6 @@ Serves 4
 - 3tbsp Fish Sauce
 - 1tbsp Sugar
 
-### Rice & Herbs
 - 200g Jasmine Rice
 - 2 Shallot
 - 4 Thai Red Chilli

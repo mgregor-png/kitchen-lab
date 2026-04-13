@@ -24,7 +24,6 @@ Serves 4
 
 ## Ingredients
 
-### Oats
 - 1 Apple
 - 120g Rolled Oat
 - 180ml Unsweetened Almond Milk
@@ -33,7 +32,6 @@ Serves 4
 - 15ml Vanilla Extract
 - 1tsp Ground Cinnamon
 
-### Yoghurt Topping
 - 450g 5% Fat Greek Yoghurt
 - 150g 5% Fat Greek Yoghurt
 - 25g Rolled Oat
@@ -41,7 +39,6 @@ Serves 4
 - 10g Brown Sugar
 - .5tsp Ground Cinnamon
 
-### Crumble
 - 10g Unsalted Butter
 - 20g Brown Sugar
 

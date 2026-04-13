@@ -32,7 +32,6 @@ Serves 6
 
 ## Ingredients
 
-### Rice
 - 400g Jasmine Rice
 - 2 Shallot
 - 6 Garlic Clove
@@ -42,14 +41,12 @@ Serves 6
 - 480ml Chicken Stock
 - 1tsp Fine Salt
 
-### Chicken
 - 6 Chicken Breast
 - 2L Water
 - 2 Spring Onion
 - 2 Garlic Clove
 - 1tbsp Fine Salt
 
-### Spring Onion Sauce
 - 20 Small Spring Onion
 - 30g Fresh Ginger
 - 50ml Vegetable Oil
@@ -57,7 +54,6 @@ Serves 6
 - 1tsp MSG
 - 1tsp Caster Sugar
 
-### To Serve
 - 1 Cucumber
 - Crispy Chilli Oil (to serve)
 - Sesame Seeds (to serve)

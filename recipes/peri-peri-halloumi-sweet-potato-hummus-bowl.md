@@ -28,23 +28,19 @@ Serves 2
 
 ## Ingredients
 
-### Sweet Potato
 - 2 Sweet Potato
 - 2tbsp Peri Peri Seasoning
 - Olive Oil
 - Salt
 
-### Halloumi
 - 225g Halloumi
 - 1tbsp Honey
 - 1tbsp Peri Peri Seasoning
 
-### Slaw
 - 150g Red Cabbage
 - 2 Lemon
 - Salt
 
-### To Serve
 - Hummus
 - Flatbread
 - Red Chilli (to serve)

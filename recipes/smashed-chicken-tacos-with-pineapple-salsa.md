@@ -26,7 +26,6 @@ Serves 4
 
 ## Ingredients
 
-### Chicken Tacos
 - 500g Chicken Mince
 - 1 White Onion
 - 80g Grated Mozzarella
@@ -36,7 +35,6 @@ Serves 4
 - 4 Flour Tortilla
 - Olive Oil
 
-### Pineapple Salsa
 - .5 Pineapple
 - 2 Jalapeño
 - 1 Red Onion (to serve)
@@ -44,7 +42,6 @@ Serves 4
 - 1 Lime
 - 2tbsp Hot Sauce
 
-### To Serve
 - .5 Cabbage
 - 1 Avocado
 - 40g Feta (to serve)

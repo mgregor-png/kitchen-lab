@@ -26,7 +26,6 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
 - 4 Bone-In Skin-On Chicken Thigh
 - 200g Cherry Tomatoes
 - 100g Pitted Green Olive
@@ -35,13 +34,11 @@ Serves 2
 - Salt
 - Black Pepper
 
-### Harissa Yoghurt
 - 200g Greek Yoghurt
 - 2tsp Harissa Paste
 - .25 Lemon
 - 1Pinch Salt
 
-### To Serve
 - 1x 250g Pouch Microwaveable Wild Rice Pouch
 - 10g Fresh Parsley (to serve)
 

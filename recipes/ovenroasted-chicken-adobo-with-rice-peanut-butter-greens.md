@@ -33,7 +33,6 @@ Pat the chicken dry and season with a pinch of salt and pepper. Set a large oven
 
 ## Ingredients
 
-### Chicken Adobo
 - 4 Chicken Thigh
 - 1 Onion
 - 8Clove Garlic
@@ -46,12 +45,10 @@ Pat the chicken dry and season with a pinch of salt and pepper. Set a large oven
 - Salt
 - Black Pepper
 
-### Turmeric Rice
 - 150g Jasmine Rice
 - 200ml Chicken Stock
 - 1tsp Ground Turmeric
 
-### Peanut Butter Greens
 - 200g Spinach
 - 2tbsp Peanut Butter
 - Olive Oil

@@ -26,12 +26,10 @@ Serves 2
 
 ## Ingredients
 
-### Green Sauce
 - 250g Cottage Cheese
 - 30g Fresh Basil
 - 30g Parmesan
 
-### Pasta
 - 160g Fusilli
 - 200g Cherry Tomatoes
 - 40g Baby Spinach

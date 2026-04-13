@@ -32,7 +32,6 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
 - 500g Boneless Skinless Chicken Thigh
 - 2 White Onion
 - 2Clove Garlic
@@ -41,7 +40,6 @@ Serves 2
 - Salt
 - Black Pepper
 
-### Herby Grains
 - 250g Mixed Cooked Grains
 - 1 Courgette
 - 0.5 Lemon
@@ -51,6 +49,5 @@ Serves 2
 - Salt
 - Black Pepper
 
-### To Serve
 - 2tbsp Skyr Natural Yoghurt (to serve)
 

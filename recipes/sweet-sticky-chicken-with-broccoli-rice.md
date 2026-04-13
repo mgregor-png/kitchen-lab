@@ -30,14 +30,12 @@ Serves 2
 
 ## Ingredients
 
-### Broccoli Rice
 - 160g Jasmine Rice
 - 190ml Water
 - 200g Tenderstem Broccoli
 - 2 Garlic Clove
 - 10g Butter
 
-### Chicken
 - 400g Boneless Skinless Chicken Thigh
 - 2tbsp Oyster Sauce
 - 1tbsp Soy Sauce
@@ -47,7 +45,6 @@ Serves 2
 - Olive Oil
 - Salt
 
-### To Serve
 - 2 Spring Onion
 - Sesame Seeds (to serve)
 - 1 Lemon Wedge

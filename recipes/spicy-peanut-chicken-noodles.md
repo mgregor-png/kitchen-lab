@@ -30,7 +30,6 @@ serves: 2
 
 ## Ingredients
 
-### Miso Peanut Sauce
 - 40g peanut butter
 - 25g white miso
 - 20ml soy sauce
@@ -39,7 +38,6 @@ serves: 2
 - 1/2 tsp MSG (optional)
 - 65ml water
 
-### Chicken
 - 400g chicken mince
 - 4 spring onions
 - 1 garlic clove
@@ -50,10 +48,8 @@ serves: 2
 - 1 tbsp sugar
 - 1 tbsp vegetable oil
 
-### Noodles
 - 200g udon noodles
 
-### Herb Salad
 - 1/2 cucumber
 - 10g fresh coriander
 

@@ -32,10 +32,8 @@ Serves 2
 
 ## Ingredients
 
-### Noodles
 - 100g Dried Rice Noodles
 
-### Curry Broth
 - 300g Light Coconut Milk
 - 150ml Water
 - 30g Thai Red Curry Paste

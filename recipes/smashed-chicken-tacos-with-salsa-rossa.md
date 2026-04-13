@@ -30,7 +30,6 @@ Serves 2
 
 ## Ingredients
 
-### Chicken Tacos
 - 300g Chicken Mince
 - 1 Onion
 - 3Clove Garlic
@@ -41,13 +40,11 @@ Serves 2
 - 4 Small Corn Tortilla
 - Low-Calorie Cooking Spray
 
-### Salsa Rossa
 - 200g Cherry Tomatoes
 - 2 Red Chilli
 - 20g Fresh Coriander
 - 2 Lime
 
-### Slaw
 - 150g Hispi Cabbage
 - 100g 0% Fat Greek Yoghurt⁣
 

@@ -30,7 +30,6 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
 - 400g Chicken Mince
 - 2Clove Garlic
 - 1tbsp Olive Oil
@@ -41,14 +40,12 @@ Serves 2
 - 1tbsp Harissa Paste
 - Salt
 
-### Garlic Yoghurt
 - 150g Greek Yoghurt
 - 1Clove Garlic
 - 1tbsp Olive Oil
 - .25 Lemon
 - Salt
 
-### Roasted Veg
 - 2 Red Onion
 - 200g Cherry Tomatoes
 - 1 Cucumber
@@ -57,6 +54,5 @@ Serves 2
 - .25 Lemon
 - Salt
 
-### Rice
 - 300g Cooked Jasmine Rice
 
