@@ -102,6 +102,63 @@
     ]
   },
   {
+    "slug": "air-fryer-chicken-parm-spaghetti",
+    "title": "Air Fryer Chicken Parm & Spaghetti",
+    "time": 35,
+    "tags": [
+      "finn-tonry",
+      "italian"
+    ],
+    "description": "A classic Italian-American recipe that's made for the air fryer. High in protein, and highly sati...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/11/Air-Fryer-Chicken-Parm-Spaghetti.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Chicken Breast",
+      "Spaghetti",
+      "Egg",
+      "Plain Flour",
+      "Panko Breadcrumbs",
+      "Can Chopped Tomatoes",
+      "Garlic",
+      "Olive Oil",
+      "Parmesan",
+      "Cottage Cheese",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "air-fryer-gochujang-cod",
+    "title": "Air Fryer Gochujang Cod",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "A seriously satisfying dinner with tender cod, fluffy rice, crunchy cucumber salad and a spicy go...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2024/12/Air-Fryer-Gochujang-Cod.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Spring Onion",
+      "5 Cucumber",
+      "Fresh Coriander",
+      "Garlic",
+      "Red Chilli",
+      "Fresh Ginger",
+      "Butter",
+      "Caster Sugar",
+      "Gochujang",
+      "Water",
+      "Lime",
+      "Fish Sauce",
+      "2Fillet Cod",
+      "Vegetable Oil",
+      "Chinese Five-Spice",
+      "Cooked Jasmine Rice"
+    ]
+  },
+  {
     "slug": "almond-aniseed-nougat",
     "title": "Almond and aniseed nougat ",
     "time": 58,
@@ -232,6 +289,37 @@
       "unsalted butter",
       "ground cinnamon",
       "flaked salt"
+    ]
+  },
+  {
+    "slug": "apple-crumble-overnight-oats",
+    "title": "Apple Crumble Overnight Oats",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish",
+      "quick"
+    ],
+    "description": "These delicious and indulgent overnights are super healthy, packed full of protein and perfect fo...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2024/12/Overnight-Apple-Crumble-Oats.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Apple",
+      "Rolled Oat",
+      "Unsweetened Almond Milk",
+      "Maple Syrup",
+      "Fat Greek Yoghurt",
+      "Vanilla Protein Powder",
+      "Vanilla Extract",
+      "Ground Cinnamon",
+      "Fat Greek Yoghurt",
+      "Brown Sugar",
+      "Unsweetened Almond Milk",
+      "Unsalted Butter",
+      "Rolled Oat",
+      "Brown Sugar",
+      "5tsp Ground Cinnamon"
     ]
   },
   {
@@ -639,6 +727,27 @@
       "olive oil",
       "lime juice",
       "fine sea salt"
+    ]
+  },
+  {
+    "slug": "avocado-jalapeo-crema",
+    "title": "Avocado & Jalapeño Crema",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "A creamy, tangy, and slightly spicy avocado sauce that’s perfect for tacos, grilled meats, or as ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Avocado-Jalapen%CC%83o-Crema.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Fat Greek Yoghurt⁣",
+      "Jalapeño",
+      "Avocado",
+      "Fresh Coriander",
+      "Lime",
+      "Salt"
     ]
   },
   {
@@ -1079,6 +1188,34 @@
     ]
   },
   {
+    "slug": "balsamic-fennel-italian-eggs",
+    "title": "Balsamic & Fennel Italian Eggs",
+    "time": 21,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish",
+      "italian",
+      "quick"
+    ],
+    "description": "These eggs are meal-prep friendly and bursting with garlicky flavour and balanced by a mellow hea...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/6/Balsamic-Italian-Eggs.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Egg",
+      "Fennel Seed",
+      "Garlic",
+      "Chive",
+      "Lemon",
+      "Red Chilli",
+      "Dried Oregano",
+      "Olive Oil",
+      "Balsamic Vinegar",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
     "slug": "barbecue-beef-short-ribs-black-garlic-urfa-chilli",
     "title": "Barbecue beef short ribs with black garlic and urfa chilli",
     "time": 24,
@@ -1238,6 +1375,88 @@
       "olive oil",
       "lime",
       "fine sea salt and black pepper"
+    ]
+  },
+  {
+    "slug": "beetroot-zaatar-marinated-eggs",
+    "title": "Beetroot & Za'atar Marinated Eggs",
+    "time": 21,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish",
+      "quick"
+    ],
+    "description": "These eggs are a flavour bomb! The flavours of earthy beetroot and zesty za'atar all wrapped up i...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/6/Beetroot-Zaatar-Marinated-Eggs.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Egg",
+      "Cooked Beetroot",
+      "Garlic",
+      "Lemon",
+      "Red Chilli",
+      "Za’atar",
+      "Honey",
+      "Red Wine Vinegar",
+      "Water",
+      "Salt",
+      "Black Pepper",
+      "Salt",
+      "Olive Oil",
+      "Feta"
+    ]
+  },
+  {
+    "slug": "berry-pink-power-smoothie-bowl",
+    "title": "Berry Pink Power Smoothie Bowl",
+    "time": 10,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "Thick, fruity and protein-packed. This one’s for smoothie bowl lovers who like theirs with a spoo...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Berry-Pink-Power-Smoothie-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Frozen Strawberry",
+      "Frozen Raspberry",
+      "Pitted Frozen Cherries",
+      "Frozen Banana",
+      "Almond Milk",
+      "Skyr Natural Yoghurt",
+      "Vanilla Protein Powder",
+      "Lime Juice",
+      "Chia Seed",
+      "Strawberry",
+      "Coconut Flake",
+      "Granola",
+      "Chia Seed",
+      "Almond Butter"
+    ]
+  },
+  {
+    "slug": "berry-pink-power-smoothie",
+    "title": "Berry Pink Power Smoothie",
+    "time": 5,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "Packed with berries, banana and a hit of lime, this is the smoothie that’ll put a spring in your ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Berry-Pink-Power-Smoothie.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Frozen Strawberry",
+      "Frozen Raspberry",
+      "Pitted Frozen Cherries",
+      "Banana",
+      "Almond Milk",
+      "Skyr Natural Yoghurt",
+      "Vanilla Protein Powder",
+      "Lime"
     ]
   },
   {
@@ -1595,6 +1814,58 @@
     ]
   },
   {
+    "slug": "blueberry-almond-smoothie-bowl",
+    "title": "Blueberry & Almond Smoothie Bowl",
+    "time": 10,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "Thick, nutty and loaded with berries. This smoothie bowl is super speedy and perfect for anyone w...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Blueberry-Almond-Smoothie-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Frozen Blueberries",
+      "Frozen Blackberry",
+      "Frozen Banana",
+      "Almond Milk",
+      "Skyr Natural Yoghurt",
+      "Vanilla Protein Powder",
+      "Almond Butter",
+      "Chia Seed",
+      "Lime",
+      "Fresh Berries",
+      "Granola",
+      "Flaked Almond",
+      "Almond Butter",
+      "Chia Seed"
+    ]
+  },
+  {
+    "slug": "blueberry-almond-smoothie",
+    "title": "Blueberry & Almond Smoothie",
+    "time": 5,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "Nutty, creamy and bursting with berries. This smoothie’s got serious flavour and plenty of protei...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Blueberry-Almond-Smoothie.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Frozen Blueberries",
+      "Frozen Blackberry",
+      "Banana",
+      "Almond Milk",
+      "Vanilla Protein Powder",
+      "Almond Butter",
+      "Chia Seed",
+      "Water"
+    ]
+  },
+  {
     "slug": "bourbon-glazed-carrots-ginger-rosemary",
     "title": "Bourbon glazed carrots with ginger and rosemary ",
     "time": 45,
@@ -1871,6 +2142,34 @@
     ]
   },
   {
+    "slug": "braised-tomato-y-chickpeas-with-salmon",
+    "title": "Braised Tomato-y Chickpeas With Salmon",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "mediterranean",
+      "quick"
+    ],
+    "description": "Salmon poached in spiced tomato-y chickpeas, topped with dill and a big dollop of yoghurt — prope...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Braised-Tomato-y-Chickpeas-With-Salmon.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Skinless Salmon Fillet",
+      "Jar Chickpeas",
+      "Passata",
+      "Garlic",
+      "Ground Cumin",
+      "Harissa Paste",
+      "Olive Oil",
+      "Fat Greek Yoghurt⁣",
+      "Fresh Dill",
+      "Lemon",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
     "slug": "broccolini-chorizo-manchego-creme-fraiche",
     "title": " Broccolini with chorizo, manchego and caraway seed creme fraiche",
     "time": 45,
@@ -1893,6 +2192,35 @@
       "creme fraiche",
       "caraway seeds",
       "lemon juice"
+    ]
+  },
+  {
+    "slug": "brothy-red-curry-noodles",
+    "title": "Brothy Red Curry Noodles",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "thai",
+      "quick"
+    ],
+    "description": "This spicy red broth hits all the right notes. Rich, punchy, packed with prawns, and slurpably sa...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Brothy-Red-Curry-Noodles.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Dried Rice Noodles",
+      "Raw King Prawn",
+      "Firm Tofu",
+      "Baby Button Mushroom",
+      "Tenderstem Broccoli",
+      "Thai Red Curry Paste",
+      "White Sugar",
+      "Fish Sauce",
+      "Light Coconut Milk",
+      "Water",
+      "Lime",
+      "Fresh Coriander",
+      "Salt"
     ]
   },
   {
@@ -2255,6 +2583,30 @@
       "balls of burrata or buffalo mozzarella",
       "red or green basil sprigs",
       "flaked sea salt and black pepper"
+    ]
+  },
+  {
+    "slug": "burst-tomato-chicken-pasta",
+    "title": "Burst Tomato & Chicken Pasta",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "italian"
+    ],
+    "description": "Juicy, burst cherry tomatoes, crispy chicken, and a cheesy twist of cottage cheese bring all the ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/11/Burst-Tomato-Chicken-Pasta.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Spaghetti",
+      "Cherry Tomatoes",
+      "Skinless Chicken Thigh",
+      "Extra Virgin Olive Oil",
+      "Parmesan",
+      "Cottage Cheese",
+      "Garlic",
+      "Fresh Basil",
+      "Salt",
+      "Black Pepper"
     ]
   },
   {
@@ -3575,6 +3927,33 @@
     ]
   },
   {
+    "slug": "cherry-tomato-cottage-cheese-pasta-salad",
+    "title": "Cherry Tomato & Cottage Cheese Pasta Salad",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "italian",
+      "quick"
+    ],
+    "description": "A fresh, filling pasta salad with juicy chicken, creamy cottage cheese, and a hit of basil. Perfe...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/9/Cherry-Tomato-Cottage-Cheese-Pasta-Salad.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Cooked Fusilli",
+      "Cherry Tomatoes",
+      "Cottage Cheese",
+      "Cooked Chicken",
+      "Sun-Dried Tomato Paste",
+      "Parmesan",
+      "Pine Nuts",
+      "Fresh Basil",
+      "Courgette",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
     "slug": "cherry-trifle-pistachio-rosemary-crumble",
     "title": "Cherry trifle with pistachio and rosemary crumble",
     "time": 36,
@@ -3670,6 +4049,35 @@
     ]
   },
   {
+    "slug": "chicken-basil-stir-fry",
+    "title": "Chicken & Basil Stir Fry",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "asian",
+      "quick"
+    ],
+    "description": "Inspired by my favourite Thai dish, Pad Kra Pao, this is as good as meal prep gets. Ready in unde...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2024/12/Chicken-Basil-Stir-Fry.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Jasmine Rice",
+      "Vegetable Oil",
+      "Chicken Mince",
+      "Tenderstem Broccoli",
+      "Thai Basil",
+      "Egg",
+      "Shallot",
+      "Red Chilli",
+      "Garlic Clove",
+      "Sriracha",
+      "Fish Sauce",
+      "Oyster Sauce",
+      "Dark Soy Sauce",
+      "Caster Sugar"
+    ]
+  },
+  {
     "slug": "chicken-date-orange-split-pea-tray-bake",
     "title": "Chicken, date, orange and split pea tray bake",
     "time": 190,
@@ -3735,6 +4143,97 @@
       "mint leaves",
       "crispy chilli oil",
       "fine sea salt"
+    ]
+  },
+  {
+    "slug": "chicken-egg-fried-rice",
+    "title": "Chicken & Egg Fried Rice",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "asian"
+    ],
+    "description": "Sticky, crispy rice, juicy chicken, fluffy eggs, and that wok-charred magic. A healthy take on th...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/11/Chicken-Egg-Fried-Rice.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Boneless Skinless Chicken Thigh",
+      "Egg",
+      "Cooked Rice",
+      "Vegetable Oil",
+      "Garlic",
+      "Spring Onion",
+      "Frozen Pea",
+      "Beansprouts",
+      "Oyster Sauce",
+      "Dark Soy Sauce",
+      "Light Soy Sauce",
+      "Sriracha",
+      "Sugar",
+      "MSG"
+    ]
+  },
+  {
+    "slug": "chicken-miso-spring-onion-high-protein-smash",
+    "title": "Chicken, Miso & Spring Onion High Protein Smash",
+    "time": 35,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "meal-prep",
+      "asian"
+    ],
+    "description": "Creamy, punchy and piled high on toast. Pulled chicken smooshed with miso, tahini and mayo, then ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/03/hot-honey-salmon-_-tumeric-rice3860-7-copy.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Cooked Chicken Breast",
+      "Spring Onion",
+      "Celery",
+      "Cucumber",
+      "Fresh Coriander",
+      "White Miso",
+      "Mayonnaise",
+      "Tahini",
+      "1tabtbsp Sesame Seeds",
+      "Sourdough",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "chicken-miso-spring-onion-smash-rice-bowl",
+    "title": "Chicken, Miso & Spring Onion Smash Rice Bowl",
+    "time": 40,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "meal-prep",
+      "asian"
+    ],
+    "description": "Creamy, punchy and piled high on rice. Pulled chicken smooshed with miso, tahini and mayo, then f...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/03/Chicken-Miso-Spring-Onion-Rice-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Chicken Breast",
+      "Water",
+      "Spring Onion",
+      "Garlic Clove",
+      "Fine Salt",
+      "Spring Onion",
+      "Celery",
+      "75 Cucumber",
+      "Fresh Coriander",
+      "White Miso",
+      "Mayonnaise",
+      "Tahini",
+      "1tabtbsp Sesame Seeds",
+      "Salt",
+      "Black Pepper",
+      "Pouch Microwave Rice",
+      "Spring Onion",
+      "Crispy Chilli Oil",
+      "25 Cucumber"
     ]
   },
   {
@@ -3843,6 +4342,62 @@
     ]
   },
   {
+    "slug": "chicken-pesto-sun-dried-tomato-high-protein-smash",
+    "title": "Chicken, Pesto & Sun-Dried Tomato High Protein Smash",
+    "time": 10,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "meal-prep",
+      "italian",
+      "quick"
+    ],
+    "description": "Shredded chicken, creamy cottage cheese and punchy pesto, loaded with fresh tomatoes and herbs. P...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/03/Chicken-Pesto-Sun-Dried-Tomato-High-Protein-Smash.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Cooked Chicken",
+      "Cottage Cheese",
+      "Pesto",
+      "Sun-Dried Tomato",
+      "Cherry Tomatoes",
+      "Spinach",
+      "Fresh Basil",
+      "Spring Onion",
+      "Sourdough",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "chicken-pesto-sun-dried-tomato-pasta",
+    "title": "Chicken, Pesto & Sun-Dried Tomato Pasta",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "meal-prep",
+      "italian",
+      "quick"
+    ],
+    "description": "Shredded chicken, creamy cottage cheese and punchy pesto, loaded with fresh tomatoes and herbs al...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/03/Pesto-Chicken-Smoosh4658-7.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Rigatoni",
+      "Cooked Chicken",
+      "Cottage Cheese",
+      "Pesto",
+      "Sun-Dried Tomato",
+      "Cherry Tomatoes",
+      "Spinach",
+      "Fresh Basil",
+      "Spring Onion",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
     "slug": "chicken-potatoes-prunes-pomegranate-molasses",
     "title": "Chicken with potatoes, prunes and pomegranate molasses",
     "time": 35,
@@ -3867,6 +4422,67 @@
       "sweet mango chutney",
       "whole black peppercorns",
       "oregano sprigs"
+    ]
+  },
+  {
+    "slug": "chicken-red-rice-burrito-bowl",
+    "title": "Chicken & Red Rice Burrito Bowl",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "mexican",
+      "quick"
+    ],
+    "description": "This one has everything: perfectly cooked chicken, a satisfying rice base and fresh zingy veggie ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Chicken-Red-Rice-Burrito-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Red Rice",
+      "Boneless Skinless Chicken Thigh",
+      "White Onion",
+      "Chipotle Paste",
+      "Garlic Powder",
+      "Dried Oregano",
+      "Ground Cumin",
+      "Olive Oil",
+      "Fresh Coriander",
+      "5 White Cabbage",
+      "Cherry Tomatoes",
+      "Feta",
+      "Hot Sauce"
+    ]
+  },
+  {
+    "slug": "chicken-satay-grain-bowl",
+    "title": "Chicken Satay Grain Bowl",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "asian"
+    ],
+    "description": "Nutty, spicy, zingy and full of crunch. This chicken satay grain bowl is a midweek win that’s jus...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/9/Chicken-Satay-Grain-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Boneless Skinless Chicken Thigh",
+      "Lime",
+      "Soy Sauce",
+      "Salt",
+      "Black Pepper",
+      "Peanut Butter",
+      "Sriracha",
+      "Soy Sauce",
+      "Honey",
+      "Water",
+      "Lime",
+      "Kale",
+      "Cooked Mixed Grains",
+      "Can Cooked Butter Beans",
+      "Spring Onion",
+      "Red Bird's Eye Chilli",
+      "Lime",
+      "Olive Oil"
     ]
   },
   {
@@ -3916,6 +4532,35 @@
       "caster sugar",
       "garlic cloves",
       "olive oil"
+    ]
+  },
+  {
+    "slug": "chicken-spinach-cheddar-soup",
+    "title": "Chicken, Spinach & Cheddar Soup",
+    "time": 40,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "meal-prep"
+    ],
+    "description": "If you want to eat your greens and hit your protein, this one’s for you. Shredded chicken in a vi...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Green-Chicken-Cheddar-Soup.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Red Onion",
+      "Lemon",
+      "White Onion",
+      "2Stalk Celery",
+      "Garlic Clove",
+      "Butter",
+      "Ground Coriander",
+      "Chilli Flakes",
+      "Frozen Spinach",
+      "Chicken Stock",
+      "Boneless Skinless Chicken Thigh",
+      "Spinach",
+      "Mature Cheddar Cheese",
+      "Sourdough"
     ]
   },
   {
@@ -4141,6 +4786,31 @@
     ]
   },
   {
+    "slug": "chilled-chicken-noodle-salad",
+    "title": "Chilled Chicken Noodle Salad",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "asian",
+      "quick"
+    ],
+    "description": "Chilled soba noodles, juicy poached chicken leftovers and loads of crunchy veg, tossed with a chi...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/6/Chilled-Chicken-Noodle-Salad.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Soba Noodles",
+      "Carrot",
+      "5 Cucumber",
+      "Spring Onion",
+      "Fresh Coriander",
+      "Soy Sauce",
+      "Rice Vinegar",
+      "Crispy Chilli Oil",
+      "Sesame Seeds",
+      "Salt"
+    ]
+  },
+  {
     "slug": "chilli-braised-tomatoes-beans",
     "title": "Chilli braised tomatoes and beans",
     "time": 40,
@@ -4164,6 +4834,121 @@
       "olive oil",
       "basil leaves",
       "flaked sea salt and freshly cracked black pepper"
+    ]
+  },
+  {
+    "slug": "chilli-garlic-prawn-rice-bowl-with-cucumber-salad",
+    "title": "Chilli Garlic Prawn Rice Bowl With Cucumber Salad",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "asian"
+    ],
+    "description": "Punchy sriracha prawns, crisp pickled cucumber, and sticky rice. A straight-up weeknight win.",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Chilli-Garlic-Prawn-Rice-Bowl-with-Cucumber-Salad.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Sushi Rice",
+      "Water",
+      "Lime",
+      "Cucumber",
+      "Rice Vinegar",
+      "Soy Sauce",
+      "Raw Prawn",
+      "Unsalted Butter",
+      "Garlic",
+      "Red Chilli",
+      "Sriracha",
+      "White Sugar",
+      "Spring Onion",
+      "Fresh Coriander",
+      "Salt"
+    ]
+  },
+  {
+    "slug": "chinese-cracked-tea-eggs",
+    "title": "Chinese Cracked Tea Eggs",
+    "time": 21,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish",
+      "quick"
+    ],
+    "description": "Jammy yolks, spiced soy marinade and that classic marble effect. You'll feel smug with these eggs...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/6/Chinese-Cracked-Tea-Eggs.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Egg",
+      "Soy Sauce",
+      "Dark Soy Sauce",
+      "3Tea Bag Black Tea",
+      "Chinese Five-Spice",
+      "Star Anise",
+      "Cinnamon Stick",
+      "Sugar",
+      "Water",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "chipotle-chicken-traybake",
+    "title": "Chipotle Chicken Traybake",
+    "time": 40,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "mexican"
+    ],
+    "description": "We love a chicken traybake recipe. It's a surefire way to get a dinner that the whole family will...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Chipotle-Chicken-Traybake.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Boneless Skinless Chicken Thigh",
+      "White Onion",
+      "Chipotle Paste",
+      "Garlic Powder",
+      "Dried Oregano",
+      "Ground Cumin",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "chipotle-chicken-with-lemony-kale-rice",
+    "title": "Chipotle Chicken with Lemony Kale Rice",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "mexican"
+    ],
+    "description": "Juicy, smoky chipotle chicken meets buttery garlic rice, lemony kale and loads of flavour. This o...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/9/Lunch-Box-Chipotle-Chicken-with-Chilli-Kale-Rice.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Boneless Skinless Chicken Thigh",
+      "White Onion",
+      "Garlic Clove",
+      "Chipotle Paste",
+      "Dried Oregano",
+      "Ground Cumin",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper",
+      "Garlic Clove",
+      "Butter",
+      "Kale",
+      "Jasmine Rice",
+      "Water",
+      "Lemon",
+      "Salt",
+      "Cheddar Cheese",
+      "Yoghurt",
+      "Lime Wedge"
     ]
   },
   {
@@ -5117,6 +5902,57 @@
     ]
   },
   {
+    "slug": "cottage-cheese-chicken-caesar",
+    "title": "Cottage Cheese Chicken Caesar",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "italian"
+    ],
+    "description": "Everyone’s favourite salad made healthy. The cottage cheese dressing drops the calories substanti...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2024/12/Cottage-Cheese-Caesar.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Tenderstem Broccoli",
+      "Bone-In Skin-On Chicken Thigh",
+      "Sourdough",
+      "Romaine Lettuce",
+      "Basil",
+      "Parmesan",
+      "Olive Oil",
+      "Cottage Cheese",
+      "Anchovy",
+      "Parmesan",
+      "Garlic",
+      "Worcestershire Sauce",
+      "Lemon"
+    ]
+  },
+  {
+    "slug": "cottage-cheese-pesto-pasta-salad",
+    "title": "Cottage Cheese Pesto Pasta Salad",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "italian",
+      "quick"
+    ],
+    "description": "A quick and easy high-protein pasta salad you can make in under half an hour. Fresh, flavour, and...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Cottage-Cheese-Pesto-Pasta-Salad.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Fusilli",
+      "Cottage Cheese",
+      "Parmesan",
+      "Fresh Basil",
+      "Cherry Tomatoes",
+      "Baby Spinach",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
     "slug": "courgette-chickpea-herb-pancakes",
     "title": "Courgette, chickpea and herb pancakes",
     "time": 30,
@@ -5302,6 +6138,36 @@
     ]
   },
   {
+    "slug": "creamy-spinach-pea-orzo-with-cod",
+    "title": "Creamy Spinach & Pea Orzo with Cod",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "italian",
+      "quick"
+    ],
+    "description": "Soft orzo, flaky cod, sweet peas and zingy herbs all in one pan. Light, bright, and packed with p...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Creamy-Spinach-Pea-Orzo-with-Cod.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Skinless Cod Fillet",
+      "Orzo",
+      "Spinach",
+      "Frozen Pea",
+      "Shallot",
+      "Garlic",
+      "Fresh Dill",
+      "Fresh Parsley",
+      "Fat Greek Yoghurt⁣",
+      "Olive Oil",
+      "Lemon",
+      "Water",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
     "slug": "crisp-omelette",
     "title": "Crisp omelette",
     "time": 13,
@@ -5324,6 +6190,65 @@
     ]
   },
   {
+    "slug": "crispy-bacon-egg-high-protein-smash",
+    "title": "Crispy Bacon & Egg High Protein Smash",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "meal-prep",
+      "quick"
+    ],
+    "description": "Creamy egg yolk, crispy bacon, and blistered tomatoes all smooshed together into something you'll...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/03/Crispy-Bacon-Egg-Tomato-Smoosh.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Egg",
+      "4Rasher Streaky Bacon",
+      "Cherry Tomatoes",
+      "Cream Cheese",
+      "Feta",
+      "Spring Onion",
+      "Salt",
+      "Black Pepper",
+      "Sourdough"
+    ]
+  },
+  {
+    "slug": "crispy-beef-dan-dan-noodles",
+    "title": "Crispy Beef Dan Dan Noodles",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "asian",
+      "quick"
+    ],
+    "description": "Finn’s take on dan dan noodles is such a treat. Drenched in a creamy peanut-chilli sauce, topped ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/02/Crispy-Beef-Dan-Dan-Noodles.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Neutral Oil",
+      "Spring Onion",
+      "Beef Mince",
+      "Fresh Ginger",
+      "Shaoxing Wine",
+      "Light Soy Sauce",
+      "5tsp Dark Soy Sauce",
+      "5tsp Sugar",
+      "Peanut Butter",
+      "Light Soy Sauce",
+      "Dark Soy Sauce",
+      "Chinese Black Vinegar",
+      "Crispy Chilli Oil",
+      "Sugar",
+      "Garlic",
+      "Choy Sum",
+      "2Nest Fresh Wheat Noodles",
+      "Peanut",
+      "Crispy Chilli Oil"
+    ]
+  },
+  {
     "slug": "crispy-cheese-mustard-cauliflower-bites",
     "title": "Crispy cheese and mustard cauliflower bites",
     "time": 45,
@@ -5343,6 +6268,35 @@
       "flaked sea salt and black pepper",
       "sunflower oil",
       "cauliflower"
+    ]
+  },
+  {
+    "slug": "crispy-chicken-brown-rice-chickpeas-tzatziki",
+    "title": "Crispy Chicken, Brown Rice, Chickpeas & Tzatziki",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "high-protein"
+    ],
+    "description": "A super healthy, one-pan, high-protein banger is on the table in under 30 minutes. What’s not to ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2024/12/Chicken-Brown-Rice-Tzatziki.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Courgette",
+      "Red Onion",
+      "Bone-In Skin-On Chicken Thigh",
+      "Fresh Parsley",
+      "Lemon Wedge",
+      "5 Cucumber",
+      "Fat Greek Yoghurt",
+      "Garlic",
+      "Lemon",
+      "Cooked Brown Rice",
+      "Chickpeas",
+      "Garlic",
+      "Smoked Paprika",
+      "Ground Cumin",
+      "Ground Coriander"
     ]
   },
   {
@@ -5373,6 +6327,54 @@
       "carlin peas",
       "rocket",
       "fine sea salt and black pepper"
+    ]
+  },
+  {
+    "slug": "crispy-chicken-thighs",
+    "title": "Crispy Chicken Thighs",
+    "time": 30,
+    "tags": [
+      "finn-tonry"
+    ],
+    "description": "The ultimate recipe for juicy chicken thighs with the crispiest skin. This one is the perfect pro...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Crispy-Chicken-Thighs.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Bone-In Skin-On Chicken Thigh"
+    ]
+  },
+  {
+    "slug": "crispy-cod-with-spring-onion-sesame-butter-sauce",
+    "title": "Crispy Cod with Spring Onion & Sesame Butter Sauce",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "fish",
+      "asian"
+    ],
+    "description": "Crispy, golden cod with a zingy garlic, ginger & spring onion butter. High-protein, full of flavo...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/8/Crispy-Cod-with-Spring-Onion-Sesame-Butter-Sauce.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Sushi Rice",
+      "Water",
+      "Skinless Cod Fillet",
+      "Cornflour",
+      "Fresh Ginger",
+      "Garlic",
+      "Spring Onion",
+      "Unsalted Butter",
+      "Toasted Sesame Oil",
+      "Chilli Flakes",
+      "Spinach",
+      "Toasted Sesame Seeds",
+      "Soy Sauce",
+      "Fresh Coriander",
+      "Lime",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper"
     ]
   },
   {
@@ -5445,6 +6447,97 @@
     ]
   },
   {
+    "slug": "crispy-harissa-lamb-hummus-bowl",
+    "title": "Crispy Harissa Lamb Hummus Bowl",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "quick"
+    ],
+    "description": "Golden, spicy lamb, creamy hummus and fresh zingy salad all scooped up with crisp flatbreads. A d...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/8/Crispy-Harissa-Lamb-Hummus-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Lemon",
+      "Lamb Mince",
+      "Harissa Paste",
+      "Ground Cumin",
+      "5tsp Chilli Flakes",
+      "Green Bird's Eye Chilli",
+      "5 Red Onion",
+      "Sumac",
+      "Cherry Tomatoes",
+      "5 Cucumber",
+      "Hummus",
+      "Flatbread",
+      "Fresh Flat Leaf Parsley",
+      "Fresh Dill",
+      "Sesame Seeds",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "crispy-rice-poached-chicken-salad",
+    "title": "Crispy Rice & Poached Chicken Salad",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "asian"
+    ],
+    "description": "Crispy rice, tender poached chicken and crunchy veg tossed in a punchy peanut-chilli dressing. Th...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Crispy-Rice-Poached-Chicken-Salad.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Chicken Breast",
+      "Salt",
+      "Cooked Short Grain Rice",
+      "Sesame Oil",
+      "Cucumber",
+      "Carrot",
+      "Beansprouts",
+      "Spring Onion",
+      "Peanut Butter",
+      "Crispy Chilli Oil",
+      "Sherry Vinegar",
+      "Soy Sauce",
+      "Fresh Coriander",
+      "Shichimi Togarashi"
+    ]
+  },
+  {
+    "slug": "crispy-rice-smoked-salmon-salad",
+    "title": "Crispy Rice Smoked Salmon Salad",
+    "time": 60,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "asian"
+    ],
+    "description": "\"In Partnership with Aldi. #ad.",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Crispy-Rice-Smoked-Salmon-Salad.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Packet Microwave Rice",
+      "Soy Sauce",
+      "Vegetable Oil",
+      "4Fillet Hot Smoked Salmon Fillet",
+      "Cherry Tomatoes",
+      "Baby Cucumber",
+      "2Stalk Celery",
+      "Spring Onion",
+      "Fresh Coriander",
+      "Red Chilli",
+      "Salt",
+      "Crunchy Peanut Butter",
+      "Soy Sauce",
+      "Sriracha",
+      "Lime"
+    ]
+  },
+  {
     "slug": "crispy-roast-potatoes-rosemary-zaatar-salsa-verde",
     "title": "Crispy roast potatoes with rosemary, za'atar and salsa verde",
     "time": 113,
@@ -5478,6 +6571,38 @@
       "parsley",
       "white wine vinegar",
       "flaked sea salt and black pepper"
+    ]
+  },
+  {
+    "slug": "crunchy-quinoa-chicken-bean-salad",
+    "title": "Crunchy Quinoa, Chicken & Bean Salad",
+    "time": 35,
+    "tags": [
+      "finn-tonry",
+      "meal-prep"
+    ],
+    "description": "This healthy salad recipe is packed with fibre and protein. The crunchy quinoa adds a nice pop of...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Lunch-Box-Crunchy-Quinoa-Chicken-Salad.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Boneless Skinless Chicken Thigh",
+      "Garlic Clove",
+      "Lemon",
+      "Dried Oregano",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper",
+      "Cooked Quinoa",
+      "Cavolo Nero",
+      "Spring Onion",
+      "Drained Cooked Cannellini Beans",
+      "Spring Onion",
+      "Garlic Clove",
+      "Pickled Jalapeño",
+      "Pickled Jalapeño Brine",
+      "Greek Yoghurt",
+      "Fresh Parsley",
+      "Olive Oil"
     ]
   },
   {
@@ -5840,6 +6965,28 @@
     ]
   },
   {
+    "slug": "date-bark",
+    "title": "Date Bark",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "vegan",
+      "fish",
+      "quick"
+    ],
+    "description": "This sweet and chewy date bark is the perfect healthy snack. Everyone is going to want some.",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Date-Bark.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Pitted Date",
+      "Smooth Peanut Butter",
+      "Peanut",
+      "Dark Chocolate",
+      "Coconut Oil"
+    ]
+  },
+  {
     "slug": "date-oat-soda-bread-salted-date-butter",
     "title": "Date and oat soda bread with salted date butter",
     "time": 60,
@@ -6043,6 +7190,33 @@
       "cantaloupe melon",
       "mixture of picked mint",
       "flaked sea salt and black pepper"
+    ]
+  },
+  {
+    "slug": "egg-cheese-breakfast-quesadillas",
+    "title": "Egg & Cheese Breakfast Quesadillas",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "meal-prep",
+      "mexican",
+      "quick"
+    ],
+    "description": "The perfect batch breakfast. Super quick, packed with protein and easily customisable: mix it up ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Breakfast-Quesadilla.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Egg",
+      "Flour Tortilla",
+      "Light Cream Cheese",
+      "Butter",
+      "Grated Mozzarella",
+      "Hot Sauce",
+      "Lime",
+      "Bacon",
+      "Kimchi",
+      "Spring Onion"
     ]
   },
   {
@@ -6462,6 +7636,35 @@
     ]
   },
   {
+    "slug": "firecracker-beef-rice-bowl",
+    "title": "Firecracker Beef Rice Bowl",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "asian"
+    ],
+    "description": "A spicy, satisfying beef rice bowl with sweet-savoury sriracha glaze and crisp broccoli.",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/11/Firecracker-Beef-Rice-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Sushi Rice",
+      "Water",
+      "Neutral Oil",
+      "Onion",
+      "Garlic",
+      "Fresh Ginger",
+      "Fat Beef Mince",
+      "Sriracha",
+      "Honey",
+      "Soy Sauce",
+      "Rice Vinegar",
+      "Red Chilli",
+      "Spring Onion",
+      "Tenderstem Broccoli",
+      "Salt"
+    ]
+  },
+  {
     "slug": "fish-prawn-pirao",
     "title": "Fish and prawn pirão",
     "time": 25,
@@ -6520,6 +7723,32 @@
       "water",
       "vanilla pod",
       "unsalted butter"
+    ]
+  },
+  {
+    "slug": "fragrant-chicken-noodle-soup",
+    "title": "Fragrant Chicken Noodle Soup",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "asian",
+      "quick"
+    ],
+    "description": "Light but packed with flavour, this noodle soup uses our gorgeous Poached Chicken & Ginger Broth ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/6/Fragrant-Chicken-Noodle-Soup.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Fish Sauce",
+      "Sugar",
+      "Salt",
+      "Flat Rice Noodle",
+      "Beansprouts",
+      "Spring Onion",
+      "Fresh Coriander",
+      "Fresh Mint",
+      "Sriracha",
+      "Lime",
+      "Red Bird's Eye Chilli"
     ]
   },
   {
@@ -6787,6 +8016,40 @@
       "good-quality rose water",
       "pomegranate seeds",
       "lime"
+    ]
+  },
+  {
+    "slug": "garlic-butter-prawn-noodles",
+    "title": "Garlic Butter Prawn Noodles",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "asian",
+      "quick"
+    ],
+    "description": "Garlicky, buttery prawns tossed in a deeply a umami sauce, with loads of crunch from cashews and ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/11/Garlic-Butter-Shrimp-Noodles.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Raw Peeled King Prawn",
+      "Udon Noodle",
+      "Butter",
+      "Spinach",
+      "Garlic",
+      "Fresh Ginger",
+      "Red Chilli",
+      "Cashew Nut",
+      "Spring Onion",
+      "Chilli Oil",
+      "Oyster Sauce",
+      "Dark Soy Sauce",
+      "Light Soy Sauce",
+      "Sriracha",
+      "Sugar",
+      "Chinese Black Vinegar",
+      "Olive Oil",
+      "Salt"
     ]
   },
   {
@@ -7062,6 +8325,60 @@
     ]
   },
   {
+    "slug": "gochujang-marinated-eggs",
+    "title": "Gochujang Marinated Eggs",
+    "time": 16,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish",
+      "quick"
+    ],
+    "description": "Rich, spicy, and sweet with a gochujang kick. These deep-red beauties are unreal over rice with a...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/6/Gochujang-Marinated-Eggs.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Egg",
+      "Gochujang",
+      "Soy Sauce",
+      "Honey",
+      "Gochugaru",
+      "Fresh Ginger",
+      "Water",
+      "Salt",
+      "Spring Onion"
+    ]
+  },
+  {
+    "slug": "golden-chicken-with-herb-feta-fregola",
+    "title": "Golden Chicken with Herb & Feta Fregola",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "mediterranean"
+    ],
+    "description": "Buttery, pounded chicken breast over garlicky yoghurt and a lemony fregola. A speedy midweek meal...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/8/Golden-Chicken-with-Olive-Herb-Feta-Fregola.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Fregola",
+      "Fresh Parsley",
+      "Fresh Dill",
+      "Lemon",
+      "Feta",
+      "Greek Yoghurt",
+      "Garlic",
+      "Chicken Breast",
+      "Plain Flour",
+      "Capers",
+      "Unsalted Butter",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
     "slug": "gondi",
     "title": "Gondi ",
     "time": 100,
@@ -7208,6 +8525,34 @@
     ]
   },
   {
+    "slug": "green-curry-poached-chicken-in-brothy-rice",
+    "title": "Green Curry Poached Chicken in Brothy Rice",
+    "time": 35,
+    "tags": [
+      "finn-tonry",
+      "thai"
+    ],
+    "description": "So quick, so delicious! This dish is light, packed with nutrients, and bursting with flavour. Per...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/1/Green-Curry-Poached-Chicken.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Jasmine Rice",
+      "Shallot",
+      "Thai Red Chilli",
+      "Fresh Thai Basil",
+      "Can Coconut Milk",
+      "Thai Green Curry Paste",
+      "Sugar",
+      "Fish Sauce",
+      "Chicken Stock",
+      "Spinach",
+      "Fresh Coriander",
+      "Chicken Breast",
+      "Baby Corn",
+      "Lime"
+    ]
+  },
+  {
     "slug": "green-herb-salad",
     "title": "Green herb salad",
     "time": 45,
@@ -7239,6 +8584,39 @@
       "sage leaves",
       "lemon juice",
       "salt and black pepper"
+    ]
+  },
+  {
+    "slug": "green-noodles",
+    "title": "Green Noodles",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "asian",
+      "quick"
+    ],
+    "description": "These veggie udon noodles are high in protein and packed full of green goodness. They’re healthy,...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2024/11/Green-Tofu-Udon.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Garlic Clove",
+      "Red Chilli",
+      "Shallot",
+      "Vegetable Oil",
+      "Sugar",
+      "MSG",
+      "Cavolo Nero",
+      "Baby Spinach",
+      "Fresh Coriander",
+      "Garlic",
+      "Silken Tofu",
+      "Tahini",
+      "Sriracha",
+      "Miso Paste",
+      "Light Soy Sauce",
+      "Udon Noodle",
+      "Egg"
     ]
   },
   {
@@ -7812,6 +9190,64 @@
     ]
   },
   {
+    "slug": "harissa-chicken-traybake-with-herby-grains",
+    "title": "Harissa Chicken Traybake with Herby Grains",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "mediterranean"
+    ],
+    "description": "Charred harissa chicken and jammy onions grilled to perfection, served over lemony courgette grai...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/9/Lunch-Box-Harissa-Chicken-Traybake-with-Herby-Grains.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Boneless Skinless Chicken Thigh",
+      "White Onion",
+      "Garlic",
+      "Harissa Paste",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper",
+      "Courgette",
+      "Mixed Cooked Grains",
+      "Lemon",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper",
+      "Fresh Dill",
+      "Fresh Flat Leaf Parsley",
+      "Skyr Natural Yoghurt"
+    ]
+  },
+  {
+    "slug": "harissa-chicken-traybake-with-jammy-tomatoes-olives",
+    "title": "Harissa Chicken Traybake with Jammy Tomatoes & Olives",
+    "time": 50,
+    "tags": [
+      "finn-tonry",
+      "mediterranean"
+    ],
+    "description": "Crispy-skinned chicken thighs roasted over burst cherry tomatoes and briny olives, served with a ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/03/Harissa-Chicken-Traybake-with-Jammy-Tomatoes-Olives.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Bone-In Skin-On Chicken Thigh",
+      "Cherry Tomatoes",
+      "Pitted Green Olive",
+      "Olive Oil",
+      "Dried Oregano",
+      "Pouch Microwaveable Wild Rice Pouch",
+      "Fresh Parsley",
+      "Salt",
+      "Black Pepper",
+      "Greek Yoghurt",
+      "Harissa Paste",
+      "25 Lemon",
+      "Salt"
+    ]
+  },
+  {
     "slug": "harissa-gruyere-gratin",
     "title": "Harissa and gruyere gratin",
     "time": 95,
@@ -8059,6 +9495,30 @@
     ]
   },
   {
+    "slug": "healthy-snickers-balls",
+    "title": "Healthy Snickers Balls",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "vegan",
+      "fish",
+      "quick"
+    ],
+    "description": "Got a sweet tooth? Make up a batch of these Snickers-inspired date and peanut butter balls. They'...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/4/Healthy-Snickers-Balls.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Pitted Date",
+      "Peanut",
+      "Peanut Butter",
+      "Poppy Seed",
+      "Dark Chocolate",
+      "Dark Chocolate",
+      "Peanut",
+      "Sea Salt"
+    ]
+  },
+  {
     "slug": "helens-bolognese",
     "title": "Helen's Bolognese",
     "time": 57,
@@ -8132,6 +9592,60 @@
     ]
   },
   {
+    "slug": "high-protein-ribollita-with-crumbled-sausage",
+    "title": "High-Protein Ribollita with Crumbled Sausage",
+    "time": 50,
+    "tags": [
+      "finn-tonry",
+      "italian"
+    ],
+    "description": "Ribollita is my favourite Italian soup, but I’ve mixed it up a bit here by crisping up the bread ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2024/12/Ribollita-with-Chicken-Sausage-Crumble.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Chicken Sausage",
+      "White Onion",
+      "4Stalk Celery",
+      "Garlic",
+      "Can Plum Tomatoes",
+      "Cavolo Nero",
+      "Jar Butter Beans",
+      "Chilli Flakes",
+      "Fennel Seed",
+      "Tomato Purée",
+      "Bay Leaf",
+      "Parmesan",
+      "Chicken Stock",
+      "Sourdough",
+      "Fresh Parsley",
+      "Olive Oil"
+    ]
+  },
+  {
+    "slug": "high-protein-smoothie-bowl",
+    "title": "High-Protein Smoothie Bowl",
+    "time": 5,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "fish",
+      "quick"
+    ],
+    "description": "Stop drinking shop-bought protein shakes and make this healthy, high-protein breakfast smoothie b...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/4/High-Protein-Smoothie-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Vanilla Protein Powder",
+      "Almond Milk",
+      "Skyr Natural Yoghurt",
+      "Blueberry",
+      "Raspberry",
+      "Pineapple",
+      "Chia Seed",
+      "Whole Flaxseed"
+    ]
+  },
+  {
     "slug": "honey-apricot-trifle-walnuts-lavender",
     "title": "Honey and apricot trifle with walnut and lavender",
     "time": 30,
@@ -8154,6 +9668,116 @@
       "creme fraiche",
       "mascarpone",
       "icing sugar"
+    ]
+  },
+  {
+    "slug": "honey-dijon-chicken-thighs",
+    "title": "Honey-Dijon Chicken Thighs",
+    "time": 35,
+    "tags": [
+      "finn-tonry"
+    ],
+    "description": "Sweet, sticky, and ridiculously easy to make. These honey mustard chicken thighs are serious busi...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Honey-Dijon-Chicken-Thighs.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Bone-In Skin-On Chicken Thigh",
+      "Lemon",
+      "Honey",
+      "Dijon Mustard",
+      "Paprika",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "honey-dijon-roast-chicken-with-leek-y-parmesan-chickpeas",
+    "title": "Honey-Dijon Roast Chicken with Leek-y Parmesan Chickpeas",
+    "time": 40,
+    "tags": [
+      "finn-tonry"
+    ],
+    "description": "Pure high-protein comfort. Crispy, sticky chicken thighs paired with creamy, cheesy chickpeas, al...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2024/12/Honey-Dijon-Chicken.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Lemon",
+      "Honey",
+      "Paprika",
+      "Dijon Mustard",
+      "Bone-In Skin-On Chicken Thigh",
+      "Greek Yoghurt",
+      "Green Chilli",
+      "Fresh Dill",
+      "Fresh Parsley",
+      "Leek",
+      "Garlic",
+      "Chilli Flakes",
+      "Can Chickpeas",
+      "Chicken Stock",
+      "Parmesan",
+      "Olive Oil"
+    ]
+  },
+  {
+    "slug": "honey-mustard-salmon-with-dilly-rice-everything-bagel-cream-cheese",
+    "title": "Honey Mustard Salmon with Dilly Rice & Everything Bagel Cream Cheese",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "fish",
+      "quick"
+    ],
+    "description": "Sticky salmon, sharp pickled salad, punchy dill rice and a creamy dollop of Everything Bagel crea...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/8/Honey-Mustard-Salmon-with-Dilly-Rice-Everything-Bagel-Cream-Cheese.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Dijon Mustard",
+      "Honey",
+      "Skinless Salmon Fillet",
+      "5 Cucumber",
+      "5 Red Onion",
+      "White Wine Vinegar",
+      "Caster Sugar",
+      "Jasmine Rice",
+      "5 Lemon",
+      "Fresh Dill",
+      "Cream Cheese",
+      "Everything Bagel Seasoning"
+    ]
+  },
+  {
+    "slug": "honey-soy-chicken-sesame-spinach",
+    "title": "Honey Soy Chicken & Sesame Spinach",
+    "time": 40,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "asian"
+    ],
+    "description": "Super glossy, umami-packed chicken with a refreshing sesame spinach salad. A dish that proves hea...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/2/Honey-Soy-Chicken-Sesame-Spinach.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Honey",
+      "Dijon Mustard",
+      "Soy Sauce",
+      "Rice Wine Vinegar",
+      "Oyster Sauce",
+      "25tsp Black Pepper",
+      "Spring Onion",
+      "Sushi Rice",
+      "Boneless Skinless Chicken Thigh",
+      "Vegetable Oil",
+      "Lemon Wedge",
+      "Shichimi Togarashi",
+      "Spinach",
+      "Toasted Sesame Seeds",
+      "Tahini",
+      "Soy Sauce",
+      "Rice Wine Vinegar"
     ]
   },
   {
@@ -8767,6 +10391,34 @@
     ]
   },
   {
+    "slug": "kimchi-tuna-melt-wrap",
+    "title": "Kimchi Tuna Melt Wrap",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish",
+      "asian",
+      "quick"
+    ],
+    "description": "Spicy tuna with gooey melted cheese inside a crispy, toasted wrap. Perfect for meal prep or a qui...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/2/Kimchi-Tuna-Melt-Wrap.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Spring Onion",
+      "Kimchi",
+      "1Stalk Celery",
+      "Tuna",
+      "Light Cream Cheese",
+      "Light Mayonnaise",
+      "Sriracha",
+      "Red Onion",
+      "Wholemeal Wrap",
+      "Mature Cheddar Cheese",
+      "Grated Low-Fat Mozzarella"
+    ]
+  },
+  {
     "slug": "kohlrabi-apple-beetroot-salad",
     "title": "Kohlrabi, apple and beetroot salad",
     "time": 45,
@@ -8788,6 +10440,33 @@
       "cider vinegar or white wine vinegar",
       "extra virgin olive oil",
       "salt and pepper"
+    ]
+  },
+  {
+    "slug": "korean-marinated-eggs-mayak-eggs",
+    "title": "Korean Marinated Eggs (Mayak Eggs)",
+    "time": 15,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish",
+      "quick"
+    ],
+    "description": "Our take on the viral drug eggs. These guys are the ultimate lunch meal prep. Super quick, super ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2024/12/Korean-Marinated-Eggs.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Egg",
+      "Garlic Clove",
+      "Spring Onion",
+      "Red Chilli",
+      "Soy Sauce",
+      "Water",
+      "Rice Wine Vinegar",
+      "Fish Sauce",
+      "Honey",
+      "Sesame Seeds",
+      "Cooked Rice"
     ]
   },
   {
@@ -9207,6 +10886,30 @@
     ]
   },
   {
+    "slug": "lazy-cottage-cheese-tomato-pasta",
+    "title": "Lazy Cottage Cheese & Tomato Pasta",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "italian",
+      "quick"
+    ],
+    "description": "Cottage cheese is the ultimate hack for a protein-packed pasta sauce. It melts down into the toma...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/03/Creamy-Cottage-Cheese-Tomato-Pasta.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Conchiglie",
+      "Jar Tomato Pasta Sauce",
+      "Cottage Cheese",
+      "Spinach",
+      "Fresh Basil",
+      "Parmesan",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
     "slug": "leek-lamb-stuffed-batbout",
     "title": "Leek and lamb stuffed Batbout ",
     "time": 140,
@@ -9237,6 +10940,32 @@
       "olive oil",
       "lemony tahini or lemon wedges to squeeze over",
       "fine sea salt and black pepper"
+    ]
+  },
+  {
+    "slug": "leek-y-parmesan-chickpeas",
+    "title": "Leek-y Parmesan Chickpeas",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "italian",
+      "quick"
+    ],
+    "description": "These creamy, cheesy chickpeas go great with just about everything. Serve them with fluffy rice o...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Leek-y-Parmesan-Chickpeas.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Leek",
+      "Garlic Clove",
+      "Lemon",
+      "Chilli Flakes",
+      "Dijon Mustard",
+      "Drained Cooked Chickpeas",
+      "Chicken Stock",
+      "Parmesan",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper"
     ]
   },
   {
@@ -9811,6 +11540,31 @@
     ]
   },
   {
+    "slug": "marry-me-chicken-pasta-bake",
+    "title": "Marry Me Chicken Pasta Bake",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "italian",
+      "quick"
+    ],
+    "description": "Creamy, spicy, cheesy and beyond delicious. This pasta bake brings heat and comfort in equal meas...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Marry-Me-Chicken-Pasta-Bake.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Fusilli",
+      "Cooked Chicken Breast",
+      "Cottage Cheese",
+      "Sun-Dried Tomato",
+      "Gochujang",
+      "Garlic Powder",
+      "Cherry Tomatoes",
+      "Fresh Basil",
+      "Parmesan",
+      "Salt"
+    ]
+  },
+  {
     "slug": "matilda-cake",
     "title": "\"Matilda\" cake",
     "time": 376,
@@ -9932,6 +11686,37 @@
     ]
   },
   {
+    "slug": "minced-beef-broccoli-stir-fry",
+    "title": "Minced Beef & Broccoli Stir Fry",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "asian",
+      "quick"
+    ],
+    "description": "Sweet, savoury and packed with umami. This sticky beef stir-fry hits hard and comes together in m...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Minced-Beef-Broccoli-Stir-Fry.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Fat Beef Mince",
+      "Vegetable Oil",
+      "Fresh Ginger",
+      "Garlic",
+      "Broccoli",
+      "Water",
+      "Sesame Oil",
+      "Sesame Seeds",
+      "Chicken Stock",
+      "Light Soy Sauce",
+      "Dark Soy Sauce",
+      "Oyster Sauce",
+      "Sugar",
+      "Ground White Pepper",
+      "Cornflour",
+      "Spring Onion"
+    ]
+  },
+  {
     "slug": "mirza-ghasemi-urfa-pine-nut-butter",
     "title": "Mirza Ghasemi with urfa and pine nut butter",
     "time": 28,
@@ -9996,6 +11781,87 @@
       "regular-sized onions",
       "unsalted butter",
       "white miso paste"
+    ]
+  },
+  {
+    "slug": "miso-butter-salmon-rice",
+    "title": "Miso Butter Salmon Rice",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "asian"
+    ],
+    "description": "Sweet, salty, sticky miso butter slathered over salmon, paired with rice, zingy cucumber, and spr...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/11/Miso-Butter-Salmon-Rice-Eggs.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Salmon",
+      "White Miso",
+      "Butter",
+      "Sushi Rice",
+      "Water",
+      "Egg",
+      "Cucumber",
+      "Spring Onion",
+      "Lemon",
+      "Rice Vinegar",
+      "Sugar",
+      "Soy Sauce",
+      "Salt"
+    ]
+  },
+  {
+    "slug": "miso-chicken-sesame-broccoli-rice",
+    "title": "Miso Chicken, Sesame Broccoli & Rice",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "japanese"
+    ],
+    "description": "This one-pan weeknight dinner is next-level. Juicy miso chicken, nutty sesame broccoli, and stick...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Miso-Chicken-Sesame-Broccoli-Rice.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Chicken Breast",
+      "White Miso",
+      "Rice Vinegar",
+      "Sugar",
+      "Vegetable Oil",
+      "Butter",
+      "Sushi Rice",
+      "Water",
+      "Broccoli",
+      "Soy Sauce",
+      "Sesame Seeds",
+      "Lemon",
+      "Salt"
+    ]
+  },
+  {
+    "slug": "miso-maple-ramen-eggs",
+    "title": "Miso Maple Ramen Eggs",
+    "time": 16,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish",
+      "asian",
+      "quick"
+    ],
+    "description": "These umami-packed eggs are sweet, salty, spicy and seriously addictive. Perfect with sticky rice...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/6/Miso-Maple-Marinated-Eggs.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Egg",
+      "Garlic",
+      "Soy Sauce",
+      "Dark Soy Sauce",
+      "Maple Syrup",
+      "White Miso",
+      "Rice Vinegar",
+      "Chilli Flakes",
+      "Water"
     ]
   },
   {
@@ -10299,6 +12165,53 @@
     ]
   },
   {
+    "slug": "nuoc-cham-vietnamese-fish-sauce-dressing",
+    "title": "Nuoc Cham (Vietnamese Fish Sauce Dressing)",
+    "time": 10,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "A vibrant, tangy, and umami-forward Vietnamese dipping sauce that pairs perfectly with grilled me...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Nuoc-Cham-Vietnamese-Fish-Sauce-Dressing.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Garlic Clove",
+      "Fresh Ginger",
+      "Red Bird's Eye Chilli",
+      "Fish Sauce",
+      "Rice Vinegar",
+      "Lime Juice",
+      "Sugar",
+      "Water"
+    ]
+  },
+  {
+    "slug": "olive-herb-buttery-rice",
+    "title": "Olive & Herb Buttery Rice",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "meal-prep"
+    ],
+    "description": "Fresh, briny, and loaded with goodness — this buttery herb recie is a great base for so many meals.",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Olive-Herb-Buttery-Rice.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Jasmine Rice",
+      "Chicken Stock",
+      "Salted Butter",
+      "Garlic Clove",
+      "Pitted Green Olive",
+      "Fresh Dill",
+      "Fresh Parsley",
+      "Salt",
+      "Black Pepper",
+      "Sugar"
+    ]
+  },
+  {
     "slug": "olive-oil-flatbreads-garlic-butter",
     "title": "Olive oil flatbreads with three-garlic butter",
     "time": 90,
@@ -10430,6 +12343,57 @@
       "thyme sprigs",
       "orzo",
       "flat-leaf parsley leaves"
+    ]
+  },
+  {
+    "slug": "one-pot-thai-green-chicken-curry",
+    "title": "One-Pot Thai Green Chicken Curry",
+    "time": 40,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "thai"
+    ],
+    "description": "The king of thai curries. This zingy and addictive thai green chicken curry is the perfect one po...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/9/Lunch-Box-One-Pot-Thai-Green-Chicken-Curry.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Vegetable Oil",
+      "Thai Green Curry Paste",
+      "Sugar",
+      "Coconut Milk",
+      "Fish Sauce",
+      "Chicken Stock",
+      "Boneless Skinless Chicken Thigh",
+      "Baby Corn",
+      "Mangetout",
+      "Fresh Coriander",
+      "Salt",
+      "Black Pepper",
+      "Cooked Rice",
+      "Lime",
+      "Red Chilli",
+      "Crispy Shallot",
+      "Fresh Coriander"
+    ]
+  },
+  {
+    "slug": "oozy-jammy-eggs",
+    "title": "Oozy Jammy Eggs",
+    "time": 11,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish",
+      "quick"
+    ],
+    "description": "While the humble egg seems simple to cook, getting the perfect jammy yolks and soft whites is an ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/6/Oozy-Jammy-Eggs.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Egg",
+      "Water",
+      "Ice"
     ]
   },
   {
@@ -10654,6 +12618,38 @@
     ]
   },
   {
+    "slug": "ovenroasted-chicken-adobo-with-rice-peanut-butter-greens",
+    "title": "Oven‑Roasted Chicken Adobo with Rice & Peanut Butter Greens",
+    "time": 55,
+    "tags": [
+      "finn-tonry",
+      "high-protein"
+    ],
+    "description": "This recipe is inspired by the classic Filipino dish, Chicken Adobo. It balances savoury, tangy, ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/8/Oven-Roasted-Chicken-Adobo-with-Peanut-Butter-Greens.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Chicken Thigh",
+      "Onion",
+      "Garlic",
+      "Rice Wine Vinegar",
+      "Shoyu Soy Sauce",
+      "Water",
+      "Brown Sugar",
+      "Bay Leaf",
+      "Black Pepper",
+      "Vegetable Oil",
+      "Jasmine Rice",
+      "Ground Turmeric",
+      "Chicken Stock",
+      "Spinach",
+      "Peanut Butter",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
     "slug": "pan-fried-brussels-sprouts-shallots-pomegranate",
     "title": "Pan fried brussels sprouts and shallots with pomegranate and purple basil",
     "time": 45,
@@ -10769,6 +12765,39 @@
       "parsley",
       "greek-style yoghurt",
       "salt"
+    ]
+  },
+  {
+    "slug": "paprika-garlic-chicken-flatbreads-with-whipped-feta",
+    "title": "Paprika Garlic Chicken Flatbreads With Whipped Feta",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "mediterranean",
+      "quick"
+    ],
+    "description": "Juicy paprika-spiced chicken, creamy feta yoghurt and punchy tomato salad on toasted flatbreads. ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Paprika-Garlic-Chicken-Flatbreads-With-Whipped-Feta.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Chicken Breast",
+      "Fat Greek Yoghurt⁣",
+      "Paprika",
+      "Garlic",
+      "Salt",
+      "Cherry Tomatoes",
+      "Cucumber",
+      "Red Onion",
+      "Sumac",
+      "Lemon",
+      "Salt",
+      "Feta",
+      "Fat Greek Yoghurt⁣",
+      "Flatbread",
+      "Fresh Parsley",
+      "Fresh Mint",
+      "Dried Oregano",
+      "Lemon"
     ]
   },
   {
@@ -11007,6 +13036,61 @@
     ]
   },
   {
+    "slug": "peanut-butter-overnight-oats-three-ways",
+    "title": "Peanut Butter Overnight Oats, Three Ways",
+    "time": 10,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish",
+      "quick"
+    ],
+    "description": "Our favourite overnight oats recipe. Make a big batch and mix up the toppings throughout the week...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/1/Peanut-Butter-Overnight-Oats-Three-Ways.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Crunchy Peanut Butter",
+      "Rolled Oat",
+      "Unsweetened Almond Milk",
+      "Honey",
+      "Fat Greek Yoghurt⁣",
+      "Vanilla Protein Powder",
+      "Vanilla Extract",
+      "Chia Seed",
+      "Blueberry",
+      "Salt",
+      "Fat Greek Yoghurt⁣",
+      "Honey",
+      "Unsweetened Almond Milk",
+      "Crunchy Nut Cornflakes",
+      "Ground Cinnamon",
+      "Banana",
+      "Granola",
+      "Honey",
+      "Frozen Strawberry"
+    ]
+  },
+  {
+    "slug": "peanut-chocolate-dates",
+    "title": "Peanut Chocolate Dates",
+    "time": 80,
+    "tags": [
+      "finn-tonry",
+      "vegan",
+      "fish",
+      "mediterranean"
+    ],
+    "description": "These sweet and fudgy dates are the ultimate health snack. Store them in the fridge and thank you...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/4/Peanut-Chocolate-Dates.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Pitted Medjool Dates",
+      "Smooth Peanut Butter",
+      "Dark Chocolate",
+      "Coconut Oil"
+    ]
+  },
+  {
     "slug": "pear-fennel-salad-caraway-pecorino",
     "title": "Pear and fennel salad with caraway and pecorino",
     "time": 55,
@@ -11116,6 +13200,60 @@
       "ginger nut biscuits",
       "pecans",
       "icing sugar"
+    ]
+  },
+  {
+    "slug": "peri-peri-chicken-halloumi-flatbreads-with-cabbage-slaw",
+    "title": "Peri-Peri Chicken & Halloumi Flatbreads With Cabbage Slaw",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "quick"
+    ],
+    "description": "Cheeky peri peri vibes with juicy chicken, squeaky halloumi, and a zingy yoghurt slaw – all packe...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Peri-Peri-Chicken-Halloumi-Flatbreads-With-Cabbage-Slaw.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Boneless Skinless Chicken Thigh",
+      "Halloumi",
+      "Peri Peri Seasoning",
+      "Olive Oil",
+      "Red Cabbage",
+      "Fat Greek Yoghurt⁣",
+      "Lemon",
+      "Fresh Parsley",
+      "Salt",
+      "Black Pepper",
+      "Flatbread",
+      "Hot Sauce"
+    ]
+  },
+  {
+    "slug": "peri-peri-halloumi-sweet-potato-hummus-bowl",
+    "title": "Peri Peri Halloumi & Sweet Potato Hummus Bowl",
+    "time": 40,
+    "tags": [
+      "finn-tonry",
+      "fish"
+    ],
+    "description": "\"In Partnership with Aldi. #ad.",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/6/Peri-Peri-Halloumi-Sweet-Potato-Rice-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Sweet Potato",
+      "Halloumi",
+      "Honey",
+      "Peri Peri Seasoning",
+      "Red Cabbage",
+      "Lemon",
+      "Hummus",
+      "Flatbread",
+      "Red Chilli",
+      "Fresh Coriander",
+      "Sesame Seeds",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper"
     ]
   },
   {
@@ -11279,6 +13417,126 @@
       "cold butter",
       "whipping cream",
       "free-range egg"
+    ]
+  },
+  {
+    "slug": "poached-chicken-breast-with-crispy-chilli-oil",
+    "title": "Poached Chicken Breast With Crispy Chilli Oil",
+    "time": 40,
+    "tags": [
+      "finn-tonry"
+    ],
+    "description": "These perfectly juicy chicken breasts are actually super easy to make, served with garlicky rice ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Poached-Chicken-With-Crispy-Chilli-Oil.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Water",
+      "Spring Onion",
+      "Garlic Clove",
+      "Fine Salt",
+      "Chicken Breast"
+    ]
+  },
+  {
+    "slug": "poached-chicken-breast",
+    "title": "Poached Chicken Breast",
+    "time": 40,
+    "tags": [
+      "finn-tonry"
+    ],
+    "description": "These perfectly juicy chicken breasts are actually super easy to make, served with garlicky rice ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Poached-Chicken-Breast.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Water",
+      "Spring Onion",
+      "Garlic Clove",
+      "Fine Salt",
+      "Chicken Breast"
+    ]
+  },
+  {
+    "slug": "poached-chicken-garlic-rice-ginger-chilli-sauce",
+    "title": "Poached Chicken, Garlic Rice, Ginger & Chilli Sauce",
+    "time": 40,
+    "tags": [
+      "finn-tonry",
+      "asian"
+    ],
+    "description": "Garlicky rice cooked in golden chicken broth, juicy poached chicken leftovers, a fresh sugar snap...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/6/Poached-Chicken-Garlic-Rice-Ginger-and-Chilli-Sauce.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Jasmine Rice",
+      "Butter",
+      "Garlic",
+      "Sugar Snap Pea",
+      "Fresh Coriander",
+      "Fresh Ginger",
+      "Sriracha",
+      "Oyster Sauce",
+      "Lime",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "poached-chicken-garlic-rice-spring-onion-sauce",
+    "title": "Poached Chicken, Garlic Rice & Spring Onion Sauce",
+    "time": 45,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "meal-prep",
+      "asian"
+    ],
+    "description": "These perfectly juicy chicken breasts are actually super easy to make, served with garlicky rice ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Lunch-Box-Poached-Chicken-Breast-Garlic-Rice-Spring-Onion-Sauce.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Jasmine Rice",
+      "Shallot",
+      "Garlic Clove",
+      "Salted Butter",
+      "Fine Salt",
+      "Caster Sugar",
+      "Chinese Dark Soy Sauce",
+      "Chicken Stock",
+      "Water",
+      "Spring Onion",
+      "Garlic Clove",
+      "Fine Salt",
+      "Chicken Breast",
+      "Spring Onion",
+      "Fresh Ginger",
+      "Fine Salt",
+      "MSG",
+      "Caster Sugar",
+      "Vegetable Oil",
+      "Cucumber",
+      "Crispy Chilli Oil",
+      "Sesame Seeds"
+    ]
+  },
+  {
+    "slug": "poached-chicken-ginger-broth",
+    "title": "Poached Chicken & Ginger Broth",
+    "time": 120,
+    "tags": [
+      "finn-tonry",
+      "asian"
+    ],
+    "description": "Gently poached in a ginger and spring onion broth, this chicken comes out super juicy and packed ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/9/Poached-Chicken-Ginger-Broth-Recipe.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Whole Chicken",
+      "Spring Onion",
+      "Fresh Ginger",
+      "Garlic",
+      "Salt",
+      "Water",
+      "Chicken Stock Cube"
     ]
   },
   {
@@ -11482,6 +13740,41 @@
       "spring onions",
       "fish sauce",
       "sesame seeds"
+    ]
+  },
+  {
+    "slug": "pork-fennel-marry-me-pasta",
+    "title": "Pork & Fennel ‘Marry Me’ Pasta",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "italian"
+    ],
+    "description": "Crispy fennel-spiked pork piled over creamy, vodka-laced tomato pasta with wilted spinach and loa...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/02/PORK_FENNEL_MARRY_ME_PASTA_3634-1.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Pork Mince",
+      "Fennel Seed",
+      "Chilli Flakes",
+      "Dried Oregano",
+      "Lemon",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper",
+      "Fusilli",
+      "Spinach",
+      "Olive Oil",
+      "Shallot",
+      "Garlic",
+      "Tomato Purée",
+      "Vodka",
+      "Crème Fraîche",
+      "Parmesan",
+      "Pasta Water",
+      "Fresh Chive",
+      "Parmesan",
+      "Black Pepper"
     ]
   },
   {
@@ -11822,6 +14115,39 @@
     ]
   },
   {
+    "slug": "prawn-tofu-cabbage-pad-thai",
+    "title": "Prawn, Tofu & Cabbage Pad Thai",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "thai",
+      "quick"
+    ],
+    "description": "Sweet, tangy, chewy, and crunchy. This Pad Thai remix is big on flavour, fast on the hob and very...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Prawn-Tofu-Cabbage-Pad-Thai.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Dried Rice Noodles",
+      "Raw Prawn",
+      "Firm Tofu",
+      "Egg",
+      "Beansprouts",
+      "Pointed Cabbage",
+      "Spring Onion",
+      "Roasted Peanuts",
+      "Garlic",
+      "Tamarind Puree",
+      "Brown Sugar",
+      "Fish Sauce",
+      "Dark Soy Sauce",
+      "Vegetable Oil",
+      "Fresh Coriander",
+      "Lime",
+      "Chilli Flakes"
+    ]
+  },
+  {
     "slug": "preserved-lemon-chicken",
     "title": "Preserved lemon chicken",
     "time": 110,
@@ -11863,6 +14189,72 @@
       "peppercorns",
       "lemons",
       "olive oil"
+    ]
+  },
+  {
+    "slug": "protein-date-balls",
+    "title": "Protein Date Balls",
+    "time": 10,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish",
+      "mediterranean",
+      "quick"
+    ],
+    "description": "These protein and peanut butter-packed date balls are the perfect healthy snack. Take them with y...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/4/Protein-Date-Balls.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Pitted Date",
+      "Natural Peanut Butter",
+      "Peanut",
+      "Poppy Seed",
+      "Chocolate Chip",
+      "Vanilla Protein Powder",
+      "Peanut",
+      "Flaky Sea Salt"
+    ]
+  },
+  {
+    "slug": "protein-fibre-flapjacks",
+    "title": "Protein & Fibre Flapjacks",
+    "time": 200,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "fish"
+    ],
+    "description": "These no-bake protein flapjacks are the perfect grab-and-go snack. Packed with seeds, nut butter,...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/4/Protein-Fibre-Flapjacks.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Rolled Oat",
+      "Vanilla Protein Powder",
+      "Smooth Peanut Butter",
+      "Almond Milk",
+      "Ground Flaxseed",
+      "Chia Seed",
+      "Mixed Seeds"
+    ]
+  },
+  {
+    "slug": "protein-peanut-butter-cups",
+    "title": "Protein Peanut Butter Cups",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "These high-protein peanut butter cups will satisfy your sweet tooth. They're an easy, no-bake hig...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/4/Protein-Peanut-Butter-Cups.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Smooth Peanut Butter",
+      "Vanilla Protein Powder",
+      "Dark Chocolate",
+      "Coconut Oil"
     ]
   },
   {
@@ -12062,6 +14454,73 @@
       "urfa chilli flakes",
       "picked oregano leaves",
       "salt and black pepper"
+    ]
+  },
+  {
+    "slug": "quick-beef-chilli-with-peppers-and-onions",
+    "title": "Quick Beef Chilli with Peppers and Onions",
+    "time": 45,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "mexican"
+    ],
+    "description": "Smoky, spicy and unbelievably cosy. This one-pot beef chilli with rice hits the spot every time. ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/9/Lunch-Box-Quick-Beef-Chilli-with-Peppers-and-Onions.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Olive Oil",
+      "Beef Mince",
+      "Red Pepper",
+      "Brown Onion",
+      "Garlic Clove",
+      "Dried Bay Leaf",
+      "Ground Cayenne",
+      "Ground Cumin",
+      "Dried Oregano",
+      "Smoked Paprika",
+      "Tomato Purée",
+      "Can Chopped Tomatoes",
+      "Chicken Stock",
+      "Salt",
+      "Black Pepper",
+      "Cooked Rice",
+      "Sour Cream",
+      "Cheddar Cheese",
+      "Fresh Coriander",
+      "Lime",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "quick-poached-chicken-pho",
+    "title": "Quick Poached Chicken Pho",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "quick"
+    ],
+    "description": "A lighter, faster take on pho. Fragrant broth, slippery noodles, and loads of fresh herbs. A warm...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Quick-Poached-Chicken-Pho.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Chicken Breast",
+      "Onion",
+      "Fresh Ginger",
+      "Garlic",
+      "Chicken Broth",
+      "Star Anise",
+      "Sugar",
+      "Salt",
+      "MSG",
+      "Fish Sauce",
+      "Flat Rice Noodle",
+      "Beansprouts",
+      "Spring Onion",
+      "Fresh Mint",
+      "Fresh Coriander",
+      "Red Bird's Eye Chilli",
+      "Chilli Oil"
     ]
   },
   {
@@ -13664,6 +16123,32 @@
     ]
   },
   {
+    "slug": "salt-pepper-roasted-chicken-thighs",
+    "title": "Salt & Pepper Roasted Chicken Thighs",
+    "time": 35,
+    "tags": [
+      "finn-tonry",
+      "meal-prep"
+    ],
+    "description": "A healthy spin on a takeaway classic. Pair this with some vegetables and some slow-release carboh...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Salt-Pepper-Roasted-Chicken-Thighs.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Skin-On Chicken Thigh",
+      "Onion",
+      "Garlic Clove",
+      "Salt",
+      "MSG",
+      "Sugar",
+      "Chinese Five-Spice",
+      "Ground White Pepper",
+      "Black Pepper",
+      "Garlic Powder",
+      "Ground Cumin",
+      "Olive Oil"
+    ]
+  },
+  {
     "slug": "savoury-mince-tahini-tart",
     "title": "Savoury mince and tahini tart",
     "time": 103,
@@ -14313,6 +16798,69 @@
     ]
   },
   {
+    "slug": "smashed-chicken-tacos-with-pineapple-salsa",
+    "title": "Smashed Chicken Tacos with Pineapple Salsa",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "mexican"
+    ],
+    "description": "Indulgent and fresh. These crispy pan-fried tacos with a spicy pineapple salsa are seriously good...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/2/Smashed-Chicken-Tacos-2.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "White Onion",
+      "Chicken Mince",
+      "Grated Mozzarella",
+      "Ground Cumin",
+      "Garlic Powder",
+      "Dried Oregano",
+      "Flour Tortilla",
+      "Olive Oil",
+      "Jalapeño",
+      "Fresh Coriander",
+      "5 Pineapple",
+      "Red Onion",
+      "Hot Sauce",
+      "Lime",
+      "5 Cabbage",
+      "Avocado",
+      "Feta",
+      "Lime",
+      "Sour Cream"
+    ]
+  },
+  {
+    "slug": "smashed-chicken-tacos-with-salsa-rossa",
+    "title": "Smashed Chicken Tacos With Salsa Rossa",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "mexican"
+    ],
+    "description": "Juicy smashed chicken, charred tomato salsa, and a crunchy yoghurt slaw. These tacos are messy in...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Smashed-Chicken-Tacos-with-Salsa-Rossa.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Corn Tortilla",
+      "Chicken Mince",
+      "Ground Cumin",
+      "Dried Oregano",
+      "Garlic Powder",
+      "Salt",
+      "Onion",
+      "Garlic",
+      "Cherry Tomatoes",
+      "Red Chilli",
+      "Fresh Coriander",
+      "Lime",
+      "Hispi Cabbage",
+      "Fat Greek Yoghurt⁣",
+      "Low-Calorie Cooking Spray"
+    ]
+  },
+  {
     "slug": "smoked-aubergine-yogurt-vol-au-vents",
     "title": "Smoked aubergine and yogurt vol-au-vents",
     "time": 600,
@@ -14518,6 +17066,56 @@
     ]
   },
   {
+    "slug": "soy-garlic-rice",
+    "title": "Soy Garlic Rice",
+    "time": 45,
+    "tags": [
+      "finn-tonry",
+      "meal-prep"
+    ],
+    "description": "This umami-rich garlicky rice is a great base for so many dishes, top with your favourite protein...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Soy-Garlic-Rice.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Jasmine Rice",
+      "Shallot",
+      "Garlic Clove",
+      "Salted Butter",
+      "Fine Salt",
+      "Caster Sugar",
+      "Chinese Dark Soy Sauce",
+      "Chicken Stock"
+    ]
+  },
+  {
+    "slug": "speedy-creamy-tomato-spaghetti",
+    "title": "Speedy Creamy Tomato Spaghetti",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "italian",
+      "quick"
+    ],
+    "description": "Think vodka pasta, minus the hassle. With dish there's chopping in sight, just a silky, creamy to...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/03/Lazy-Creamy-Tomato-Spaghetti.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Spaghetti",
+      "Olive Oil",
+      "Pre-Chopped Garlic",
+      "Tomato Purée",
+      "Chilli Flakes",
+      "Crème Fraîche",
+      "Fresh Basil",
+      "Parmesan",
+      "Salt",
+      "Black Pepper",
+      "Fresh Basil",
+      "Crème Fraîche"
+    ]
+  },
+  {
     "slug": "spiced-apple-butter",
     "title": "Spiced apple butter",
     "time": 40,
@@ -14539,6 +17137,101 @@
       "fresh bay leaves",
       "lemon - zest pared off in 4 strips",
       "salt"
+    ]
+  },
+  {
+    "slug": "spiced-brown-rice-chickpeas",
+    "title": "Spiced Brown Rice & Chickpeas",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "vegan",
+      "fish",
+      "quick"
+    ],
+    "description": "This simple chickpea-packed recipe makes a great base for meal prep throughout the week. High fib...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Spiced-Brown-Rice-and-Chickpeas.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Cooked Brown Rice",
+      "Drained Cooked Chickpeas",
+      "Courgette",
+      "Red Onion",
+      "Garlic Clove",
+      "Smoked Paprika",
+      "Ground Cumin",
+      "Ground Coriander",
+      "MSG",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "spiced-chicken-shawarma-rice-bowl",
+    "title": "Spiced Chicken Shawarma Rice Bowl",
+    "time": 30,
+    "tags": [
+      "finn-tonry"
+    ],
+    "description": "Juicy, shawarma-spiced chicken piled high over warm rice, with jammy roasted tomatoes, sweet onio...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/02/Spiced-Chicken-Shawarma-Rice-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Garlic",
+      "Chicken Mince",
+      "Ground Cumin",
+      "Ground Coriander",
+      "Paprika",
+      "Chilli Flakes",
+      "Harissa Paste",
+      "Olive Oil",
+      "Salt",
+      "Greek Yoghurt",
+      "Olive Oil",
+      "Garlic",
+      "25 Lemon",
+      "Salt",
+      "Cooked Jasmine Rice",
+      "Cherry Tomatoes",
+      "Red Onion",
+      "Cucumber",
+      "Fresh Parsley",
+      "Olive Oil",
+      "25 Lemon",
+      "Salt"
+    ]
+  },
+  {
+    "slug": "spiced-halloumi-chickpea-saag",
+    "title": "Spiced Halloumi & Chickpea Saag",
+    "time": 40,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "indian"
+    ],
+    "description": "A creamy, spicy hug of a curry. Halloumi and chickpeas bring the protein, and it only gets better...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Halloumi-Saag-Curry.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Halloumi",
+      "Ghee",
+      "Brown Onion",
+      "Garlic",
+      "Fresh Ginger",
+      "Green Chilli",
+      "Curry Powder",
+      "Garam Masala",
+      "Spinach",
+      "Can Chickpeas",
+      "Greek Yoghurt",
+      "Lemon",
+      "Salt",
+      "Red Chilli",
+      "Fresh Coriander",
+      "Cooked Rice"
     ]
   },
   {
@@ -14657,6 +17350,34 @@
       "white sesame seeds",
       "chilli flakes",
       "toasted sesame oil"
+    ]
+  },
+  {
+    "slug": "spicy-chorizo-bean-stew-with-baked-cod",
+    "title": "Spicy Chorizo & Bean Stew with Baked Cod",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "mediterranean"
+    ],
+    "description": "Spicy, rich and proper comforting — this one-pan stew is smoky, creamy and topped with perfectly ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Spicy-Chorizo-Bean-Stew-with-Baked-Cod.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Cod Fillet",
+      "Chorizo",
+      "Red Onion",
+      "Garlic",
+      "Can Chopped Tomatoes",
+      "Kale",
+      "Can Butter Beans",
+      "Water",
+      "Olive Oil",
+      "Paprika",
+      "Lemon",
+      "Fat Greek Yoghurt⁣",
+      "Fresh Parsley",
+      "Salt"
     ]
   },
   {
@@ -14805,6 +17526,131 @@
     ]
   },
   {
+    "slug": "spicy-pork-cabbage-stir-fry",
+    "title": "Spicy Pork & Cabbage Stir-Fry",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "asian",
+      "quick"
+    ],
+    "description": "Punchy, spicy pork noodles with crunchy greens, fresh herbs & loads of chilli kick. Perfect for a...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Spicy-Pork-and-Cabbage-Stir-Fry.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Dried Rice Noodles",
+      "Fat Pork Mince",
+      "Sesame Oil",
+      "Garlic",
+      "Fresh Ginger",
+      "Sriracha",
+      "Oyster Sauce",
+      "Soy Sauce",
+      "Dark Soy Sauce",
+      "Sugar",
+      "Chinese Black Vinegar",
+      "Hispi Cabbage",
+      "Cucumber",
+      "Spring Onion",
+      "Fresh Coriander",
+      "Sesame Seeds"
+    ]
+  },
+  {
+    "slug": "spicy-pork-naked-wonton-soup",
+    "title": "Spicy Pork & Naked Wonton Soup",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "asian",
+      "quick"
+    ],
+    "description": "Silky pork meatballs in a deeply savoury chicken broth, served over jasmine rice with pak choi, c...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/03/Spicy-Pork-Naked-Wonton-Soup.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Fat Pork Mince",
+      "Spring Onion",
+      "Garlic Clove",
+      "Fresh Ginger",
+      "Light Soy Sauce",
+      "Sesame Oil",
+      "5tsp Ground White Pepper",
+      "Jasmine Rice",
+      "Water",
+      "Chicken Stock",
+      "Light Soy Sauce",
+      "5tsp Ground White Pepper",
+      "Chicken Powder",
+      "Wonton Wrapper",
+      "Baby Pak Choi",
+      "Crispy Chilli Oil",
+      "Toasted Sesame Seeds"
+    ]
+  },
+  {
+    "slug": "spicy-pork-rice-bowl-with-sesame-broccoli",
+    "title": "Spicy Pork Rice Bowl with Sesame Broccoli",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "quick"
+    ],
+    "description": "Crispy, caramelised pork coated in a punchy gochujang glaze, with nutty sesame broccoli and fluff...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/11/Spicy-Pork-Rice-Bowl-with-Sesame-Broccoli.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Fat Pork Mince",
+      "Cooked Sushi Rice",
+      "Vegetable Oil",
+      "Gochujang",
+      "Oyster Sauce",
+      "Dark Soy Sauce",
+      "Garlic",
+      "Soft Light Brown Sugar",
+      "Tenderstem Broccoli",
+      "Sesame Seeds",
+      "Sesame Oil",
+      "Spring Onion",
+      "Salt",
+      "Egg Yolk"
+    ]
+  },
+  {
+    "slug": "spicy-pork-sesame-noodles",
+    "title": "Spicy Pork & Sesame Noodles",
+    "time": 35,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "japanese"
+    ],
+    "description": "This batch cook is a game changer! With everything coming together in just 35 mins, you won’t hav...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/1/Spicy-Pork-Sesame-Noodles.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Tahini",
+      "White Miso",
+      "Rice Vinegar",
+      "Shoyu Soy Sauce",
+      "MSG",
+      "Water",
+      "Cucumber",
+      "Fresh Coriander",
+      "Fresh Mint",
+      "Spring Onion",
+      "Garlic Clove",
+      "Gochujang",
+      "Korean Chilli Flake",
+      "Chinese Dark Soy Sauce",
+      "Rice Vinegar",
+      "Sugar",
+      "Fat Pork Mince",
+      "Vegetable Oil",
+      "Egg Noodle"
+    ]
+  },
+  {
     "slug": "spicy-prawn-celeriac-pasties",
     "title": "Spicy prawn and celeriac pasties with hot sauce",
     "time": 25,
@@ -14840,6 +17686,68 @@
     ]
   },
   {
+    "slug": "spicy-salmon-bowl-with-sesame-rice-soy-butter-spinach",
+    "title": "Spicy Salmon Bowl with Sesame Rice & Soy Butter Spinach",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "japanese",
+      "quick"
+    ],
+    "description": "Every part of this dish is so good. It’s a fresh take on batch cooking – prep everything in advan...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/1/Spicy-Salmon-Bowl-with-Sesame-Rice-Soy-Butter-Spinach.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Skinless Salmon Fillet",
+      "Spring Onion",
+      "Garlic Clove",
+      "Miso Paste",
+      "Sriracha",
+      "Fish Sauce",
+      "Honey",
+      "Rice Wine Vinegar",
+      "Sushi Rice",
+      "Water",
+      "Fine Salt",
+      "Sugar",
+      "Rice Wine Vinegar",
+      "Nori Seaweed",
+      "Toasted Sesame Seeds",
+      "Garlic Clove",
+      "Butter",
+      "Spinach",
+      "5tbsp Soy Sauce",
+      "5 Lemon",
+      "Nori Seaweed"
+    ]
+  },
+  {
+    "slug": "spicy-sriracha-salmon",
+    "title": "Spicy Sriracha Salmon",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "quick"
+    ],
+    "description": "A bold, punchy salmon dish with a fiery sriracha kick, balanced by the umami depth of miso and a ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Spicy-Sriracha-Salmon.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Skinless Salmon Fillet",
+      "Spring Onion",
+      "Sesame Seeds",
+      "Lemon Wedge",
+      "Garlic Clove",
+      "Miso",
+      "Sriracha",
+      "Fish Sauce",
+      "Honey",
+      "Rice Vinegar"
+    ]
+  },
+  {
     "slug": "spicy-sweet-potatoes-with-spring-onion-and-pumpkin-seed-salsa",
     "title": "Spicy sweet potatoes with spring onion and pumpkin seed salsa",
     "time": 45,
@@ -14867,6 +17775,72 @@
       "spring onions",
       "lime juice",
       "fine sea salt and black pepper"
+    ]
+  },
+  {
+    "slug": "spicy-tuna-caesar-high-protein-smash",
+    "title": "Spicy Tuna Caesar High Protein Smash",
+    "time": 10,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "meal-prep",
+      "fish",
+      "quick"
+    ],
+    "description": "Trust us, tuna in this caesar base really works. Cottage cheese and Greek yoghurt make the base, ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/03/Spicy-Tuna-Caesar-High-Protein-Smash.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Tuna in Spring Water",
+      "Cottage Cheese",
+      "Greek Yoghurt",
+      "Anchovy",
+      "Dijon Mustard",
+      "Garlic Clove",
+      "Parmesan",
+      "Worcestershire Sauce",
+      "Pickled Jalapeño",
+      "5 Lemon",
+      "Cherry Tomatoes",
+      "Fresh Basil",
+      "Red Onion",
+      "Sourdough",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "spicy-tuna-caesar-lettuce-wraps",
+    "title": "Spicy Tuna Caesar Lettuce Wraps",
+    "time": 10,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "meal-prep",
+      "fish",
+      "quick"
+    ],
+    "description": "Transform our Spicy Tuna Caesar High Protein Smash into delicious on-the go lunch for a healthier...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/04/Spicy-Tuna-Caesar-Lettuce-Wraps.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Tuna in Spring Water",
+      "Cottage Cheese",
+      "Greek Yoghurt",
+      "Anchovy",
+      "Dijon Mustard",
+      "Garlic Clove",
+      "Parmesan",
+      "Worcestershire Sauce",
+      "Pickled Jalapeño",
+      "5 Lemon",
+      "Cherry Tomatoes",
+      "Fresh Basil",
+      "Red Onion",
+      "6Leaf Romaine Lettuce",
+      "Salt",
+      "Black Pepper"
     ]
   },
   {
@@ -14926,6 +17900,26 @@
       "turnips",
       "preserved lemon",
       "coriander leaves"
+    ]
+  },
+  {
+    "slug": "spinach-and-garlic-rice",
+    "title": "Spinach and Garlic Rice",
+    "time": 30,
+    "tags": [
+      "finn-tonry"
+    ],
+    "description": "This bright green rice is such an easy way to get your veg in. You won't find a better healthy ga...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/4/Spinach-and-Garlic-Rice-Recipe.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Jasmine Rice",
+      "Water",
+      "Spinach",
+      "Garlic Clove",
+      "Salted Butter",
+      "Salt",
+      "Black Pepper"
     ]
   },
   {
@@ -14991,6 +17985,61 @@
       "double cream",
       "lemon juice",
       "fine sea salt and black pepper"
+    ]
+  },
+  {
+    "slug": "spring-onion-and-ginger-sauce",
+    "title": "Spring Onion and Ginger Sauce",
+    "time": 15,
+    "tags": [
+      "finn-tonry",
+      "vegan",
+      "fish",
+      "quick"
+    ],
+    "description": "A fragrant, punchy sauce packed with fresh ginger and spring onion. Perfect as a dip, drizzle, or...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/4/Spring-Onion-and-Ginger-Sauce-Recipe.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Spring Onion",
+      "Fresh Ginger",
+      "Salt",
+      "MSG",
+      "Sugar",
+      "Vegetable Oil"
+    ]
+  },
+  {
+    "slug": "spring-pesto-chicken-spaghetti",
+    "title": "Spring Pesto & Chicken Spaghetti",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "italian",
+      "quick"
+    ],
+    "description": "A vibrant spring pasta with homemade pesto, tossed with spaghetti, asparagus and petit pois. All ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/03/Spring-Pesto-Chicken-Spaghetti.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Pine Nuts",
+      "Parmesan",
+      "Fresh Basil",
+      "Extra Virgin Olive Oil",
+      "Cold Water",
+      "Garlic Clove",
+      "Lemon",
+      "Chicken Mince",
+      "Olive Oil",
+      "Chilli Flakes",
+      "Parmesan",
+      "5 Lemon",
+      "Spaghetti",
+      "Asparagus",
+      "Petit Pois",
+      "Parmesan",
+      "Salt",
+      "Black Pepper"
     ]
   },
   {
@@ -15127,6 +18176,73 @@
       "olive oil",
       "fresh rosemary",
       "flaked sea salt"
+    ]
+  },
+  {
+    "slug": "sticky-beef-mince-brothy-rice",
+    "title": "Sticky Beef Mince Brothy Rice",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "thai",
+      "quick"
+    ],
+    "description": "Caramelised, glossy beef mince in a fragrant broth, spooned over hot rice and topped with crisp o...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/01/STICKY-BEEF-MINCE-AND-RICE0901-1.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Beef Stock",
+      "Fresh Ginger",
+      "Star Anise",
+      "Cardamom Pod",
+      "Beef Mince",
+      "Oyster Sauce",
+      "Sugar",
+      "Sriracha",
+      "Beef Stock",
+      "Soy Sauce",
+      "Rice Vinegar",
+      "Butter",
+      "Olive Oil",
+      "Black Pepper",
+      "Salt",
+      "Pouch Microwave Rice",
+      "Brown Onion",
+      "Coriander",
+      "Red Chilli",
+      "Lime",
+      "Fish Sauce"
+    ]
+  },
+  {
+    "slug": "sticky-cumin-lamb-fresh-herb-salad",
+    "title": "Sticky Cumin Lamb & Fresh Herb Salad",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "asian",
+      "quick"
+    ],
+    "description": "Sticky cumin lamb with those proper crispy bits, spooned over hot jasmine rice and loaded up with...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2026/02/849A0206-1.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Lamb Mince",
+      "Cumin Seeds",
+      "Fresh Ginger",
+      "Garlic",
+      "Shaoxing Wine",
+      "Dark Soy Sauce",
+      "Oyster Sauce",
+      "Green Chilli",
+      "Fresh Coriander",
+      "Spring Onion",
+      "Shallot",
+      "5 Lime",
+      "Egg",
+      "Olive Oil",
+      "Salt",
+      "Cooked Jasmine Rice"
     ]
   },
   {
@@ -15533,6 +18649,60 @@
     ]
   },
   {
+    "slug": "supergreen-matcha-smoothie-bowl",
+    "title": "Supergreen Matcha Smoothie Bowl",
+    "time": 5,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "A thick, zingy green smoothie bowl packed with protein, matcha and creamy yoghurt. Blitz, top wit...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Supergreen-Matcha-Smoothie-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Frozen Banana",
+      "Frozen Mango",
+      "Frozen Pineapple",
+      "Spinach",
+      "Matcha",
+      "Vanilla Protein Powder",
+      "Almond Milk",
+      "Skyr Natural Yoghurt",
+      "Honey",
+      "Chia Seed",
+      "Kiwi",
+      "Strawberry",
+      "Desiccated Coconut",
+      "Granola"
+    ]
+  },
+  {
+    "slug": "supergreen-matcha-smoothie",
+    "title": "Supergreen Matcha Smoothie",
+    "time": 5,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "A fresh, punchy green smoothie packed with fruit, protein and matcha goodness. Bang everything in...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Supergreen-Matcha-Smoothie.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Banana",
+      "Frozen Mango",
+      "Frozen Pineapple",
+      "Spinach",
+      "Matcha",
+      "Vanilla Protein Powder",
+      "Skyr Natural Yoghurt",
+      "Almond Milk",
+      "Honey",
+      "Ice"
+    ]
+  },
+  {
     "slug": "sushi-rice-cakes-with-chilli-and-spring-onion-dipping-sauce",
     "title": "Sushi rice cakes with chilli and spring onion dipping sauce",
     "time": 80,
@@ -15626,6 +18796,32 @@
       "egg",
       "nigella seeds",
       "fine sea salt"
+    ]
+  },
+  {
+    "slug": "sweet-potato-minced-beef-cottage-cheese-bowl",
+    "title": "Sweet Potato, Minced Beef & Cottage Cheese Bowl",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "mexican"
+    ],
+    "description": "Crispy sweet potato, taco-spiced beef, and a cooling dollop of cottage cheese, all drizzled with ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Sweet-Potato-Minced-Beef-Cottage-Cheese-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Sweet Potato",
+      "Fat Beef Mince",
+      "Good-Quality Mild Taco Seasoning",
+      "Cottage Cheese",
+      "Hot Honey",
+      "Cherry Tomatoes",
+      "Iceberg Lettuce",
+      "Pickled Red Onion",
+      "Vegetable Oil Spray",
+      "Salt",
+      "Black Pepper",
+      "Chilli Flakes"
     ]
   },
   {
@@ -15837,6 +19033,37 @@
       "conference pears",
       "cashew nuts",
       "fine sea salt"
+    ]
+  },
+  {
+    "slug": "sweet-sticky-chicken-with-broccoli-rice",
+    "title": "Sweet & Sticky Chicken with Broccoli Rice",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "meal-prep",
+      "asian"
+    ],
+    "description": "Sweet, sticky chicken over buttery broccoli rice with a spicy-savoury kick. It's a meal prep winn...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/9/Sweet-Sticky-Chicken-with-Broccoli-Rice.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Tenderstem Broccoli",
+      "Garlic Clove",
+      "Jasmine Rice",
+      "Water",
+      "Butter",
+      "Boneless Skinless Chicken Thigh",
+      "Oyster Sauce",
+      "Soy Sauce",
+      "Rice Vinegar",
+      "Sriracha",
+      "Honey",
+      "Spring Onion",
+      "Sesame Seeds",
+      "Lemon Wedge",
+      "Olive Oil",
+      "Salt"
     ]
   },
   {
@@ -16315,6 +19542,120 @@
     ]
   },
   {
+    "slug": "teriyaki-chicken-egg-bowl",
+    "title": "Teriyaki Chicken & Egg Bowl",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "japanese"
+    ],
+    "description": "Sticky-sweet teriyaki chicken? Jammy eggs? Easy. This is a bowl of pure comfort with plenty of pr...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/11/Teriyaki-Chicken-Egg-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Skinless Chicken Thigh",
+      "Pouch Sushi Rice",
+      "Egg",
+      "Edamame",
+      "Spring Onion",
+      "Vegetable Oil",
+      "Sesame Seeds",
+      "Salt",
+      "Soy Sauce",
+      "Dark Soy Sauce",
+      "Soft Brown Sugar",
+      "Garlic Clove",
+      "Fresh Ginger",
+      "Sesame Oil",
+      "Cornflour",
+      "Water"
+    ]
+  },
+  {
+    "slug": "thai-steak-salad-lettuce-cups",
+    "title": "Thai Steak Salad Lettuce Cups",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "thai",
+      "quick"
+    ],
+    "description": "A twist on classic laab - seared steak, zesty lime dressing, nutty toasted rice powder and heaps ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/8/Thai-Steak-Salad-Lettuce-Cups.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Jasmine Rice",
+      "Shallot",
+      "Fresh Coriander",
+      "5 Cucumber",
+      "Lime",
+      "Fish Sauce",
+      "Sugar",
+      "Chilli Powder",
+      "Rump Steak",
+      "Fresh Mint",
+      "Fresh Thai Basil",
+      "Cooked Jasmine Rice",
+      "Lettuce",
+      "Lime Wedge",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper"
+    ]
+  },
+  {
+    "slug": "tinned-tuna-poke-bowl",
+    "title": "Tinned Tuna Poke Bowl",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "japanese",
+      "quick"
+    ],
+    "description": "Spicy tuna, crunchy slaw, sticky rice, and miso dressing. Build your own mouthfuls with nori and ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Tinned-Tuna-Poke-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Can Tuna",
+      "Light Mayonnaise",
+      "Sriracha",
+      "Soy Sauce",
+      "Carrot",
+      "Red Cabbage",
+      "Edamame",
+      "Miso",
+      "Honey",
+      "Soy Sauce",
+      "Rice Vinegar",
+      "Lime",
+      "Cooked Sushi Rice",
+      "Nori Seaweed",
+      "Sesame Seeds"
+    ]
+  },
+  {
+    "slug": "toasted-rice-sweet-and-sour-dressing",
+    "title": "Toasted Rice Sweet and Sour Dressing",
+    "time": 20,
+    "tags": [
+      "finn-tonry",
+      "quick"
+    ],
+    "description": "A bold and aromatic dressing with nutty toasted rice, sweet chilli jam, and tangy lime juice. Thi...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/3/Toasted-Rice-Sweet-and-Sour-Dressing.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Jasmine Rice",
+      "Chilli Jam",
+      "Fish Sauce",
+      "Lime",
+      "Shallot",
+      "Fresh Coriander"
+    ]
+  },
+  {
     "slug": "tofu-peanut-lettuce-cups",
     "title": "Tofu peanut lettuce cups",
     "time": 20,
@@ -16458,6 +19799,35 @@
       "mixed tomatoes",
       "fresh oregano leaves",
       "fresh elderflowers"
+    ]
+  },
+  {
+    "slug": "tomato-shallot-olive-chicken-with-orzo-feta",
+    "title": "Tomato, Shallot & Olive Chicken with Orzo & Feta",
+    "time": 55,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "italian"
+    ],
+    "description": "A banging, high-protein feast that’s pure Mediterranean sunshine - sweet cherry tomatoes, olives ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/8/Tomato-Shallot-Olive-Chicken-Orzo.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Lemon",
+      "Chilli Flakes",
+      "Dried Oregano",
+      "Bone-In Skin-On Chicken Thigh",
+      "Cherry Tomatoes",
+      "Shallot",
+      "Pitted Green Olive",
+      "Orzo",
+      "Red Onion",
+      "Fresh Parsley",
+      "Feta",
+      "Olive Oil",
+      "Salt",
+      "Black Pepper"
     ]
   },
   {
@@ -16627,6 +19997,86 @@
       "salt and black pepper",
       "all-butter puff pastry",
       "plain flour"
+    ]
+  },
+  {
+    "slug": "tropical-sunshine-smoothie-bowl",
+    "title": "Tropical Sunshine Smoothie Bowl",
+    "time": 10,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "Thick, tropical and golden. A protein-packed smoothie bowl that tastes like a holiday – sunshine ...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Tropical-Sunshine-Smoothie-Bowl.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Frozen Mango",
+      "Frozen Pineapple",
+      "Frozen Banana",
+      "Coconut Milk",
+      "Skyr Natural Yoghurt",
+      "Lime",
+      "Ground Turmeric",
+      "Fresh Ginger",
+      "Vanilla Protein Powder",
+      "Banana",
+      "Toasted Coconut Flake",
+      "Granola",
+      "Chia Seed",
+      "Crushed Frozen Raspberries",
+      "Almond Butter"
+    ]
+  },
+  {
+    "slug": "tropical-sunshine-smoothie",
+    "title": "Tropical Sunshine Smoothie",
+    "time": 5,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "quick"
+    ],
+    "description": "Bright, tropical and packed with protein. This golden smoothie brings the sunshine – even when th...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/5/Tropical-Sunshine-Smoothie.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Frozen Mango",
+      "Frozen Pineapple",
+      "Banana",
+      "Coconut Milk",
+      "Lime",
+      "Ground Turmeric",
+      "Fresh Ginger",
+      "Vanilla Protein Powder",
+      "Cold Water"
+    ]
+  },
+  {
+    "slug": "tuna-tomato-courgette-gnocchi",
+    "title": "Tuna, Tomato & Courgette Gnocchi",
+    "time": 30,
+    "tags": [
+      "finn-tonry",
+      "fish",
+      "italian"
+    ],
+    "description": "This one’s got serious store cupboard power. Juicy tuna, spicy guindilla chillies, and soft gnocc...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/10/Tuna-Tomato-Courgette-Gnocchi.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Can Tuna",
+      "Fresh Gnocchi",
+      "Courgette",
+      "Olive Oil",
+      "Garlic Clove",
+      "Pickled Guindilla Chilli",
+      "Passata",
+      "Fresh Basil",
+      "Parmesan",
+      "Salt",
+      "Black Pepper"
     ]
   },
   {
@@ -17344,6 +20794,33 @@
     ]
   },
   {
+    "slug": "weeknight-chicken-gyros",
+    "title": "Weeknight Chicken Gyros",
+    "time": 30,
+    "tags": [
+      "finn-tonry"
+    ],
+    "description": "This one’s all about the contrast between the crispy chicken and the cool, creamy tzatziki. A fak...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/11/Weeknight-Chicken-Gyros.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Skinless Chicken Thigh",
+      "Fat Greek Yoghurt⁣",
+      "Onion Powder",
+      "Paprika",
+      "Ground Cumin",
+      "Dried Oregano",
+      "Garlic",
+      "Lemon",
+      "Salt",
+      "Pitta",
+      "Frozen French Fry",
+      "Red Onion",
+      "Tomato",
+      "Cucumber"
+    ]
+  },
+  {
     "slug": "white-balsamic-ginger-dressing",
     "title": "White balsamic and ginger dressing",
     "time": 45,
@@ -17389,6 +20866,40 @@
       "Cointreau",
       "dry white wine",
       "kiwi"
+    ]
+  },
+  {
+    "slug": "yoghurt-chicken-salad-with-zaatar-croutons",
+    "title": "Yoghurt & Chicken Salad with Za’atar Croutons",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "quick"
+    ],
+    "description": "Creamy yoghurt tahini, juicy poached chicken leftovers and crunchy za’atar croutons, all tied tog...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/6/Yoghurt-Chicken-Salad-with-Za%E2%80%99atar-Croutons.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Skyr Natural Yoghurt",
+      "Garlic",
+      "Tahini",
+      "5 Lemon",
+      "Pitta",
+      "Olive Oil",
+      "Za’atar",
+      "Salt",
+      "Black Pepper",
+      "Olive Oil",
+      "Lemon",
+      "Sumac",
+      "Salt",
+      "Green Olive",
+      "Fresh Dill",
+      "Fresh Parsley",
+      "Tomato",
+      "5 Courgette",
+      "Shallot",
+      "Garlic"
     ]
   },
   {
@@ -17504,6 +21015,41 @@
       "olive oil",
       "picked marjoram leaves",
       "salt"
+    ]
+  },
+  {
+    "slug": "zaatar-chicken-olive-rice-whipped-feta",
+    "title": "Za'atar Chicken, Olive Rice & Whipped Feta",
+    "time": 50,
+    "tags": [
+      "finn-tonry",
+      "high-protein",
+      "mediterranean"
+    ],
+    "description": "Buttery olive rice, zesty za’atar chicken, salty whipped feta and a fresh crunchy salad. A perfec...",
+    "image": "https://files.mob-cdn.co.uk/recipes/2025/2/Zaatar-Chicken-Olive-Rice-Whipped-Feta.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Garlic Clove",
+      "Dill",
+      "Parsley",
+      "Jasmine Rice",
+      "Butter",
+      "Pitted Mixed Olives",
+      "Chicken Stock",
+      "Boneless Skinless Chicken Thigh",
+      "White Onion",
+      "Smoked Paprika",
+      "Za’atar",
+      "Black Pepper",
+      "Olive Oil",
+      "Feta",
+      "Greek Yoghurt",
+      "Chilli Flakes",
+      "Cucumber",
+      "Red Chilli",
+      "Red Onion",
+      "Lemon"
     ]
   },
   {
