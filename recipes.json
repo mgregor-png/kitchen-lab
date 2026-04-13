@@ -17778,6 +17778,40 @@
     ]
   },
   {
+    "slug": "spicy-tofu-chicken-noodles",
+    "title": "Spicy Tofu & Chicken Noodles",
+    "time": 25,
+    "tags": [
+      "finn-tonry",
+      "mains",
+      "high-protein",
+      "low-cal",
+      "asian",
+      "quick"
+    ],
+    "description": "50/30 low cal - 587 cal, 52g protein, spicy sauce with silken tofu",
+    "image": "https://bpbendglpbyydhwbpehq.supabase.co/storage/v1/object/public/recipe-images/spicy-tofu-chicken-noodles.jpg",
+    "chef": "Finn Tonry",
+    "ingredients": [
+      "Chicken Mince",
+      "Garlic Cloves",
+      "inch Ginger",
+      "Soy Sauce",
+      "Oyster Sauce",
+      "Mirin",
+      "Silken Tofu",
+      "Tahini",
+      "Soy Sauce",
+      "Miso",
+      "Rice Vinegar",
+      "Gochugaru",
+      "Cucumber",
+      "Spring Onions",
+      "Coriander",
+      "Frozen Udon"
+    ]
+  },
+  {
     "slug": "spicy-tuna-caesar-high-protein-smash",
     "title": "Spicy Tuna Caesar High Protein Smash",
     "time": 10,
