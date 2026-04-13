@@ -1275,8 +1275,18 @@
       const drafts = await loadDrafts();
       if (drafts.length === 0) return '';
       const items = drafts.map(d => {
-        const icon = d.type === 'url' ? 'link' : d.type === 'photo' ? 'photo_camera' : 'notes';
-        const preview = d.type === 'url' ? d.content : d.type === 'text' ? d.content.slice(0, 80) + '...' : 'Photo';
+        let icon = 'notes';
+        let preview = '';
+        try {
+          const parsed = JSON.parse(d.content);
+          if (parsed.source?.type === 'url') { icon = 'link'; preview = parsed.source.value; }
+          else if (parsed.source?.type === 'text') { icon = 'notes'; preview = parsed.source.value.slice(0, 80) + '...'; }
+          else if (parsed.screenshots?.length) { icon = 'photo_camera'; preview = parsed.screenshots.length + ' screenshot(s)'; }
+          if (parsed.thumbnail) preview = '(has thumbnail) ' + preview;
+        } catch {
+          icon = d.type === 'url' ? 'link' : d.type === 'photo' ? 'photo_camera' : 'notes';
+          preview = d.type === 'url' ? d.content : d.type === 'text' ? d.content.slice(0, 80) + '...' : 'Photo';
+        }
         const date = new Date(d.createdAt).toLocaleDateString();
         const offlineChip = d.source === 'offline' ? '<span class="font-headline font-bold text-[10px] uppercase tracking-widest px-2 py-0.5 bg-outline-variant text-surface-white">offline</span>' : '';
         return `
@@ -1312,29 +1322,46 @@
         <div class="max-w-2xl mx-auto px-4 py-8">
           <h1 class="font-headline font-black text-2xl uppercase mb-6">Add Recipe</h1>
 
-          <div class="flex gap-2 mb-6">
-            <button onclick="switchAddTab('url')" id="tab-url" class="flex-1 font-headline font-bold text-xs uppercase tracking-widest px-3 py-2 border-4 border-on-background bg-on-background text-surface-white">URL</button>
-            <button onclick="switchAddTab('text')" id="tab-text" class="flex-1 font-headline font-bold text-xs uppercase tracking-widest px-3 py-2 border-4 border-on-background bg-surface-white text-on-background">Text</button>
-            <button onclick="switchAddTab('photo')" id="tab-photo" class="flex-1 font-headline font-bold text-xs uppercase tracking-widest px-3 py-2 border-4 border-on-background bg-surface-white text-on-background">Photo</button>
-          </div>
-
-          <div id="add-form-url">
-            <input id="draft-url" type="url" placeholder="Paste Instagram or recipe URL..." class="w-full font-headline text-sm bg-surface-white border-4 border-on-background px-4 py-3 placeholder:text-outline-variant focus:outline-none focus:border-primary-fixed mb-4" />
-          </div>
-
-          <div id="add-form-text" class="hidden">
-            <textarea id="draft-text" rows="8" placeholder="Paste or type the recipe..." class="w-full font-body text-sm bg-surface-white border-4 border-on-background px-4 py-3 placeholder:text-outline-variant focus:outline-none focus:border-primary-fixed mb-4 resize-y"></textarea>
-          </div>
-
-          <div id="add-form-photo" class="hidden">
-            <label class="block border-4 border-dashed border-outline-variant p-8 text-center cursor-pointer hover:border-on-background transition-colors mb-4">
-              <span class="material-symbols-outlined text-4xl text-outline-variant block mb-2">photo_camera</span>
-              <span class="font-headline font-bold text-sm uppercase tracking-widest text-outline">Take or choose a photo</span>
-              <input id="draft-photo" type="file" accept="image/*" class="hidden" onchange="previewPhoto(this)" />
-            </label>
-            <div id="photo-preview" class="hidden mb-4">
-              <img id="photo-preview-img" class="w-full border-4 border-on-background" />
+          <!-- Recipe source: URL or text -->
+          <div class="mb-6">
+            <div class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline mb-2">Recipe Source</div>
+            <div class="flex gap-2 mb-4">
+              <button onclick="switchAddTab('url')" id="tab-url" class="flex-1 font-headline font-bold text-xs uppercase tracking-widest px-3 py-2 border-4 border-on-background bg-on-background text-surface-white">URL</button>
+              <button onclick="switchAddTab('text')" id="tab-text" class="flex-1 font-headline font-bold text-xs uppercase tracking-widest px-3 py-2 border-4 border-on-background bg-surface-white text-on-background">Text</button>
             </div>
+
+            <div id="add-form-url">
+              <input id="draft-url" type="url" placeholder="Paste Instagram or recipe URL..." class="w-full font-headline text-sm bg-surface-white border-4 border-on-background px-4 py-3 placeholder:text-outline-variant focus:outline-none focus:border-primary-fixed" />
+            </div>
+
+            <div id="add-form-text" class="hidden">
+              <textarea id="draft-text" rows="6" placeholder="Paste or type the recipe..." class="w-full font-body text-sm bg-surface-white border-4 border-on-background px-4 py-3 placeholder:text-outline-variant focus:outline-none focus:border-primary-fixed resize-y"></textarea>
+            </div>
+          </div>
+
+          <!-- Thumbnail photo -->
+          <div class="mb-6">
+            <div class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline mb-2">Thumbnail Photo</div>
+            <label class="block border-4 border-dashed border-outline-variant p-4 text-center cursor-pointer hover:border-on-background transition-colors">
+              <span class="material-symbols-outlined text-2xl text-outline-variant block mb-1">image</span>
+              <span class="font-headline font-bold text-xs uppercase tracking-widest text-outline">Choose a photo for the recipe card</span>
+              <input id="draft-thumbnail" type="file" accept="image/*" class="hidden" onchange="previewThumbnail(this)" />
+            </label>
+            <div id="thumbnail-preview" class="hidden mt-2">
+              <img id="thumbnail-preview-img" class="w-32 h-32 object-cover border-4 border-on-background" />
+              <button onclick="clearThumbnail()" class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline mt-1 block">Remove</button>
+            </div>
+          </div>
+
+          <!-- Recipe screenshots -->
+          <div class="mb-6">
+            <div class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline mb-2">Recipe Screenshots</div>
+            <label class="block border-4 border-dashed border-outline-variant p-4 text-center cursor-pointer hover:border-on-background transition-colors">
+              <span class="material-symbols-outlined text-2xl text-outline-variant block mb-1">photo_camera</span>
+              <span class="font-headline font-bold text-xs uppercase tracking-widest text-outline">Add screenshots of the recipe to read</span>
+              <input id="draft-screenshots" type="file" accept="image/*" multiple class="hidden" onchange="addScreenshots(this)" />
+            </label>
+            <div id="screenshots-preview" class="flex flex-wrap gap-2 mt-2"></div>
           </div>
 
           <button onclick="submitDraft()" class="w-full bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-3 neo-shadow hover:opacity-80 transition-opacity">
@@ -1345,10 +1372,12 @@
     }
 
     window._activeAddTab = 'url';
+    window._draftThumbnail = null;
+    window._draftScreenshots = [];
 
     window.switchAddTab = function(tab) {
       window._activeAddTab = tab;
-      ['url', 'text', 'photo'].forEach(t => {
+      ['url', 'text'].forEach(t => {
         document.getElementById('add-form-' + t).classList.toggle('hidden', t !== tab);
         const btn = document.getElementById('tab-' + t);
         if (t === tab) {
@@ -1361,49 +1390,104 @@
       });
     };
 
-    window.previewPhoto = function(input) {
+    function compressImage(file, maxWidth, quality) {
+      return new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          const img = new Image();
+          img.onload = function() {
+            const scale = Math.min(1, maxWidth / img.width);
+            const canvas = document.createElement('canvas');
+            canvas.width = img.width * scale;
+            canvas.height = img.height * scale;
+            canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+            resolve(canvas.toDataURL('image/jpeg', quality));
+          };
+          img.src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+      });
+    }
+
+    window.previewThumbnail = async function(input) {
       const file = input.files[0];
       if (!file) return;
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        const img = new Image();
-        img.onload = function() {
-          const maxW = 800;
-          const scale = Math.min(1, maxW / img.width);
-          const canvas = document.createElement('canvas');
-          canvas.width = img.width * scale;
-          canvas.height = img.height * scale;
-          canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
-          const compressed = canvas.toDataURL('image/jpeg', 0.7);
-          document.getElementById('photo-preview-img').src = compressed;
-          document.getElementById('photo-preview').classList.remove('hidden');
-          window._draftPhotoData = compressed;
-        };
-        img.src = e.target.result;
-      };
-      reader.readAsDataURL(file);
+      const compressed = await compressImage(file, 400, 0.7);
+      window._draftThumbnail = compressed;
+      document.getElementById('thumbnail-preview-img').src = compressed;
+      document.getElementById('thumbnail-preview').classList.remove('hidden');
+    };
+
+    window.clearThumbnail = function() {
+      window._draftThumbnail = null;
+      document.getElementById('thumbnail-preview').classList.add('hidden');
+      document.getElementById('draft-thumbnail').value = '';
+    };
+
+    window.addScreenshots = async function(input) {
+      const files = Array.from(input.files);
+      if (!files.length) return;
+      for (const file of files) {
+        const compressed = await compressImage(file, 1200, 0.8);
+        window._draftScreenshots.push(compressed);
+      }
+      renderScreenshotPreviews();
+      input.value = '';
+    };
+
+    function renderScreenshotPreviews() {
+      const container = document.getElementById('screenshots-preview');
+      if (!container) return;
+      container.innerHTML = window._draftScreenshots.map((src, i) => `
+        <div class="relative">
+          <img src="${src}" class="w-24 h-24 object-cover border-4 border-on-background" />
+          <button onclick="removeScreenshot(${i})" class="absolute -top-2 -right-2 w-6 h-6 bg-on-background text-surface-white flex items-center justify-center text-xs font-bold">X</button>
+        </div>
+      `).join('');
+    }
+
+    window.removeScreenshot = function(index) {
+      window._draftScreenshots.splice(index, 1);
+      renderScreenshotPreviews();
     };
 
     window.submitDraft = async function() {
       const tab = window._activeAddTab;
-      let draft;
+      let content = {};
+
       if (tab === 'url') {
         const val = document.getElementById('draft-url').value.trim();
         if (!val) return alert('Paste a URL first');
-        draft = { type: 'url', content: val };
+        content.source = { type: 'url', value: val };
       } else if (tab === 'text') {
         const val = document.getElementById('draft-text').value.trim();
         if (!val) return alert('Type or paste a recipe first');
-        draft = { type: 'text', content: val };
-      } else if (tab === 'photo') {
-        if (!window._draftPhotoData) return alert('Take or choose a photo first');
-        draft = { type: 'photo', content: window._draftPhotoData };
-        window._draftPhotoData = null;
+        content.source = { type: 'text', value: val };
       }
+
+      if (window._draftThumbnail) {
+        content.thumbnail = window._draftThumbnail;
+      }
+      if (window._draftScreenshots.length > 0) {
+        content.screenshots = window._draftScreenshots;
+      }
+
+      if (!content.source && !content.screenshots?.length) {
+        return alert('Add a URL, text, or at least one screenshot');
+      }
+
+      // Save as type based on what's provided
+      const type = content.screenshots?.length ? 'photo' : (content.source?.type || 'text');
+      const draft = { type, content: JSON.stringify(content) };
+
       const result = await saveDraft(draft);
       if (result === 'offline') {
         alert('Saved locally (offline). Will sync when back online.');
       }
+
+      // Reset state
+      window._draftThumbnail = null;
+      window._draftScreenshots = [];
       location.hash = '#/';
     };
 
