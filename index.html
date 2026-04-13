@@ -15,6 +15,9 @@
   <!-- marked.js for markdown rendering -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
+  <!-- Supabase JS client for draft sync -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -61,6 +64,31 @@
     .neo-shadow {
       box-shadow: 4px 4px 0px 0px #2d2f2f;
     }
+
+    .scroll-fade {
+      position: relative;
+      overflow: hidden;
+    }
+    .scroll-fade::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 48px;
+      background: linear-gradient(to right, transparent, #f6f6f6);
+      pointer-events: none;
+      z-index: 1;
+    }
+    .scroll-row {
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      padding-right: 48px;
+    }
+    .scroll-row::-webkit-scrollbar { display: none; }
 
     .hero-gradient {
       background: linear-gradient(to top, rgba(45, 47, 47, 0.85) 0%, rgba(45, 47, 47, 0.4) 50%, transparent 100%);
@@ -365,8 +393,30 @@
           <span class="material-symbols-outlined text-sm">${icon}</span>${label}
         </button>`;
 
+      // Separate chef tags from other tags
+      const chefTags = TAG_CATEGORIES.chef.tags.filter(t => allTags.includes(t));
+      const nonChefTags = allTags.filter(t => !TAG_CATEGORIES.chef.tags.includes(t));
+
+      const filterBtn = (tag, isActive) => `
+        <button
+          onclick="toggleFilter('${tag}')"
+          class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors whitespace-nowrap flex-shrink-0 ${isActive ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}"
+        >${tag}</button>`;
+
       const filterBar = `
-        <div class="mb-6">
+        <div class="flex items-center gap-2 mb-3">
+          <div class="flex gap-2 flex-1">
+            <button onclick="setTimeFilter(null)"
+              class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors whitespace-nowrap ${!activeTimeFilter ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}">Any</button>
+            ${timeBtn('&lt;30', 'quick', 'bolt')}
+            ${timeBtn('30-60', 'medium', 'schedule')}
+            ${timeBtn('60+', 'long', 'local_fire_department')}
+          </div>
+          <button onclick="toggleSearchBar()" class="border-2 border-on-background w-10 h-10 flex items-center justify-center flex-shrink-0 hover:bg-primary-fixed transition-colors ${searchQuery ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background'}">
+            <span class="material-symbols-outlined text-xl">search</span>
+          </button>
+        </div>
+        <div class="mb-3 ${searchQuery ? '' : 'hidden'}" id="search-bar-row">
           <div class="relative">
             <input
               id="search-input"
@@ -376,38 +426,27 @@
               oninput="handleSearch(this.value)"
               class="w-full font-headline text-sm bg-surface-white border-4 border-on-background px-4 py-3 pr-10 placeholder:text-outline-variant focus:outline-none focus:border-primary-fixed"
             />
-            ${searchQuery ? `
-              <button onclick="clearSearch()" class="absolute right-3 top-1/2 -translate-y-1/2 text-outline hover:text-on-background">
-                <span class="material-symbols-outlined text-xl">close</span>
-              </button>
-            ` : `
-              <span class="material-symbols-outlined text-xl text-outline-variant absolute right-3 top-1/2 -translate-y-1/2">search</span>
-            `}
+            <button onclick="clearSearch()" class="absolute right-3 top-1/2 -translate-y-1/2 text-outline hover:text-on-background">
+              <span class="material-symbols-outlined text-xl">close</span>
+            </button>
           </div>
         </div>
-        <div class="mb-4">
-          <div class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline mb-2">Time to cook</div>
-          <div class="flex flex-wrap gap-2 mb-4">
-            <button onclick="setTimeFilter(null)"
-              class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors ${!activeTimeFilter ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}">Any</button>
-            ${timeBtn('&lt;30 min', 'quick', 'bolt')}
-            ${timeBtn('30-60 min', 'medium', 'schedule')}
-            ${timeBtn('60+ min', 'long', 'local_fire_department')}
-          </div>
-        </div>
-        <div class="mb-4">
-          <div class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline mb-2">Tags</div>
-          <div class="flex flex-wrap gap-2 mb-6">
-            <button
-              onclick="toggleFilter(null)"
-              class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors ${activeFilters.size === 0 ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}"
-            >ALL</button>
-            ${allTags.map(tag => `
+        <div class="mb-2">
+          <div class="scroll-fade">
+            <div class="scroll-row">
               <button
-                onclick="toggleFilter('${tag}')"
-                class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors ${activeFilters.has(tag) ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}"
-              >${tag}</button>
-            `).join('')}
+                onclick="toggleFilter(null)"
+                class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors whitespace-nowrap flex-shrink-0 ${activeFilters.size === 0 ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}"
+              >ALL</button>
+              ${chefTags.map(tag => filterBtn(tag, activeFilters.has(tag))).join('')}
+            </div>
+          </div>
+        </div>
+        <div class="mb-4">
+          <div class="scroll-fade">
+            <div class="scroll-row">
+              ${nonChefTags.map(tag => filterBtn(tag, activeFilters.has(tag))).join('')}
+            </div>
           </div>
         </div>
       `;
@@ -448,7 +487,7 @@
       container.innerHTML = `
         <div class="max-w-2xl mx-auto px-4 py-8">
           ${filterBar}
-          ${renderDraftsSection()}
+          ${await renderDraftsSection()}
           ${resultCount}
           ${filtered.length === 0 ? '<div class="font-headline text-outline text-center py-8">No recipes match.</div>' : cards}
         </div>
@@ -487,7 +526,21 @@
 
     window.clearSearch = function() {
       searchQuery = '';
+      const row = document.getElementById('search-bar-row');
+      if (row) row.classList.add('hidden');
       renderList(document.getElementById('app'));
+    };
+
+    window.toggleSearchBar = function() {
+      const row = document.getElementById('search-bar-row');
+      const input = document.getElementById('search-input');
+      if (!row) return;
+      if (row.classList.contains('hidden')) {
+        row.classList.remove('hidden');
+        if (input) input.focus();
+      } else if (!searchQuery) {
+        row.classList.add('hidden');
+      }
     };
 
     // ─── View: Recipe Detail ───────────────────────────────────────────────────
@@ -846,38 +899,95 @@
       renderShop(slug, document.getElementById('app'));
     };
 
-    // --- Draft system ---
+    // --- Draft system (Supabase) ---
 
-    const DRAFTS_KEY = 'kitchen-lab-drafts';
+    const SUPABASE_URL = 'https://bpbendglpbyydhwbpehq.supabase.co';
+    const SUPABASE_ANON_KEY = 'sb_publishable_d9VhtNS7tpDE38x2d8_HjQ_Yg1bRY3f';
+    const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-    function loadDrafts() {
-      try { return JSON.parse(localStorage.getItem(DRAFTS_KEY) || '[]'); } catch { return []; }
+    const DRAFTS_LOCAL_KEY = 'kitchen-lab-drafts-offline';
+
+    async function loadDrafts() {
+      try {
+        // Try Supabase first
+        const { data, error } = await sb.from('drafts').select('*').order('created_at', { ascending: true });
+        if (error) throw error;
+        // Map Supabase fields to app fields
+        const remote = (data || []).map(d => ({ ...d, createdAt: d.created_at, source: 'remote' }));
+        // Also include any offline drafts
+        const local = loadLocalDrafts().map(d => ({ ...d, source: 'offline' }));
+        return [...local, ...remote];
+      } catch {
+        // Offline - return localStorage drafts only
+        return loadLocalDrafts().map(d => ({ ...d, source: 'offline' }));
+      }
     }
 
-    function saveDraft(draft) {
-      const drafts = loadDrafts();
-      drafts.push({ ...draft, id: Date.now(), createdAt: new Date().toISOString() });
-      localStorage.setItem(DRAFTS_KEY, JSON.stringify(drafts));
+    async function saveDraft(draft) {
+      try {
+        const { error } = await sb.from('drafts').insert({ type: draft.type, content: draft.content });
+        if (error) throw error;
+        // If we have offline drafts, try to sync them too
+        await syncOfflineDrafts();
+      } catch {
+        // Offline fallback - save to localStorage
+        const drafts = loadLocalDrafts();
+        drafts.push({ ...draft, id: Date.now(), createdAt: new Date().toISOString() });
+        localStorage.setItem(DRAFTS_LOCAL_KEY, JSON.stringify(drafts));
+        return 'offline';
+      }
     }
 
-    function deleteDraft(id) {
-      const drafts = loadDrafts().filter(d => d.id !== id);
-      localStorage.setItem(DRAFTS_KEY, JSON.stringify(drafts));
+    async function deleteDraft(id) {
+      try {
+        // UUID = Supabase, number = local
+        if (typeof id === 'string' && id.includes('-')) {
+          const { error } = await sb.from('drafts').delete().eq('id', id);
+          if (error) throw error;
+        } else {
+          const drafts = loadLocalDrafts().filter(d => d.id !== id);
+          localStorage.setItem(DRAFTS_LOCAL_KEY, JSON.stringify(drafts));
+        }
+      } catch {
+        // Silently fail - draft stays, user can retry
+      }
     }
 
-    function renderDraftsSection() {
-      const drafts = loadDrafts();
+    function loadLocalDrafts() {
+      try { return JSON.parse(localStorage.getItem(DRAFTS_LOCAL_KEY) || '[]'); } catch { return []; }
+    }
+
+    async function syncOfflineDrafts() {
+      const local = loadLocalDrafts();
+      if (local.length === 0) return;
+      const synced = [];
+      for (const d of local) {
+        try {
+          const { error } = await sb.from('drafts').insert({ type: d.type, content: d.content });
+          if (!error) synced.push(d.id);
+        } catch { /* skip, will retry next time */ }
+      }
+      if (synced.length > 0) {
+        const remaining = local.filter(d => !synced.includes(d.id));
+        localStorage.setItem(DRAFTS_LOCAL_KEY, JSON.stringify(remaining));
+      }
+    }
+
+    async function renderDraftsSection() {
+      const drafts = await loadDrafts();
       if (drafts.length === 0) return '';
       const items = drafts.map(d => {
         const icon = d.type === 'url' ? 'link' : d.type === 'photo' ? 'photo_camera' : 'notes';
         const preview = d.type === 'url' ? d.content : d.type === 'text' ? d.content.slice(0, 80) + '...' : 'Photo';
         const date = new Date(d.createdAt).toLocaleDateString();
+        const offlineChip = d.source === 'offline' ? '<span class="font-headline font-bold text-[10px] uppercase tracking-widest px-2 py-0.5 bg-outline-variant text-surface-white">offline</span>' : '';
         return `
           <div class="flex items-center gap-3 p-3 border-4 border-dashed border-outline-variant mb-2 bg-surface-white">
             <span class="material-symbols-outlined text-outline">${icon}</span>
             <span class="font-body text-sm flex-1 truncate">${preview}</span>
+            ${offlineChip}
             <span class="font-headline text-[10px] uppercase tracking-widest text-outline">${date}</span>
-            <button onclick="event.stopPropagation(); deleteDraftAndRefresh(${d.id})" class="text-outline hover:text-on-background">
+            <button onclick="event.stopPropagation(); deleteDraftAndRefresh('${d.id}')" class="text-outline hover:text-on-background">
               <span class="material-symbols-outlined text-sm">close</span>
             </button>
           </div>
@@ -894,8 +1004,8 @@
       `;
     }
 
-    window.deleteDraftAndRefresh = function(id) {
-      deleteDraft(id);
+    window.deleteDraftAndRefresh = async function(id) {
+      await deleteDraft(id);
       renderList(document.getElementById('app'));
     };
 
@@ -976,7 +1086,7 @@
       reader.readAsDataURL(file);
     };
 
-    window.submitDraft = function() {
+    window.submitDraft = async function() {
       const tab = window._activeAddTab;
       let draft;
       if (tab === 'url') {
@@ -992,7 +1102,10 @@
         draft = { type: 'photo', content: window._draftPhotoData };
         window._draftPhotoData = null;
       }
-      saveDraft(draft);
+      const result = await saveDraft(draft);
+      if (result === 'offline') {
+        alert('Saved locally (offline). Will sync when back online.');
+      }
       location.hash = '#/';
     };
 
