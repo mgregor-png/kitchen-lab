@@ -508,8 +508,21 @@
         </div>
       `;
 
+      // Load ratings and sort: rated recipes first (highest to lowest), then unrated
+      const ratings = await loadAllRatings();
+      filtered.sort((a, b) => {
+        const ra = ratings[a.slug] || 0;
+        const rb = ratings[b.slug] || 0;
+        if (ra && rb) return rb - ra; // both rated: highest first
+        if (ra) return -1; // a rated, b not
+        if (rb) return 1;  // b rated, a not
+        return 0; // both unrated: keep original order
+      });
+
       const cards = filtered.map(recipe => {
         const tags = (recipe.tags || []).map(t => renderTagPill(t, 'inline-block mt-1')).join(' ');
+        const rating = ratings[recipe.slug];
+        const ratingBadge = rating ? `<div class="font-headline font-black text-sm text-primary-fixed">${rating}</div>` : '';
         const imgHtml = recipe.image
           ? `<div class="w-20 h-20 md:w-24 md:h-24 flex-shrink-0 border-r-[3px] border-on-background overflow-hidden">
                <img src="${recipe.image}" alt="${recipe.title}" class="w-full h-full object-cover" loading="lazy" onerror="this.parentElement.style.display='none'">
@@ -526,6 +539,7 @@
                   <div class="flex flex-wrap gap-1">${tags}</div>
                 </div>
                 <div class="border-l-[3px] border-on-background pl-3 min-w-[60px] text-right flex-shrink-0">
+                  ${ratingBadge}
                   <div class="font-headline font-black text-3xl leading-none">${recipe.time}</div>
                   <div class="font-headline font-bold text-[10px] uppercase tracking-widest">MIN</div>
                 </div>
@@ -646,6 +660,9 @@
         `;
       }).join('');
 
+      // Get current rating
+      const currentRating = await getRating(slug);
+
       // Check weekly plan status
       const inWeeklyPlan = await isInWeeklyPlan(slug);
       const weeklyBtn = `
@@ -742,10 +759,53 @@
           <div class="${ingredients.length > 0 ? 'md:col-span-8' : 'md:col-span-12'} bg-surface-white p-6 md:p-10">
             ${!imageUrl ? fallbackTitle : ''}
             <div class="recipe-content">${renderedBody}</div>
+
+            <!-- Rating slider -->
+            <div class="mt-8 pt-6 border-t-4 border-on-background">
+              <div class="flex items-center justify-between mb-3">
+                <div class="font-headline font-black text-sm uppercase tracking-widest">Rate this recipe</div>
+                <div id="rating-display" class="font-headline font-black text-2xl ${currentRating ? 'text-primary-fixed' : 'text-outline-variant'}">${currentRating || '-'}<span class="text-xs font-bold text-outline">/10</span></div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline">1</span>
+                <input
+                  type="range"
+                  min="1" max="10" step="1"
+                  value="${currentRating || 5}"
+                  oninput="previewRating(this.value)"
+                  onchange="submitRating('${slug}', this.value)"
+                  class="flex-1 h-2 appearance-none cursor-pointer"
+                  style="accent-color:#2ff801; background:linear-gradient(to right, #444 0%, #2ff801 100%);"
+                  id="rating-slider"
+                />
+                <span class="font-headline font-bold text-[10px] uppercase tracking-widest text-outline">10</span>
+              </div>
+              ${currentRating ? '<div class="font-headline text-[10px] uppercase tracking-widest text-outline mt-2">Rated - slide to change</div>' : ''}
+            </div>
           </div>
         </div>
       `;
     }
+
+    window.previewRating = function(value) {
+      const display = document.getElementById('rating-display');
+      if (display) {
+        display.innerHTML = value + '<span class="text-xs font-bold text-outline">/10</span>';
+        display.classList.remove('text-outline-variant');
+        display.classList.add('text-primary-fixed');
+      }
+    };
+
+    window.submitRating = async function(slug, value) {
+      await setRating(slug, parseInt(value));
+      const display = document.getElementById('rating-display');
+      if (display) {
+        display.innerHTML = value + '<span class="text-xs font-bold text-outline">/10</span> <span class="text-xs text-primary-fixed">Saved!</span>';
+        setTimeout(() => {
+          display.innerHTML = value + '<span class="text-xs font-bold text-outline">/10</span>';
+        }, 1500);
+      }
+    };
 
     // ─── View: Shopping List ───────────────────────────────────────────────────
 
@@ -1399,6 +1459,36 @@
       await deleteDraft(id);
       renderList(document.getElementById('app'));
     };
+
+    // --- Ratings (Supabase) ---
+
+    let ratingsCache = null;
+
+    async function loadAllRatings() {
+      if (ratingsCache) return ratingsCache;
+      try {
+        const { data, error } = await sb.from('ratings').select('*');
+        if (error) throw error;
+        ratingsCache = {};
+        (data || []).forEach(r => { ratingsCache[r.slug] = r.rating; });
+        return ratingsCache;
+      } catch {
+        return ratingsCache || {};
+      }
+    }
+
+    async function getRating(slug) {
+      const ratings = await loadAllRatings();
+      return ratings[slug] || null;
+    }
+
+    async function setRating(slug, rating) {
+      try {
+        const { error } = await sb.from('ratings').upsert({ slug, rating }, { onConflict: 'slug' });
+        if (error) throw error;
+        if (ratingsCache) ratingsCache[slug] = rating;
+      } catch {}
+    }
 
     // --- Weekly Plan (Supabase) ---
 
