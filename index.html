@@ -641,29 +641,6 @@
         `;
       }).join('');
 
-      // Mobile: collapsible ingredients toggle
-      const mobileIngBlock = ingredients.length > 0 ? `
-        <div class="md:hidden border-b-4 border-on-background">
-          <button
-            onclick="document.getElementById('mobile-ings').classList.toggle('hidden')"
-            class="w-full flex items-center justify-between bg-on-background text-surface-white px-4 py-3 font-headline font-bold text-sm uppercase tracking-widest"
-          >
-            <span>Ingredients (${ingredients.length})</span>
-            <span class="material-symbols-outlined text-base">expand_more</span>
-          </button>
-          <div id="mobile-ings" class="hidden bg-on-background px-4 pb-4">
-            ${ingredientRows}
-            <a href="#/recipe/${slug}/shop" class="block mt-4 text-center bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-2 neo-shadow">
-              Shopping List
-            </a>
-            <a href="#/recipe/${slug}/cook" class="block mt-2 text-center bg-primary-fixed text-on-background font-headline font-bold text-sm uppercase tracking-widest border-4 border-on-background px-4 py-2 neo-shadow">
-              Start Cooking
-            </a>
-            ${weeklyBtnMobile}
-          </div>
-        </div>
-      ` : '';
-
       // Check weekly plan status
       const inWeeklyPlan = await isInWeeklyPlan(slug);
       const weeklyBtn = `
@@ -676,6 +653,33 @@
           <span class="material-symbols-outlined text-base align-middle" style="font-variation-settings:'FILL' ${inWeeklyPlan ? 1 : 0};">bookmark</span>
           ${inWeeklyPlan ? 'Saved' : 'This Week'}
         </button>`;
+
+      // Mobile: action buttons always visible + collapsible ingredients
+      const mobileActionsBlock = `
+        <div class="md:hidden border-b-4 border-on-background">
+          <div class="flex gap-2 px-4 py-3 bg-on-background">
+            <a href="#/recipe/${slug}/cook" class="flex-1 text-center bg-primary-fixed text-on-background font-headline font-bold text-xs uppercase tracking-widest border-4 border-on-background px-3 py-2 neo-shadow">
+              Cook
+            </a>
+            <a href="#/recipe/${slug}/shop" class="flex-1 text-center bg-primary-fixed text-on-background font-headline font-bold text-xs uppercase tracking-widest border-4 border-on-background px-3 py-2 neo-shadow">
+              Shop
+            </a>
+            ${weeklyBtnMobile}
+          </div>
+          ${ingredients.length > 0 ? `
+          <button
+            onclick="document.getElementById('mobile-ings').classList.toggle('hidden')"
+            class="w-full flex items-center justify-between bg-on-background text-surface-white px-4 py-3 font-headline font-bold text-sm uppercase tracking-widest border-t-2" style="border-color:#444;"
+          >
+            <span>Ingredients (${ingredients.length})</span>
+            <span class="material-symbols-outlined text-base">expand_more</span>
+          </button>
+          <div id="mobile-ings" class="hidden bg-on-background px-4 pb-4">
+            ${ingredientRows}
+          </div>
+          ` : ''}
+        </div>
+      `;
 
       // Look up image from allRecipes cache (avoid re-fetching)
       const recipeData = allRecipes ? allRecipes.find(r => r.slug === slug) : null;
@@ -712,7 +716,7 @@
 
       container.innerHTML = `
         ${heroHtml}
-        ${mobileIngBlock}
+        ${mobileActionsBlock}
         <div class="max-w-5xl mx-auto md:grid md:grid-cols-12 min-h-[calc(100vh-3.5rem)]">
           <!-- Left sidebar: ingredients (desktop only) -->
           ${ingredients.length > 0 ? `
@@ -911,9 +915,9 @@
         const { quantity, name } = parseIngredient(ing);
         const mentioned = ingredientNames[i] && stepTextLower.includes(ingredientNames[i]);
         return `
-          <div class="flex items-start justify-between gap-2 py-2 border-b border-outline border-opacity-30 last:border-b-0 transition-opacity ${mentioned ? 'opacity-100' : 'opacity-30'}">
-            <span class="font-body italic text-sm leading-snug flex-1 ${mentioned ? 'text-surface-white' : 'text-outline'}">${name}</span>
-            ${quantity ? `<span class="font-headline font-bold text-sm flex-shrink-0 ${mentioned ? 'text-primary-fixed' : 'text-outline'}">${quantity}</span>` : ''}
+          <div class="flex items-start justify-between gap-2 py-2 border-b border-opacity-30 last:border-b-0" style="border-color:#444;">
+            <span class="font-body italic text-sm leading-snug flex-1" style="color:${mentioned ? '#fff' : '#999'}; ${mentioned ? 'font-weight:600;' : ''}">${name}</span>
+            ${quantity ? `<span class="font-headline font-bold text-sm flex-shrink-0" style="color:${mentioned ? '#2ff801' : '#777'};">${quantity}</span>` : ''}
           </div>
         `;
       }).join('');
@@ -921,38 +925,42 @@
       const safeTitle = title.replace(/'/g, "\\'");
 
       container.innerHTML = `
-        <div class="min-h-screen bg-on-background text-surface-white md:grid md:grid-cols-12">
+        <div class="h-[calc(100vh-3.5rem)] bg-on-background text-surface-white md:grid md:grid-cols-12 overflow-hidden">
           ${ingredients.length > 0 ? `
-          <div class="hidden md:block md:col-span-4 p-6 border-r-4 border-outline sticky top-14 h-screen overflow-y-auto" style="background:#1a1a1a;">
+          <div class="hidden md:block md:col-span-4 p-6 border-r-4 h-full overflow-y-auto" style="background:#1a1a1a; border-color:#444;">
             <div class="font-headline font-black text-xs uppercase tracking-widest text-primary-fixed mb-4">Ingredients</div>
             ${ingRows}
           </div>
           ` : ''}
 
-          <div class="${ingredients.length > 0 ? 'md:col-span-8' : 'md:col-span-12'} flex flex-col min-h-screen">
-            <div class="flex items-center justify-between px-6 pt-6 pb-2">
+          <div class="${ingredients.length > 0 ? 'md:col-span-8' : 'md:col-span-12'} flex flex-col h-[calc(100vh-3.5rem)] overflow-hidden">
+            <!-- Top bar -->
+            <div class="flex items-center justify-between px-4 md:px-6 pt-4 pb-2 flex-shrink-0">
               <div class="font-headline font-black text-xs uppercase tracking-widest text-primary-fixed">Cook Mode</div>
               ${activeTimerPills ? `<div class="flex gap-2">${activeTimerPills}</div>` : ''}
-              <div class="flex items-center gap-4">
-                <div class="font-headline font-bold text-xs uppercase tracking-widest text-outline">Step ${current + 1} of ${total}</div>
+              <div class="flex items-center gap-3">
+                <div class="font-headline font-bold text-[10px] md:text-xs uppercase tracking-widest text-outline">${current + 1}/${total}</div>
                 <a href="#/recipe/${slug}" class="text-outline hover:text-surface-white">
                   <span class="material-symbols-outlined text-xl">close</span>
                 </a>
               </div>
             </div>
 
-            <div class="h-1 mx-6" style="background:#444;">
+            <!-- Progress bar -->
+            <div class="h-1 mx-4 md:mx-6 flex-shrink-0" style="background:#444;">
               <div class="h-1 transition-all" style="background:#2ff801; width:${progress}%;"></div>
             </div>
 
-            <div class="flex-1 flex flex-col justify-center px-6 md:px-12 py-8">
-              <div class="font-body text-xl md:text-2xl leading-relaxed" style="line-height:1.7;">
+            <!-- Step content - scrollable if needed -->
+            <div class="flex-1 overflow-y-auto px-4 md:px-12 py-6">
+              <div class="font-body text-lg md:text-2xl leading-relaxed" style="line-height:1.7;">
                 ${displayHtml}
               </div>
               ${timerCallouts}
             </div>
 
-            <div class="flex items-center justify-between px-6 pb-6 pt-2 border-t-2" style="border-color:#444;">
+            <!-- Bottom nav - always pinned -->
+            <div class="flex items-center justify-between px-4 md:px-6 py-4 flex-shrink-0 border-t-2" style="border-color:#444;">
               ${current > 0 ? `
                 <button onclick="navigateCook('${slug}', '${safeTitle}', document.getElementById('app'), -1)" class="font-headline font-bold text-sm uppercase tracking-widest text-outline hover:text-surface-white">
                   &larr; Prev
