@@ -302,10 +302,24 @@
     function extractIngredients(body) {
       const match = body.match(/## Ingredients\n([\s\S]*?)(?=\n## |\n$|$)/);
       if (!match) return [];
+      // Returns array of strings - ingredient lines and section headers (prefixed with ###)
       return match[1]
         .split('\n')
-        .map(l => l.replace(/^[-*]\s*/, '').trim())
+        .map(l => l.trim())
+        .filter(Boolean)
+        .map(l => {
+          if (l.startsWith('### ')) return l; // keep section headers
+          return l.replace(/^[-*]\s*/, '').trim();
+        })
         .filter(Boolean);
+    }
+
+    function isIngredientSection(str) {
+      return str.startsWith('### ');
+    }
+
+    function ingredientSectionName(str) {
+      return str.replace(/^###\s*/, '');
     }
 
     function parseIngredient(str) {
@@ -671,6 +685,9 @@
       const heroTags = tagList.map(t => renderHeroTagPill(t)).join(' ');
 
       const ingredientRows = ingredients.map(ing => {
+        if (isIngredientSection(ing)) {
+          return `<div class="font-headline font-bold text-[10px] uppercase tracking-widest text-primary-fixed mt-4 mb-1 pt-2 border-t" style="border-color:#444;">${ingredientSectionName(ing)}</div>`;
+        }
         const { quantity, name } = parseIngredient(ing);
         return `
           <div class="flex items-start justify-between gap-2 py-2 border-b border-outline border-opacity-30 last:border-b-0">
@@ -904,7 +921,7 @@
       const { meta, body } = parseFrontmatter(raw);
       const title = meta.title || slug;
       const ingredients = extractIngredients(body);
-      const ingredientNames = ingredients.map(ing => parseIngredient(ing).name.toLowerCase());
+      const ingredientNames = ingredients.map(ing => isIngredientSection(ing) ? null : parseIngredient(ing).name.toLowerCase());
 
       const mainBody = bodyWithoutIngredients(body);
       const renderedHtml = marked.parse(mainBody);
@@ -1020,6 +1037,9 @@
 
       const stepTextLower = stepHtml.toLowerCase();
       const ingRows = ingredients.map((ing, i) => {
+        if (isIngredientSection(ing)) {
+          return `<div class="font-headline font-bold text-[10px] uppercase tracking-widest mt-4 mb-1 pt-2" style="color:#2ff801; border-top:1px solid #444;">${ingredientSectionName(ing)}</div>`;
+        }
         const { quantity, name } = parseIngredient(ing);
         const mentioned = ingredientNames[i] && stepTextLower.includes(ingredientNames[i]);
         return `
@@ -1174,6 +1194,11 @@
 
       const classified = [];
       ingredients.forEach((ing, i) => {
+        // Section headers become visual dividers in the shopping list
+        if (isIngredientSection(ing)) {
+          classified.push({ ing: ingredientSectionName(ing), i: `section-${i}`, category: 'section', label: null, isHeader: true });
+          return;
+        }
         const cls = classifyIngredient(ing);
         if (cls.category === 'spice-mix') {
           classified.push({ ing, i, ...cls, isHeader: true });
@@ -1186,6 +1211,12 @@
       });
 
       const items = classified.map(item => {
+        if (item.category === 'section') {
+          return `
+            <div class="font-headline font-bold text-xs uppercase tracking-widest text-on-background mt-5 mb-2 pt-3 border-t-2 border-on-background">
+              ${item.ing}
+            </div>`;
+        }
         if (item.isHeader) {
           return `
             <div class="font-headline font-bold text-xs uppercase tracking-widest text-outline mt-6 mb-2 flex items-center gap-2">
