@@ -33,22 +33,22 @@ Serves 2
 ### Chicken
 - 300g Chicken Breast
 - 1tbsp Salt
+
+### Crispy Rice
 - 200g Cooked Short Grain Rice
+- 2tsp Sesame Oil
+
+### Dressing
+- 1tbsp Peanut Butter
+- 1tbsp Crispy Chilli Oil
+- 2tbsp Soy Sauce
+- 2tbsp Sherry Vinegar
+
+### Salad
 - 100g Cucumber
 - 100g Carrot
 - 60g Beansprouts
 - 3 Spring Onion
-- 1tbsp Crispy Chilli Oil
-- 2tbsp Soy Sauce
-
-### Rice
-- 2tsp Sesame Oil
-
-### Sauce
-- 1tbsp Peanut Butter
-- 2tbsp Sherry Vinegar
-
-### To Serve
 - 15g Fresh Coriander
 - 1tbsp Shichimi Togarashi
 

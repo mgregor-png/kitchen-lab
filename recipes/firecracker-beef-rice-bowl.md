@@ -32,24 +32,24 @@ Serves 2
 
 ## Ingredients
 
-### Beef
-- 100g Sushi Rice
-- 1 Onion
-- 225g 5% Fat Beef Mince
-- 1tbsp Rice Vinegar
-- 2 Spring Onion
-- 80g Tenderstem Broccoli
-
 ### Rice
+- 100g Sushi Rice
 - 120ml Water
+- Salt
+
+### Firecracker Sauce
 - 2Clove Garlic
 - 15g Fresh Ginger
 - 2tbsp Sriracha
 - 1tbsp Honey
 - 1tbsp Soy Sauce
-- 2 Red Chilli
-- Salt
+- 1tbsp Rice Vinegar
 
-### Other
+### Beef
+- 225g 5% Fat Beef Mince
+- 1 Onion
+- 80g Tenderstem Broccoli
+- 2 Red Chilli
+- 2 Spring Onion
 - 1tbsp Neutral Oil
 

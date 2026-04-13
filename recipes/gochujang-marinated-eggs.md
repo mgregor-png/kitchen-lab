@@ -27,20 +27,13 @@ These eggs will last for up to 4 days in the fridge, the flavour gets stronger e
 
 ## Ingredients
 
-### Eggs
 - 6 Egg
-- 60g Soy Sauce
-- 150ml Water
-
-### Rice
-- 2 Spring Onion (to serve)
-
-### Sauce
 - 90g Gochujang
+- 60g Soy Sauce
 - 30g Honey
 - 10g Gochugaru
 - 15g Fresh Ginger
-
-### Other
+- 150ml Water
 - Salt
+- 2 Spring Onion (to serve)
 

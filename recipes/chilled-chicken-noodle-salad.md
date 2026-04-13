@@ -28,19 +28,17 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
+### Noodles & Veg
 - 200g Soba Noodles
 - 2 Carrot
 - .5 Cucumber
 - 2 Spring Onion
 - 15g Fresh Coriander
+- 1tbsp Sesame Seeds
 
-### Rice
+### Dressing
 - 2tbsp Soy Sauce
 - 1tbsp Rice Vinegar
 - 1 Crispy Chilli Oil
 - Salt
-
-### Other
-- 1tbsp Sesame Seeds
 

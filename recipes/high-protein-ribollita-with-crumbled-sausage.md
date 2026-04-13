@@ -28,7 +28,7 @@ Serves 4
 
 ## Ingredients
 
-### Chicken
+### Soup
 - 680g Chicken Sausage
 - 2 White Onion
 - 4Stalk Celery
@@ -41,12 +41,10 @@ Serves 4
 - 2tbsp Tomato Purée
 - 2 Bay Leaf
 - 1L Chicken Stock
+- Olive Oil
 
 ### To Serve
+- 2Slice Sourdough
 - 80g Parmesan
 - 10g Fresh Parsley
-
-### Other
-- 2Slice Sourdough
-- Olive Oil
 

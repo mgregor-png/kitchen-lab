@@ -30,16 +30,20 @@ If you don't have an airfryer roast in the oven at 200°C fan for 12–15 mins u
 ## Ingredients
 
 ### Salmon
+- 2 Skinless Salmon Fillet
 - 1tbsp Dijon Mustard
 - 1tsp Honey
-- 2 Skinless Salmon Fillet
+
+### Dilly Rice
 - 150g Jasmine Rice
-- .5 Lemon
 - 15g Fresh Dill
+- .5 Lemon
+
+### Everything Bagel Cream Cheese
 - 100g Cream Cheese
 - 2tsp Everything Bagel Seasoning
 
-### Other
+### Pickled Salad
 - .5 Cucumber
 - .5 Red Onion
 - 2tbsp White Wine Vinegar

@@ -33,13 +33,17 @@ Serves 2
 - 1tbsp Sugar
 - 1tsp Vegetable Oil
 - 10g Butter
-- 100g Sushi Rice
+
+### Sesame Broccoli
 - 150g Broccoli
 - 1tbsp Soy Sauce
 - 1tsp Sesame Seeds
-- 1 Lemon
 
 ### Rice
+- 100g Sushi Rice
 - 120ml Water
 - Salt
+
+### To Serve
+- 1 Lemon
 

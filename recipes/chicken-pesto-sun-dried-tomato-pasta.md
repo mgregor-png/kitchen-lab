@@ -24,8 +24,8 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
 - 300g Cooked Chicken
+- 250g Rigatoni
 - 150g Cottage Cheese
 - 60g Pesto
 - 60g Sun-Dried Tomato
@@ -35,7 +35,4 @@ Serves 2
 - 1 Spring Onion
 - Salt
 - Black Pepper
-
-### Other
-- 250g Rigatoni
 

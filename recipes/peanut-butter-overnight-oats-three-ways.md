@@ -22,26 +22,28 @@ Serves 6
 
 ## Ingredients
 
-### Yoghurt
+### Oats
 - 75g Crunchy Peanut Butter
 - 180g Rolled Oat
 - 280ml Unsweetened Almond Milk
 - 25g Honey
+- 60g Vanilla Protein Powder
+- 1tbsp Vanilla Extract
+- 2tbsp Chia Seed
+- 120g Blueberry
+- 1tsp Salt
+
+### Yoghurt Topping
+- 800g 0% Fat Greek Yoghurt⁣
+- 225g 0% Fat Greek Yoghurt⁣
 - 40g Honey
 - 60ml Unsweetened Almond Milk
+
+### Toppings
 - Crunchy Nut Cornflakes (to serve)
 - 1tsp Ground Cinnamon (to serve)
 - Banana (to serve)
 - 25g Granola (to serve)
 - 2tsp Honey (to serve)
 - 5 Frozen Strawberry (to serve)
-
-### Other
-- 225g 0% Fat Greek Yoghurt⁣
-- 60g Vanilla Protein Powder
-- 1tbsp Vanilla Extract
-- 2tbsp Chia Seed
-- 120g Blueberry
-- 1tsp Salt
-- 800g 0% Fat Greek Yoghurt⁣
 

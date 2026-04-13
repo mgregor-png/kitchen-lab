@@ -26,19 +26,17 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
-- 70g Cooked Chicken Breast
-- 1tbsp Sun-Dried Tomato
-- 100g Cherry Tomatoes
-- 15g Fresh Basil
-
-### Pasta
+### Sauce
 - 150g Cottage Cheese
+- 1tbsp Sun-Dried Tomato
 - 1tbsp Gochujang
 - 1tsp Garlic Powder
+
+### Pasta
+- 160g Fusilli
+- 70g Cooked Chicken Breast
+- 100g Cherry Tomatoes
+- 15g Fresh Basil
 - 20g Parmesan
 - Salt
-
-### Other
-- 160g Fusilli
 

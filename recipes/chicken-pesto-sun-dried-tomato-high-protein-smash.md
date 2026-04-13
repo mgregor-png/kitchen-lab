@@ -22,7 +22,7 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
+### Smash
 - 300g Cooked Chicken
 - 150g Cottage Cheese
 - 60g Pesto

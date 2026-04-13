@@ -33,27 +33,26 @@ Pat the chicken dry and season with a pinch of salt and pepper. Set a large oven
 
 ## Ingredients
 
-### Chicken
+### Chicken Adobo
 - 4 Chicken Thigh
 - 1 Onion
+- 8Clove Garlic
 - 150ml Rice Wine Vinegar
 - 75ml Shoyu Soy Sauce
 - 150ml Water
-- Black Pepper
+- 1.5tbsp Brown Sugar
+- 2 Bay Leaf
 - 1tbsp Vegetable Oil
-- 150g Jasmine Rice
-- 1tsp Ground Turmeric
-- 200ml Chicken Stock
-- 2tbsp Peanut Butter
-- Olive Oil
 - Salt
 - Black Pepper
 
-### Rice
-- 1.5tbsp Brown Sugar
-- 2 Bay Leaf
+### Turmeric Rice
+- 150g Jasmine Rice
+- 200ml Chicken Stock
+- 1tsp Ground Turmeric
 
-### Other
-- 8Clove Garlic
+### Peanut Butter Greens
 - 200g Spinach
+- 2tbsp Peanut Butter
+- Olive Oil
 

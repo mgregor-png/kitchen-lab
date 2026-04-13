@@ -37,14 +37,14 @@ Serves 2
 - 3Clove Garlic
 - 1 Lemon
 - 1tsp Salt
-- 100g Frozen French Fry (optional)
-- 1 Red Onion
-- 1 Tomato
+- 250g 0% Fat Greek Yoghurt⁣
 
-### Yoghurt
+### Tzatziki
 - 0.5 Cucumber
 
-### Other
-- 250g 0% Fat Greek Yoghurt⁣
+### To Assemble
 - 2 Pitta
+- 1 Red Onion
+- 1 Tomato
+- 100g Frozen French Fry (optional)
 

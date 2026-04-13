@@ -28,8 +28,9 @@ Serves 2
 
 ## Ingredients
 
-### Beef
+### Bowl
 - 260g Sweet Potato
+- 5g Vegetable Oil Spray
 - 300g 5% Fat Beef Mince
 - 2tbsp Good-Quality Mild Taco Seasoning
 - 160g Cottage Cheese
@@ -37,12 +38,9 @@ Serves 2
 - 150g Iceberg Lettuce
 - 2tbsp Pickled Red Onion
 - Salt
+- Black Pepper
 
 ### To Serve
 - 30g Hot Honey
 - Chilli Flakes (optional)
-
-### Other
-- 5g Vegetable Oil Spray
-- Black Pepper
 

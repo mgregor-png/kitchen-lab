@@ -22,7 +22,7 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
+### Smash
 - 2 Cooked Chicken Breast
 - 3 Spring Onion
 - 1Stick Celery

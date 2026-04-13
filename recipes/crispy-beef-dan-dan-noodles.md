@@ -28,28 +28,28 @@ Serves 2
 
 ## Ingredients
 
-### Noodles
+### Beef Mince
+- 400g Beef Mince
 - 2tbsp Neutral Oil
 - 2 Spring Onion
-- 400g Beef Mince
+- 10g Fresh Ginger
+- 2tbsp Shaoxing Wine
 - 1tsp Light Soy Sauce
 - .5tsp Dark Soy Sauce
+- 1tsp Sugar
+
+### Dan Dan Sauce
+- 2Clove Garlic
 - 45g Peanut Butter
 - 1tbsp Light Soy Sauce
 - 1tbsp Dark Soy Sauce
 - 1tbsp Crispy Chilli Oil
-- 200g Choy Sum
+- 1tbsp Chinese Black Vinegar
+- .5tsp Sugar (optional)
+
+### Noodles
 - 2Nest Fresh Wheat Noodles
+- 200g Choy Sum
 - 30g Peanut
 - Crispy Chilli Oil
-
-### Sauce
-- 10g Fresh Ginger
-- 2tbsp Shaoxing Wine
-- .5tsp Sugar (optional)
-- 1tsp Sugar
-- 2Clove Garlic
-
-### Other
-- 1tbsp Chinese Black Vinegar
 

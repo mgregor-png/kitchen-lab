@@ -32,16 +32,16 @@ Serves 6
 
 ### Eggs
 - 6 Egg
-- 1 Red Chilli
+
+### Marinade
 - 200ml Olive Oil
 - 150ml Balsamic Vinegar
-- 10g Salt
-
-### Other
 - 1tbsp Fennel Seed
 - 3Clove Garlic
 - 10g Chive
 - 1 Lemon
+- 1 Red Chilli
 - 1tbsp Dried Oregano
+- 10g Salt
 - Black Pepper
 

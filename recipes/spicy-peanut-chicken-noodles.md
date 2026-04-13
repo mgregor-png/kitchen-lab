@@ -30,28 +30,30 @@ serves: 2
 
 ## Ingredients
 
-### Chicken
+### Miso Peanut Sauce
 - 40g peanut butter
 - 25g white miso
 - 20ml soy sauce
-- 1 tbsp Korean chilli flakes
-- 1 tbsp dark soy sauce
-- 400g chicken mince
-- 1 tbsp vegetable oil
-- 200g udon noodles
-
-### Rice
 - 20ml rice vinegar
 - 1 tbsp sugar
 - 1/2 tsp MSG (optional)
 - 65ml water
+
+### Chicken
+- 400g chicken mince
 - 4 spring onions
 - 1 garlic clove
 - 1 tbsp gochujang
+- 1 tbsp Korean chilli flakes
+- 1 tbsp dark soy sauce
 - 1 tbsp rice vinegar
 - 1 tbsp sugar
+- 1 tbsp vegetable oil
 
-### Salad
+### Noodles
+- 200g udon noodles
+
+### Herb Salad
 - 1/2 cucumber
 - 10g fresh coriander
 

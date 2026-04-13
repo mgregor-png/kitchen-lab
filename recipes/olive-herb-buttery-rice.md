@@ -28,19 +28,14 @@ Serves 4
 
 ## Ingredients
 
-### Chicken
 - 250g Jasmine Rice
 - 300ml Chicken Stock
-
-### Rice
 - 4 Garlic Clove
-- Salt
-- Black Pepper
-
-### Other
 - 30g Salted Butter
 - 20 Pitted Green Olive
 - 20g Fresh Dill
 - 20g Fresh Parsley
+- Salt
+- Black Pepper
 - Sugar (to serve)
 

@@ -40,15 +40,17 @@ Serves 2
 - Olive Oil
 - Salt
 - Black Pepper
-- 250g Mixed Cooked Grains
-- Olive Oil
-- Salt
-- Black Pepper
-- 2tbsp Skyr Natural Yoghurt (to serve)
 
-### Other
+### Herby Grains
+- 250g Mixed Cooked Grains
 - 1 Courgette
 - 0.5 Lemon
 - 15g Fresh Dill
 - 15g Fresh Flat Leaf Parsley
+- Olive Oil
+- Salt
+- Black Pepper
+
+### To Serve
+- 2tbsp Skyr Natural Yoghurt (to serve)
 

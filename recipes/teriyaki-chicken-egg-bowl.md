@@ -32,25 +32,25 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
-- 400g Skinless Chicken Thigh
-- 1x 300g Pouch Sushi Rice
-- 2 Egg
-- 100g Edamame
-- 3 Spring Onion
-- 1tbsp Vegetable Oil
-- 1tbsp Sesame Seeds
-- Salt
+### Teriyaki Sauce
 - 2tbsp Soy Sauce
 - 1tbsp Dark Soy Sauce
-- 1tsp Sesame Oil
-
-### Eggs
-- 4tbsp Water
-
-### Other
 - 1.5tbsp Soft Brown Sugar
 - 1 Garlic Clove
 - 10g Fresh Ginger
+- 1tsp Sesame Oil
+- 4tbsp Water
 - 1tbsp Cornflour
+
+### Chicken
+- 400g Skinless Chicken Thigh
+- 1tbsp Vegetable Oil
+- 3 Spring Onion
+- Salt
+
+### To Serve
+- 1x 300g Pouch Sushi Rice
+- 2 Egg
+- 100g Edamame
+- 1tbsp Sesame Seeds
 

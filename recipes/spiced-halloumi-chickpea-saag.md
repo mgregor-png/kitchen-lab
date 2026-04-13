@@ -30,25 +30,25 @@ Serves 2
 
 ## Ingredients
 
-### Rice
-- 1tbsp Fresh Ginger
-- 1 Green Chilli  (optional)
-- 1 Red Chilli
-- 10g Fresh Coriander
-- 300g Cooked Rice
+### Halloumi
+- 250g Halloumi
 
-### Yoghurt
+### Saag
+- 1tbsp Ghee
+- 1 Brown Onion
+- 3Clove Garlic
+- 1tbsp Fresh Ginger
+- 1tbsp Curry Powder
+- 1tbsp Garam Masala
+- 500g Spinach
 - 1x 400g Can Chickpeas
 - 150g Greek Yoghurt
 - 1 Lemon
 - Salt
 
-### Other
-- 250g Halloumi
-- 1tbsp Ghee
-- 1 Brown Onion
-- 3Clove Garlic
-- 1tbsp Curry Powder
-- 1tbsp Garam Masala
-- 500g Spinach
+### To Serve
+- 300g Cooked Rice
+- 1 Red Chilli
+- 1 Green Chilli  (optional)
+- 10g Fresh Coriander
 

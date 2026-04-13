@@ -32,14 +32,16 @@ Serves 2
 - 100g Pitted Green Olive
 - 1tbsp Olive Oil
 - 1tsp Dried Oregano
-- 1x 250g Pouch Microwaveable Wild Rice Pouch
-- 10g Fresh Parsley (to serve)
 - Salt
 - Black Pepper
+
+### Harissa Yoghurt
 - 200g Greek Yoghurt
 - 2tsp Harissa Paste
+- .25 Lemon
 - 1Pinch Salt
 
-### Rice
-- .25 Lemon
+### To Serve
+- 1x 250g Pouch Microwaveable Wild Rice Pouch
+- 10g Fresh Parsley (to serve)
 

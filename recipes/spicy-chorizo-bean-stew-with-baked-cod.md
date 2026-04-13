@@ -30,21 +30,23 @@ Serves 2
 
 ## Ingredients
 
-### Cod
-- 200g Cod Fillet
+### Chorizo Bean Stew
 - 70g Chorizo
-- 1x 400g Can Chopped Tomatoes
-- 10g Olive Oil
-- 2tsp Paprika
-- 10g Fresh Parsley
-- Salt
-
-### Other
 - 1 Red Onion
 - 2Clove Garlic
-- 40g Kale
+- 1x 400g Can Chopped Tomatoes
 - 1x 400g Can Butter Beans
+- 40g Kale
 - 200ml Water
+- 2tsp Paprika
+- Salt
+
+### Cod
+- 200g Cod Fillet
+- 10g Olive Oil
+
+### To Serve
+- 10g Fresh Parsley
 - 1 Lemon
 - 60g 0% Fat Greek Yoghurt⁣
 

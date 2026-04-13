@@ -24,24 +24,24 @@ Serves 4
 
 ## Ingredients
 
-### Yoghurt
+### Oats
 - 1 Apple
 - 120g Rolled Oat
-- 150g 5% Fat Greek Yoghurt
-- 450g 5% Fat Greek Yoghurt
-- 25g Rolled Oat
-
-### Crumble
-- 10g Unsalted Butter
-
-### Other
 - 180ml Unsweetened Almond Milk
 - 15ml Maple Syrup
 - 30g Vanilla Protein Powder
 - 15ml Vanilla Extract
 - 1tsp Ground Cinnamon
-- 20g Brown Sugar
+
+### Yoghurt Topping
+- 450g 5% Fat Greek Yoghurt
+- 150g 5% Fat Greek Yoghurt
+- 25g Rolled Oat
 - 15ml Unsweetened Almond Milk
 - 10g Brown Sugar
 - .5tsp Ground Cinnamon
+
+### Crumble
+- 10g Unsalted Butter
+- 20g Brown Sugar
 

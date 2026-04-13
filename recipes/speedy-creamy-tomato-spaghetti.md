@@ -26,9 +26,10 @@ Serves 2
 
 ## Ingredients
 
-### Pasta
 - 200g Spaghetti
 - 2tbsp Olive Oil
+- 2tsp Pre-Chopped Garlic
+- 2tbsp Tomato Purée
 - 1Pinch Chilli Flakes (optional)
 - 3tbsp Crème Fraîche
 - 10g Fresh Basil
@@ -37,8 +38,4 @@ Serves 2
 - Black Pepper
 - 5g Fresh Basil (optional)
 - 1tbsp Crème Fraîche (optional)
-
-### Other
-- 2tsp Pre-Chopped Garlic
-- 2tbsp Tomato Purée
 

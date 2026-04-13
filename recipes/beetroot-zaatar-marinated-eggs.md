@@ -31,21 +31,18 @@ These eggs will last for up to 4 days in the fridge, the flavour gets stronger e
 
 ### Eggs
 - 6 Egg
-- 100g Cooked Beetroot
-- 100ml Water
-- Black Pepper
 - Olive Oil (to serve)
 - Feta (to serve)
+- Black Pepper
 
 ### Marinade
+- 100g Cooked Beetroot
 - 2Clove Garlic
 - Lemon
 - 1 Red Chilli
 - 75ml Red Wine Vinegar
-
-### Other
+- 100ml Water
 - 1tbsp Za’atar
 - 30g Honey
 - 10g Salt
-- Salt
 

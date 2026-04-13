@@ -27,15 +27,12 @@ Serves 2
 ## Ingredients
 
 ### Cod
-- .5 Cucumber
-- 2 Lime
-- 2tbsp Fish Sauce
 - 2Fillet Cod
 - 2tsp Vegetable Oil
 - 2tsp Chinese Five-Spice
 - 300g Cooked Jasmine Rice
 
-### Sauce
+### Gochujang Sauce
 - 4 Spring Onion
 - 6Clove Garlic
 - 1 Red Chilli
@@ -44,7 +41,10 @@ Serves 2
 - 20g Caster Sugar
 - 60g Gochujang
 - 80ml Water
+- 2tbsp Fish Sauce
+- 2 Lime
 
-### Salad
+### Cucumber Salad
+- .5 Cucumber
 - 15g Fresh Coriander
 

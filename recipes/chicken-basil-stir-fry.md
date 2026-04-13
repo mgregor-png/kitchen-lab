@@ -30,23 +30,25 @@ Serves 4
 
 ## Ingredients
 
-### Chicken
-- 200g Jasmine Rice
-- 30ml Vegetable Oil
-- 500g Chicken Mince
-- 4 Egg
-- 3.5tbsp Sriracha
-- Fish Sauce (to taste)
-- 3tbsp Oyster Sauce (to serve)
-- 3tbsp Dark Soy Sauce (to serve)
-
 ### Sauce
-- 200g Tenderstem Broccoli
-- 20g Thai Basil
-- 2 Red Chilli
-
-### Other
 - 2 Shallot
 - 5 Garlic Clove
+- 2 Red Chilli
 - 30g Caster Sugar
+- 3tbsp Oyster Sauce (to serve)
+- 3tbsp Dark Soy Sauce (to serve)
+- Fish Sauce (to taste)
+
+### Stir-Fry
+- 500g Chicken Mince
+- 30ml Vegetable Oil
+- 200g Tenderstem Broccoli
+- 20g Thai Basil
+
+### Rice
+- 200g Jasmine Rice
+
+### To Serve
+- 4 Egg
+- 3.5tbsp Sriracha
 

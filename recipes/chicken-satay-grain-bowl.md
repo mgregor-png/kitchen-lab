@@ -36,21 +36,21 @@ Serves 2
 - 1tbsp Soy Sauce
 - Salt
 - Black Pepper
+
+### Satay Sauce
+- 3tbsp Peanut Butter
+- 1tbsp Sriracha
 - 1tbsp Soy Sauce
 - 1 Lime
+- 1tsp Honey
+- 1tbsp Water
+
+### Grain Bowl
 - 250g Kale
 - 400g Cooked Mixed Grains
 - 1x 400g Can Cooked Butter Beans
 - 2 Spring Onion
 - 1 Red Bird's Eye Chilli
 - 1 Lime
-
-### Sauce
-- 3tbsp Peanut Butter
-- 1tbsp Sriracha
-- 1tsp Honey
-- 1tbsp Water
-
-### Other
 - Olive Oil
 

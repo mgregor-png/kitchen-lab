@@ -31,24 +31,22 @@ Serves 2
 ## Ingredients
 
 ### Chicken
-- 150g Fregola
-- 100g Greek Yoghurt
 - 2 Chicken Breast
 - 30g Plain Flour
 - 1tbsp Unsalted Butter
+- 1tbsp Capers
 - Olive Oil
 
-### Yoghurt
-- 1 Lemon
+### Garlic Yoghurt
+- 100g Greek Yoghurt
 - 1Clove Garlic
+- 1 Lemon
 - Salt
 
-### Crumble
+### Herby Feta Fregola
+- 150g Fregola
 - 15g Fresh Parsley
 - 15g Fresh Dill
 - 100g Feta
 - Black Pepper
-
-### Other
-- 1tbsp Capers
 

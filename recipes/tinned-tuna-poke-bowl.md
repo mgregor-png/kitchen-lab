@@ -30,26 +30,26 @@ Serves 2
 
 ## Ingredients
 
-### Rice
+### Spicy Tuna
 - 2x 165g Can Tuna
-- 1tbsp Soy Sauce
-- 30g Edamame
-- 1tbsp Miso
-- 1tbsp Honey
-- 1tbsp Soy Sauce
-- 2tbsp Rice Vinegar
-- 200g Cooked Sushi Rice
-
-### Sauce
+- 20g Light Mayonnaise
 - 30g Sriracha
+- 1tbsp Soy Sauce
 
-### Dressing
+### Miso Dressing
+- 1tbsp Miso
+- 2tbsp Rice Vinegar
+- 1tbsp Soy Sauce
+- 1tbsp Honey
+
+### Slaw
 - 2 Carrot
 - 100g Red Cabbage
+- 30g Edamame
+
+### To Serve
+- 200g Cooked Sushi Rice
 - 1 Lime
 - 2tsp Sesame Seeds (to serve)
-
-### Other
-- 20g Light Mayonnaise
 - 2Sheet Nori Seaweed
 

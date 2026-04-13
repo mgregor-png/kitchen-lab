@@ -26,25 +26,25 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
-- 300g Chicken Mince
-- 1 tbsp Soy Sauce
-- 1 tbsp Oyster Sauce
-- 2 tsp Mirin
-- 1 tbsp Soy Sauce
-
-### Tofu
+### Tofu Sauce
 - 330g Silken Tofu
 - 1 tbsp Tahini
 - 1 tbsp Miso
 - 2 tsp Rice Vinegar
 - 1 tbsp Gochugaru
 
-### Other
+### Chicken
+- 300g Chicken Mince
 - 2 Garlic Cloves, grated
 - 1 inch Ginger, grated
+- 1 tbsp Soy Sauce
+- 1 tbsp Oyster Sauce
+- 2 tsp Mirin
+- 1 tbsp Soy Sauce
+
+### Noodles & Salad
+- 350g Frozen Udon
 - 1 Cucumber
 - 2 Spring Onions
 - Coriander
-- 350g Frozen Udon
 

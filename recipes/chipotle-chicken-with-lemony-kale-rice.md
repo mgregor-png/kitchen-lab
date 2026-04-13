@@ -42,16 +42,18 @@ Serves 4
 - 2tbsp Olive Oil
 - Salt
 - Black Pepper
+
+### Kale Rice
 - 3 Garlic Clove
 - 10g Butter
+- 200g Kale
 - 200g Jasmine Rice
+- 240ml Water
+- 1 Lemon
 - Salt
+
+### To Serve
 - Cheddar Cheese (to serve)
 - Yoghurt (to serve)
 - Lime Wedge (to serve)
-
-### Rice
-- 200g Kale
-- 240ml Water
-- 1 Lemon
 

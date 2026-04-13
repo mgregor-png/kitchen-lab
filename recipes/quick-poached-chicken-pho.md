@@ -34,24 +34,24 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
+### Broth
+- 1000ml Chicken Broth
 - 300g Chicken Breast
 - 1 Onion
 - 20g Fresh Ginger
 - 5Clove Garlic
-- 1000ml Chicken Broth
 - 1 Star Anise
 - 1tbsp Sugar
 - 1tbsp Salt
 - 1tsp MSG
 - 2tbsp Fish Sauce
+
+### To Serve
 - 120g Flat Rice Noodle
 - 100g Beansprouts
 - 2 Spring Onion
-- Red Bird's Eye Chilli (optional)
-- Chilli Oil (optional)
-
-### Noodles
 - 10g Fresh Mint
 - 10g Fresh Coriander
+- Red Bird's Eye Chilli (optional)
+- Chilli Oil (optional)
 

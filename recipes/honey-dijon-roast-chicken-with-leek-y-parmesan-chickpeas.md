@@ -33,22 +33,24 @@ Serves 4
 ## Ingredients
 
 ### Chicken
+- 8 Bone-In Skin-On Chicken Thigh
 - 2 Lemon
 - 1tbsp Honey
 - 1tbsp Paprika
 - 2tbsp Dijon Mustard
-- 8 Bone-In Skin-On Chicken Thigh
+
+### Herby Yoghurt Sauce
 - 200g Greek Yoghurt
 - 1 Green Chilli  (optional)
 - 10g Fresh Dill
 - 10g Fresh Parsley
-- 1tbsp Chilli Flakes
+
+### Leek-y Chickpeas
+- 4 Leek
+- 6Clove Garlic
 - 3x 400g Can Chickpeas
 - 200ml Chicken Stock
 - 60g Parmesan
-
-### Other
-- 4 Leek
-- 6Clove Garlic
+- 1tbsp Chilli Flakes
 - Olive Oil
 

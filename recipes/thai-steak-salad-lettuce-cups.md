@@ -28,24 +28,26 @@ Serves 2
 
 ## Ingredients
 
-### Rice
-- 25g Jasmine Rice
-- 2 Shallot
-- 15g Fresh Coriander
-- .5 Cucumber
-- 2 Lime
+### Dressing
 - 2tbsp Fish Sauce
 - 1tbsp Sugar
+- 2 Lime
 - 1tbsp Chilli Powder
-- 400g Rump Steak
-- 100g Cooked Jasmine Rice
-- 1Head Lettuce
-- 2 Lime Wedge
+- 25g Jasmine Rice
 
-### Other
+### Steak & Salad
+- 400g Rump Steak
+- 2 Shallot
+- 15g Fresh Coriander
 - 15g Fresh Mint
 - 15g Fresh Thai Basil
+- .5 Cucumber
 - Olive Oil
 - Salt
 - Black Pepper
+
+### To Serve
+- 100g Cooked Jasmine Rice
+- 1Head Lettuce
+- 2 Lime Wedge
 

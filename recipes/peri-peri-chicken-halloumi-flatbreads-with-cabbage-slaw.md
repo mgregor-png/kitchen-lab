@@ -26,21 +26,21 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
+### Chicken & Halloumi
 - 75g Boneless Skinless Chicken Thigh
 - 60g Halloumi
 - 5g Peri Peri Seasoning
 - 10g Olive Oil
-- 1 Lemon
 - Salt
-- Hot Sauce (optional)
 
-### Yoghurt
+### Cabbage Slaw
 - 200g Red Cabbage
-- 10g Fresh Parsley
-
-### Other
 - 200g 0% Fat Greek Yoghurt⁣
+- 1 Lemon
+- 10g Fresh Parsley
 - Black Pepper
+
+### To Serve
 - 2 Flatbread
+- Hot Sauce (optional)
 

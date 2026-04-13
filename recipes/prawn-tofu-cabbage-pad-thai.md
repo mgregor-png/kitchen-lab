@@ -34,34 +34,26 @@ Serves 2
 
 ## Ingredients
 
-### Prawns
-- 200g Raw Prawn
-- 60g Firm Tofu
-- 3 Spring Onion
-- 1tbsp Vegetable Oil
-
-### Tofu
-- 0.5 Large Pointed Cabbage
-- 20g Roasted Peanuts
-
-### Eggs
-- 120g Dried Rice Noodles
-- 2 Egg
-
-### Noodles
-- 3tbsp Fish Sauce
-- 1tbsp Dark Soy Sauce
-
 ### Sauce
-- 3Clove Garlic
 - 60g Tamarind Puree
 - 30g Brown Sugar
+- 3tbsp Fish Sauce
+- 1tbsp Dark Soy Sauce
+- 3Clove Garlic
+
+### Noodles & Stir-Fry
+- 120g Dried Rice Noodles
+- 200g Raw Prawn
+- 60g Firm Tofu
+- 0.5 Large Pointed Cabbage
+- 3 Spring Onion
+- 2 Egg
+- 100g Beansprouts
+- 1tbsp Vegetable Oil
 
 ### To Serve
+- 20g Roasted Peanuts
 - Fresh Coriander (to serve)
 - 1 Lime (to serve)
 - Chilli Flakes (optional)
-
-### Other
-- 100g Beansprouts
 

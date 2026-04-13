@@ -31,30 +31,32 @@ Serves 2
 ## Ingredients
 
 ### Chicken
-- 2Clove Garlic
 - 400g Chicken Mince
+- 2Clove Garlic
 - 1tbsp Olive Oil
-- 150g Greek Yoghurt
-- 1tbsp Olive Oil
-- 1Clove Garlic
-- 300g Cooked Jasmine Rice
-- 2 Red Onion
-- 1 Cucumber
-- 10g Fresh Parsley
-- Olive Oil
-
-### Sauce
-- Salt
-- .25 Lemon
-- Salt
-- .25 Lemon
-- Salt
-
-### Other
 - 1tbsp Ground Cumin
 - 1tbsp Ground Coriander
 - 1tbsp Paprika
 - 1tsp Chilli Flakes
 - 1tbsp Harissa Paste
+- Salt
+
+### Garlic Yoghurt
+- 150g Greek Yoghurt
+- 1Clove Garlic
+- 1tbsp Olive Oil
+- .25 Lemon
+- Salt
+
+### Roasted Veg
+- 2 Red Onion
 - 200g Cherry Tomatoes
+- 1 Cucumber
+- 10g Fresh Parsley
+- Olive Oil
+- .25 Lemon
+- Salt
+
+### Rice
+- 300g Cooked Jasmine Rice
 

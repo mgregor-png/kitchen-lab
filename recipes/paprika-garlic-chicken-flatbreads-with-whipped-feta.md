@@ -36,19 +36,23 @@ Serves 2
 - 1tbsp Paprika
 - 3Clove Garlic
 - Salt
-- 0.5 Red Onion
-- 1 Lemon
-- Salt
+
+### Whipped Feta
 - 40g Feta
 - 150g 0% Fat Greek Yoghurt⁣
+
+### Tomato Salad
+- 100g Cherry Tomatoes
+- 100g Cucumber
+- 0.5 Red Onion
+- 1 Lemon
+- 1tbsp Sumac (optional)
+- Salt
+
+### To Serve
 - 2 Flatbread
 - 10g Fresh Parsley
 - 10g Fresh Mint
 - 1tsp Dried Oregano
 - 1 Lemon
-
-### Other
-- 100g Cherry Tomatoes
-- 100g Cucumber
-- 1tbsp Sumac (optional)
 

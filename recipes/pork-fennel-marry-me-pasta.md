@@ -37,21 +37,21 @@ Serves 2
 - 1tbsp Olive Oil
 - Salt
 - Black Pepper
+
+### Sauce
 - 2tbsp Olive Oil
+- 2 Shallot
+- 2Clove Garlic
+- 2tbsp Tomato Purée
+- 25ml Vodka
+- 2tbsp Crème Fraîche
 - 40g Parmesan
-- 5g Fresh Chive
-- Parmesan
-- Black Pepper
+- 1tbsp Pasta Water
 
 ### Pasta
 - 180g Fusilli
 - 80g Spinach
-- 2 Shallot
-- 2Clove Garlic
-- 2tbsp Crème Fraîche
-- 1tbsp Pasta Water
-
-### Sauce
-- 2tbsp Tomato Purée
-- 25ml Vodka
+- Parmesan
+- Black Pepper
+- 5g Fresh Chive
 

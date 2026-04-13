@@ -32,20 +32,20 @@ Nestle the chicken thighs skin-side up on top of the veg. Roast for 35–40 mins
 ## Ingredients
 
 ### Chicken
-- 1 Lemon
+- 4 Bone-In Skin-On Chicken Thigh
 - 1tsp Chilli Flakes
 - 1tsp Dried Oregano
-- 4 Bone-In Skin-On Chicken Thigh
+- 1 Lemon
+- Olive Oil
+- Salt
+- Black Pepper
+
+### Orzo
 - 200g Cherry Tomatoes
 - 4 Shallot
 - 75g Pitted Green Olive
 - 150g Orzo
 - 1 Red Onion
-- 2tbsp Feta
-- Olive Oil
-- Salt
-- Black Pepper
-
-### Other
 - 25g Fresh Parsley
+- 2tbsp Feta
 

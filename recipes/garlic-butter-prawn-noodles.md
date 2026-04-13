@@ -34,29 +34,27 @@ Serves 2
 
 ## Ingredients
 
-### Prawns
-- 400g Raw Peeled King Prawn
-- 400g Udon Noodle
-- 100g Spinach
+### Sauce
 - 2tbsp Oyster Sauce
 - 1tbsp Dark Soy Sauce
 - 1tbsp Light Soy Sauce
 - 1tsp Chinese Black Vinegar
+- 1tbsp Sriracha
+- 1tbsp Sugar
+
+### Prawns & Noodles
+- 400g Raw Peeled King Prawn
+- 400g Udon Noodle
+- 100g Spinach
+- 3Clove Garlic
+- 30g Fresh Ginger
+- 1 Red Chilli
+- 30g Butter
+- Olive Oil
 - Salt
 
-### Noodles
-- 1 Red Chilli
+### To Serve
 - 20g Cashew Nut
 - 1 Spring Onion
 - Chilli Oil (to serve)
-- Olive Oil
-
-### Sauce
-- 3Clove Garlic
-- 30g Fresh Ginger
-
-### Other
-- 30g Butter
-- 1tbsp Sriracha
-- 1tbsp Sugar
 

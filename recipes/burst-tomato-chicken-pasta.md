@@ -28,17 +28,14 @@ Serves 2
 
 ## Ingredients
 
-### Chicken
-- 300g Cherry Tomatoes
 - 300g Skinless Chicken Thigh
+- 200g Spaghetti
+- 300g Cherry Tomatoes
+- 3Clove Garlic
 - 30g Extra Virgin Olive Oil
 - 30g Parmesan
-- 3Clove Garlic
+- 60g Cottage Cheese
 - 20g Fresh Basil
 - Salt
 - Black Pepper
-
-### Pasta
-- 200g Spaghetti
-- 60g Cottage Cheese
 

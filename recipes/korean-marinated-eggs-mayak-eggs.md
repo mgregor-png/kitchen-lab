@@ -26,20 +26,18 @@ Serves 4
 
 ### Eggs
 - 12 Egg
-- 4 Red Chilli
-- 250ml Soy Sauce
-- 100ml Water
-- 2tbsp Fish Sauce
-
-### Rice
-- 3tbsp Rice Wine Vinegar
-- Cooked Rice (to serve)
 
 ### Marinade
 - 6 Garlic Clove
 - 6 Spring Onion
-
-### Other
+- 4 Red Chilli
+- 250ml Soy Sauce
+- 100ml Water
+- 2tbsp Fish Sauce
+- 3tbsp Rice Wine Vinegar
 - 100g Honey
 - 40g Sesame Seeds
+
+### To Serve
+- Cooked Rice (to serve)
 

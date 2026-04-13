@@ -34,18 +34,20 @@ Serves 2
 - 500g Salmon
 - 20g White Miso
 - 30g Butter
-- 150g Sushi Rice
-- 1 Cucumber
-- 3 Spring Onion
-- 1tbsp Rice Vinegar
 - Salt
 
-### Eggs
-- 180ml Water
-- 2 Egg
-- 1tbsp Soy Sauce
-
 ### Rice
-- 1 Lemon
+- 150g Sushi Rice
+- 180ml Water
+
+### Pickled Cucumber
+- 1 Cucumber
+- 1tbsp Rice Vinegar
 - 1tsp Sugar
+- 1tbsp Soy Sauce
+- 1 Lemon
+- 3 Spring Onion
+
+### Eggs
+- 2 Egg
 

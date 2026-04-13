@@ -26,19 +26,16 @@ Serves 2
 
 ## Ingredients
 
-### Salmon
 - 240g Skinless Salmon Fillet
 - 1x 570g Jar Chickpeas
 - 200g Passata
 - 2Clove Garlic
-- 10g Fresh Dill
-- 1 Lemon
-- Salt
-- Black Pepper
-
-### Other
 - 1tsp Ground Cumin
 - 1tbsp Harissa Paste
 - 2tsp Olive Oil
+- 10g Fresh Dill
+- 1 Lemon
 - 40g 0% Fat Greek Yoghurt⁣
+- Salt
+- Black Pepper
 

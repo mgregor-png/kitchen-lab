@@ -28,17 +28,15 @@ Serves 4
 
 ### Salmon
 - 1000g Skinless Salmon Fillet
-- 2 Spring Onion
 - 4 Garlic Clove
 - 2tbsp Fish Sauce
-
-### To Serve
-- Sesame Seeds (to serve)
-- Lemon Wedge (to serve)
-
-### Other
 - 3tbsp Miso
 - 3tbsp Sriracha
 - 2tbsp Honey
 - 1tbsp Rice Vinegar
+- 2 Spring Onion
+
+### To Serve
+- Sesame Seeds (to serve)
+- Lemon Wedge (to serve)
 

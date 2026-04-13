@@ -20,17 +20,12 @@ Serves 2
 
 ## Ingredients
 
-### Smoothie
 - 200ml Almond Milk
-
-### Granola
-- 10g Chia Seed
-
-### Other
 - 50g Vanilla Protein Powder
 - 350g Skyr Natural Yoghurt
 - 100g Blueberry
 - 100g Raspberry
 - 100g Pineapple
+- 10g Chia Seed
 - 10g Whole Flaxseed
 

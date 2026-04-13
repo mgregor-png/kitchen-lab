@@ -36,18 +36,19 @@ Serves 4
 - 0.5 Lemon
 - 1tsp Dried Oregano
 - Olive Oil
+
+### Salad
 - 250g Cooked Quinoa
 - 200g Cavolo Nero
 - 480g Drained Cooked Cannellini Beans
-- 1 Garlic Clove
+- 4 Spring Onion
 - 30g Fresh Parsley
-- 60ml Olive Oil
-
-### Other
 - Salt
 - Black Pepper
-- 4 Spring Onion
-- 4 Spring Onion
+
+### Dressing
+- 1 Garlic Clove
+- 60ml Olive Oil
 - 125g Pickled Jalapeño
 - 40ml Pickled Jalapeño Brine
 - 70g Greek Yoghurt

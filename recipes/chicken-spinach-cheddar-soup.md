@@ -28,23 +28,18 @@ Serves 4
 
 ## Ingredients
 
-### Chicken
-- 2 Red Onion
-- 1 White Onion
-- 350g Frozen Spinach
-- 1L Chicken Stock
 - 1kg Boneless Skinless Chicken Thigh
+- 1L Chicken Stock
+- 350g Frozen Spinach
 - 120g Spinach
 - 60g Mature Cheddar Cheese
-- Sourdough (to serve)
-
-### Smoothie
-- 2 Lemon
-
-### Other
+- 1 White Onion
+- 2 Red Onion
 - 2Stalk Celery
 - 4 Garlic Clove
 - 15g Butter
 - 1tbsp Ground Coriander
 - 1tbsp Chilli Flakes
+- 2 Lemon
+- Sourdough (to serve)
 

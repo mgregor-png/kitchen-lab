@@ -38,15 +38,15 @@ Serves 2
 - 1tbsp Oyster Sauce
 - 2 Green Chilli 
 - Salt
-- 300g Cooked Jasmine Rice
-
-### Eggs
-- Egg
-- 1tbsp Olive Oil
 
 ### Salad
 - 15g Fresh Coriander
 - 2 Spring Onion
 - 2 Shallot
 - .5 Lime
+
+### To Serve
+- 300g Cooked Jasmine Rice
+- Egg
+- 1tbsp Olive Oil
 

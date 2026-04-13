@@ -29,14 +29,14 @@ These eggs will last for up to 4 days in the fridge, the flavour gets stronger e
 
 ### Eggs
 - 6 Egg
+
+### Marinade
+- 2Clove Garlic
 - 100g Soy Sauce
 - 50g Dark Soy Sauce
-- 30g Rice Vinegar
-- 100ml Water
-
-### Rice
-- 2Clove Garlic
 - 50g Maple Syrup
 - 50g White Miso
+- 30g Rice Vinegar
 - 10g Chilli Flakes
+- 100ml Water
 

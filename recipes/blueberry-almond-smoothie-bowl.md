@@ -22,8 +22,9 @@ Serves 1
 
 ## Ingredients
 
-### Yoghurt
+### Smoothie
 - 100g Frozen Blueberries
+- 50g Frozen Blackberry
 - 50g Frozen Banana
 - 40ml Almond Milk
 - 60g Skyr Natural Yoghurt
@@ -31,14 +32,11 @@ Serves 1
 - 15g Almond Butter
 - 10g Chia Seed
 - 1 Lime
+
+### Toppings
 - Fresh Berries
-- Flaked Almond
-- Almond Butter
-- Chia Seed
-
-### Granola
 - Granola
-
-### Other
-- 50g Frozen Blackberry
+- Flaked Almond
+- Chia Seed
+- Almond Butter
 

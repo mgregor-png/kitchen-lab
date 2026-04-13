@@ -32,33 +32,33 @@ Serves 6
 
 ## Ingredients
 
-### Chicken
+### Rice
 - 400g Jasmine Rice
+- 2 Shallot
 - 6 Garlic Clove
-- 1tsp Fine Salt
+- 50g Salted Butter
+- 1tsp Caster Sugar
 - 2tbsp Chinese Dark Soy Sauce
 - 480ml Chicken Stock
+- 1tsp Fine Salt
+
+### Chicken
+- 6 Chicken Breast
 - 2L Water
 - 2 Spring Onion
 - 2 Garlic Clove
 - 1tbsp Fine Salt
-- 6 Chicken Breast
+
+### Spring Onion Sauce
 - 20 Small Spring Onion
-- 1tsp Fine Salt
-- 50ml Vegetable Oil
-- 1 Cucumber
-- Crispy Chilli Oil (to serve)
-
-### Rice
-- 2 Shallot
-
-### Sauce
-- 50g Salted Butter
-- 1tsp Caster Sugar
 - 30g Fresh Ginger
+- 50ml Vegetable Oil
+- 1tsp Fine Salt
 - 1tsp MSG
 - 1tsp Caster Sugar
 
-### Other
+### To Serve
+- 1 Cucumber
+- Crispy Chilli Oil (to serve)
 - Sesame Seeds (to serve)
 

@@ -22,7 +22,7 @@ Serves 1
 
 ## Ingredients
 
-### Yoghurt
+### Smoothie Base
 - 50g Frozen Mango
 - 100g Frozen Pineapple
 - 50g Frozen Banana
@@ -32,14 +32,12 @@ Serves 1
 - 0.25tsp Ground Turmeric
 - 5g Fresh Ginger
 - 30g Vanilla Protein Powder
-- Banana
 
-### Granola
+### Toppings
+- Banana
 - Toasted Coconut Flake
 - Granola
 - Chia Seed
 - Almond Butter
-
-### Other
 - Crushed Frozen Raspberries
 

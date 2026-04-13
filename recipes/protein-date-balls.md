@@ -22,15 +22,12 @@ Serves 10
 
 ## Ingredients
 
-### To Serve
-- 100g Natural Peanut Butter
-- 30g Peanut
-- 10g Peanut
-- Flaky Sea Salt
-
-### Other
 - 100g Pitted Date
+- 100g Natural Peanut Butter
 - 1tbsp Poppy Seed
 - 40g Chocolate Chip
 - 30g Vanilla Protein Powder
+- 30g Peanut
+- 10g Peanut
+- Flaky Sea Salt
 

@@ -30,27 +30,29 @@ Serves 2
 
 ## Ingredients
 
-### Cod
+### Rice
 - 150g Sushi Rice
+- 300ml Water
+
+### Cod
 - 2 Skinless Cod Fillet
 - 1tbsp Cornflour
-- 20g Fresh Ginger
-- 2tbsp Unsalted Butter
-- 1tbsp Toasted Sesame Oil
 - 100g Spinach
-- 2tbsp Toasted Sesame Seeds
-- 1tbsp Soy Sauce
-- 15g Fresh Coriander
-- 1 Lime
 - Olive Oil
 - Salt
 
-### Rice
-- 300ml Water
-
-### Sauce
+### Sesame Butter Sauce
 - 3Clove Garlic
+- 20g Fresh Ginger
 - 1 Spring Onion
+- 2tbsp Unsalted Butter
+- 1tbsp Toasted Sesame Oil
 - 1tsp Chilli Flakes
+- 2tbsp Toasted Sesame Seeds
+- 1tbsp Soy Sauce
 - Black Pepper
+
+### To Serve
+- 15g Fresh Coriander
+- 1 Lime
 

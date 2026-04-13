@@ -30,27 +30,25 @@ Serves 2
 
 ## Ingredients
 
-### Pork
-- 250g 5% Fat Pork Mince
-- 2tsp Sesame Oil
-- 1tsp Sesame Seeds
-
-### Noodles
-- 100g Dried Rice Noodles
-- 20g Fresh Ginger
-- 10g Fresh Coriander
-
 ### Sauce
 - 3Clove Garlic
+- 20g Fresh Ginger
 - 2tbsp Sriracha
 - 4tsp Oyster Sauce
 - 4tsp Soy Sauce
 - 1tbsp Dark Soy Sauce
 - 2tsp Sugar
 - 1tbsp Chinese Black Vinegar
+
+### Stir-Fry
+- 250g 5% Fat Pork Mince
 - 1 Hispi Cabbage
 - 2 Spring Onion
+- 100g Dried Rice Noodles
+- 2tsp Sesame Oil
 
-### Other
+### To Serve
 - 0.5 Cucumber
+- 10g Fresh Coriander
+- 1tsp Sesame Seeds
 

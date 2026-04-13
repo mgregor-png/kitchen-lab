@@ -28,23 +28,25 @@ Serves 2
 
 ## Ingredients
 
-### Pork
-- 300g 10% Fat Pork Mince
-- 300g Cooked Sushi Rice
-- 1tbsp Vegetable Oil
-- 200g Tenderstem Broccoli
-- 1tsp Sesame Seeds
-- 1tsp Sesame Oil
-- 2 Spring Onion
-- Egg Yolk (optional)
-
 ### Sauce
+- 1Clove Garlic
 - 1tbsp Gochujang
 - 1tbsp Oyster Sauce
 - 1tbsp Dark Soy Sauce
-- 1Clove Garlic
 - 1tbsp Soft Light Brown Sugar
 
-### Other
+### Pork
+- 300g 10% Fat Pork Mince
+- 1tbsp Vegetable Oil
+
+### Sesame Broccoli
+- 200g Tenderstem Broccoli
+- 1tsp Sesame Oil
+- 1tsp Sesame Seeds
 - Salt
+
+### To Serve
+- 300g Cooked Sushi Rice
+- 2 Spring Onion
+- Egg Yolk (optional)
 

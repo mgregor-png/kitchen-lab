@@ -28,31 +28,31 @@ Serves 4
 
 ## Ingredients
 
-### Chicken
-- 6 Garlic Clove
+### Olive Rice
 - 200g Jasmine Rice
+- 250g Chicken Stock
+- 6 Garlic Clove
 - 30g Butter
 - 20 Pitted Mixed Olives
-- 250g Chicken Stock
+- 20g Dill
+- 20g Parsley
+
+### Chicken
 - 1kg Boneless Skinless Chicken Thigh
 - 2 White Onion
 - 2tbsp Smoked Paprika
 - 4tbsp Za’atar
 - 2tsp Black Pepper
 - 2tbsp Olive Oil
+
+### Whipped Feta
 - 200g Feta
-- 3 Red Chilli
-- 1 Red Onion
-- 1 Lemon
+- 400g Greek Yoghurt
+- 1tsp Chilli Flakes
 
 ### Salad
-- 1tsp Chilli Flakes
 - 1 Cucumber
-
-### Yoghurt
-- 400g Greek Yoghurt
-
-### Other
-- 20g Dill
-- 20g Parsley
+- 1 Red Onion
+- 3 Red Chilli
+- 1 Lemon
 

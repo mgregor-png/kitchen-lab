@@ -24,7 +24,10 @@ Serves 2
 
 ## Ingredients
 
-### Sauce
+### Tuna Smash
+- 100g Tuna in Spring Water
+- 100g Cottage Cheese
+- 60g Greek Yoghurt
 - 3 Anchovy
 - 1tsp Dijon Mustard
 - 1 Garlic Clove
@@ -35,14 +38,9 @@ Serves 2
 - 100g Cherry Tomatoes
 - 10g Fresh Basil
 - 1 Red Onion (optional)
-
-### Yoghurt
-- 100g Tuna in Spring Water
-- 100g Cottage Cheese
-- 60g Greek Yoghurt
-
-### Other
-- 2Slice Sourdough
 - Salt
 - Black Pepper
+
+### To Serve
+- 2Slice Sourdough
 
