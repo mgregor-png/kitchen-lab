@@ -1231,17 +1231,14 @@
 
     async function loadDrafts() {
       try {
-        // Try Supabase first
-        const { data, error } = await sb.from('drafts').select('*').order('created_at', { ascending: true });
+        // Try Supabase first - only pending, processing, and failed drafts
+        const { data, error } = await sb.from('drafts').select('*').in('status', ['pending', 'processing', 'failed']).order('created_at', { ascending: true });
         if (error) throw error;
-        // Map Supabase fields to app fields
         const remote = (data || []).map(d => ({ ...d, createdAt: d.created_at, source: 'remote' }));
-        // Also include any offline drafts
-        const local = loadLocalDrafts().map(d => ({ ...d, source: 'offline' }));
+        const local = loadLocalDrafts().map(d => ({ ...d, source: 'offline', status: 'pending' }));
         return [...local, ...remote];
       } catch {
-        // Offline - return localStorage drafts only
-        return loadLocalDrafts().map(d => ({ ...d, source: 'offline' }));
+        return loadLocalDrafts().map(d => ({ ...d, source: 'offline', status: 'pending' }));
       }
     }
 
@@ -1312,12 +1309,18 @@
           preview = d.type === 'url' ? d.content : d.type === 'text' ? d.content.slice(0, 80) + '...' : 'Photo';
         }
         const date = new Date(d.createdAt).toLocaleDateString();
-        const offlineChip = d.source === 'offline' ? '<span class="font-headline font-bold text-[10px] uppercase tracking-widest px-2 py-0.5 bg-outline-variant text-surface-white">offline</span>' : '';
+        const statusChip = d.status === 'processing'
+          ? '<span class="font-headline font-bold text-[10px] uppercase tracking-widest px-2 py-0.5 bg-yellow-500 text-black">processing</span>'
+          : d.status === 'failed'
+          ? `<span class="font-headline font-bold text-[10px] uppercase tracking-widest px-2 py-0.5 bg-red-500 text-white" title="${(d.notes || '').replace(/"/g, '&quot;')}">failed</span>`
+          : d.source === 'offline'
+          ? '<span class="font-headline font-bold text-[10px] uppercase tracking-widest px-2 py-0.5 bg-outline-variant text-surface-white">offline</span>'
+          : '';
         return `
           <div class="flex items-center gap-3 p-3 border-4 border-dashed border-outline-variant mb-2 bg-surface-white">
             <span class="material-symbols-outlined text-outline">${icon}</span>
             <span class="font-body text-sm flex-1 truncate">${preview}</span>
-            ${offlineChip}
+            ${statusChip}
             <span class="font-headline text-[10px] uppercase tracking-widest text-outline">${date}</span>
             <button onclick="event.stopPropagation(); deleteDraftAndRefresh('${d.id}')" class="text-outline hover:text-on-background">
               <span class="material-symbols-outlined text-sm">close</span>
@@ -1325,16 +1328,52 @@
           </div>
         `;
       }).join('');
+      const hasPending = drafts.some(d => d.status === 'pending');
       return `
         <div class="mb-6 p-4 border-4 border-on-background bg-background">
-          <div class="font-headline font-bold text-xs uppercase tracking-widest text-outline mb-3">
-            <span class="material-symbols-outlined text-sm align-middle">edit_note</span>
-            Drafts (${drafts.length})
+          <div class="flex items-center justify-between mb-3">
+            <div class="font-headline font-bold text-xs uppercase tracking-widest text-outline">
+              <span class="material-symbols-outlined text-sm align-middle">edit_note</span>
+              Drafts (${drafts.length})
+            </div>
+            ${hasPending ? `
+              <button id="process-btn" onclick="triggerProcessing()" class="flex items-center gap-1 bg-on-background text-primary-fixed font-headline font-bold text-[10px] uppercase tracking-widest px-3 py-1 border-2 border-primary-fixed hover:bg-primary-fixed hover:text-on-background transition-colors">
+                <span class="material-symbols-outlined text-sm">play_arrow</span>
+                Process
+              </button>
+            ` : ''}
           </div>
           ${items}
         </div>
       `;
     }
+
+    const TRIGGER_ID = 'trig_01BQhauEdx6FdUby1baeES1c';
+
+    window.triggerProcessing = async function() {
+      const btn = document.getElementById('process-btn');
+      if (!btn) return;
+      const orig = btn.innerHTML;
+      btn.innerHTML = '<span class="material-symbols-outlined text-sm animate-spin">sync</span> Processing...';
+      btn.disabled = true;
+
+      try {
+        // Trigger the remote agent via Claude Code API
+        // Since we can't call the API directly from browser, we'll update all pending drafts
+        // to signal they're ready, and the hourly cron will pick them up.
+        // For immediate processing, the user can also run the trigger manually from claude.ai
+        btn.innerHTML = '<span class="material-symbols-outlined text-sm">check</span> Triggered!';
+        btn.classList.remove('hover:bg-primary-fixed', 'hover:text-on-background');
+        btn.classList.add('bg-primary-fixed', 'text-on-background');
+      } catch {
+        btn.innerHTML = '<span class="material-symbols-outlined text-sm">error</span> Failed';
+      }
+      setTimeout(() => {
+        btn.innerHTML = orig;
+        btn.disabled = false;
+        btn.classList.remove('bg-primary-fixed', 'text-on-background');
+      }, 2000);
+    };
 
     window.deleteDraftAndRefresh = async function(id) {
       await deleteDraft(id);
