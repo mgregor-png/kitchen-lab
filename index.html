@@ -729,16 +729,16 @@
       const imageUrl = recipeData?.image || meta.image || '';
 
       const heroHtml = imageUrl ? `
-        <div class="relative w-full h-[250px] md:h-[400px] border-b-4 border-on-background overflow-hidden" id="hero-container">
+        <div class="relative w-full min-h-[250px] md:min-h-[400px] border-b-4 border-on-background overflow-hidden" id="hero-container">
           <img
             src="${imageUrl}"
             alt="${title}"
-            class="w-full h-full object-cover"
+            class="absolute inset-0 w-full h-full object-cover"
             style="border: 2px solid #2d2f2f;"
             onerror="document.getElementById('hero-container').style.display='none'; document.getElementById('fallback-title').classList.remove('hidden');"
           />
-          <div class="hero-gradient absolute inset-0 flex flex-col justify-end p-6 md:p-10">
-            <h1 class="font-headline font-black text-3xl md:text-5xl uppercase leading-tight text-white mb-2">${title}</h1>
+          <div class="hero-gradient relative flex flex-col justify-end p-6 md:p-10 min-h-[250px] md:min-h-[400px]">
+            <h1 class="font-headline font-black text-2xl md:text-5xl uppercase leading-tight text-white mb-2">${title}</h1>
             <div class="flex flex-wrap items-center gap-3">
               ${time ? `<span class="font-headline font-black text-white"><span class="text-2xl">${time}</span> <span class="text-xs font-bold uppercase tracking-widest">MIN</span></span>` : ''}
               ${tags}
