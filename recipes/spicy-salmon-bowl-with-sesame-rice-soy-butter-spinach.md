@@ -28,24 +28,32 @@ Serves 4
 
 ## Ingredients
 
+### Salmon
 - 500g Skinless Salmon Fillet
 - 4 Spring Onion
 - 4 Garlic Clove
-- 3tbsp Miso Paste
-- 3tbsp Sriracha
 - 2tbsp Fish Sauce
-- 2tbsp Honey
 - 1tbsp Rice Wine Vinegar
 - 200g Sushi Rice
-- 250ml Water
-- 1tsp Fine Salt
-- 2tsp Sugar
 - 1.5tbsp Rice Wine Vinegar
 - 2Sheet Nori Seaweed
-- 2tbsp Toasted Sesame Seeds
 - 3 Garlic Clove
 - 20g Butter
 - 200g Spinach
 - .5tbsp Soy Sauce
-- .5 Lemon
 - Nori Seaweed (to serve)
+
+### Rice
+- 250ml Water
+- 1tsp Fine Salt
+- 2tsp Sugar
+- 2tbsp Toasted Sesame Seeds
+
+### Sauce
+- .5 Lemon
+
+### Other
+- 3tbsp Miso Paste
+- 3tbsp Sriracha
+- 2tbsp Honey
+

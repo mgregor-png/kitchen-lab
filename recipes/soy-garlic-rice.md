@@ -24,11 +24,17 @@ Serves 6
 
 ## Ingredients
 
+### Chicken
 - 400g Jasmine Rice
+- 480ml Chicken Stock
+
+### Rice
 - 2 Shallot
 - 6 Garlic Clove
-- 50g Salted Butter
 - 1tsp Fine Salt
+
+### Sauce
+- 50g Salted Butter
 - 1tsp Caster Sugar
 - 2tbsp Chinese Dark Soy Sauce
-- 480ml Chicken Stock
+

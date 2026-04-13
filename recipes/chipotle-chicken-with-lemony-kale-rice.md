@@ -32,6 +32,7 @@ Serves 4
 
 ## Ingredients
 
+### Chicken
 - 1000g Boneless Skinless Chicken Thigh
 - 3 White Onion
 - 2 Garlic Clove
@@ -43,11 +44,14 @@ Serves 4
 - Black Pepper
 - 3 Garlic Clove
 - 10g Butter
-- 200g Kale
 - 200g Jasmine Rice
-- 240ml Water
-- 1 Lemon
 - Salt
 - Cheddar Cheese (to serve)
 - Yoghurt (to serve)
 - Lime Wedge (to serve)
+
+### Rice
+- 200g Kale
+- 240ml Water
+- 1 Lemon
+

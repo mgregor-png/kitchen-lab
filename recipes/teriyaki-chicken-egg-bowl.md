@@ -32,6 +32,7 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 400g Skinless Chicken Thigh
 - 1x 300g Pouch Sushi Rice
 - 2 Egg
@@ -42,9 +43,14 @@ Serves 2
 - Salt
 - 2tbsp Soy Sauce
 - 1tbsp Dark Soy Sauce
+- 1tsp Sesame Oil
+
+### Eggs
+- 4tbsp Water
+
+### Other
 - 1.5tbsp Soft Brown Sugar
 - 1 Garlic Clove
 - 10g Fresh Ginger
-- 1tsp Sesame Oil
 - 1tbsp Cornflour
-- 4tbsp Water
+

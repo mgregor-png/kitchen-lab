@@ -24,8 +24,12 @@ Serves 6
 
 ## Ingredients
 
+### Chicken
+- 6 Chicken Breast
+
+### Other
 - 2L Water
 - 2 Spring Onion
 - 2 Garlic Clove
 - 1tbsp Fine Salt
-- 6 Chicken Breast
+

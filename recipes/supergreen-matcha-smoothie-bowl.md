@@ -20,6 +20,12 @@ Serves 1
 
 ## Ingredients
 
+### Smoothie
+- 1 Kiwi
+- Desiccated Coconut
+- Granola
+
+### Other
 - 100g Frozen Banana
 - 75g Frozen Mango
 - 75g Frozen Pineapple
@@ -30,7 +36,5 @@ Serves 1
 - 150g Skyr Natural Yoghurt
 - 1tsp Honey
 - 10g Chia Seed
-- 1 Kiwi
 - Strawberry
-- Desiccated Coconut
-- Granola
+

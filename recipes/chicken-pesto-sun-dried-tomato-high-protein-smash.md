@@ -22,6 +22,7 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 300g Cooked Chicken
 - 150g Cottage Cheese
 - 60g Pesto
@@ -30,6 +31,9 @@ Serves 2
 - 20g Spinach
 - 10g Fresh Basil
 - 1 Spring Onion
-- 2Slice Sourdough
 - Salt
 - Black Pepper
+
+### To Serve
+- 2Slice Sourdough
+

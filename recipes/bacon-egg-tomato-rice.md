@@ -25,15 +25,19 @@ nutrition: 50g protein, 678 kcal, 32g fat, 47g carbs
 
 ## Ingredients
 
+### Eggs
+- pinch of salt
+- 4 eggs
+- 1/2 tbsp butter
+- salt and black pepper
+
+### Rice
 - 100g sushi rice
 - 120ml water
 - 1 tbsp soy sauce
 - 80g cherry tomatoes, halved
-- pinch of salt
 - 100g back bacon
-- 4 eggs
-- 1/2 tbsp butter
-- salt and black pepper
 - 1 slice American cheese
 - 1 spring onion, sliced
 - sriracha or ketchup
+

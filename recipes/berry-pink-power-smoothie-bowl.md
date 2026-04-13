@@ -22,6 +22,7 @@ Serves 1
 
 ## Ingredients
 
+### Yoghurt
 - 100g Frozen Strawberry
 - 75g Frozen Raspberry
 - 50g Pitted Frozen Cherries
@@ -31,8 +32,13 @@ Serves 1
 - 30g Vanilla Protein Powder
 - 10ml Lime Juice
 - 10g Chia Seed
-- Strawberry
-- Coconut Flake
-- Granola
 - Chia Seed
 - Almond Butter
+
+### Smoothie
+- Coconut Flake
+- Granola
+
+### Other
+- Strawberry
+

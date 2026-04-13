@@ -33,16 +33,20 @@ Place the chicken thighs skin-side down on a chopping board. Run a knife along e
 
 ## Ingredients
 
+### Chicken
 - 200g Tenderstem Broccoli
 - 4 Bone-In Skin-On Chicken Thigh
 - 100g Sourdough
 - 1Head Romaine Lettuce
 - 15g Basil
 - 15g Parmesan
+- 20g Parmesan
+- 1 Lemon
+
+### Other
 - Olive Oil
 - 120g Cottage Cheese
 - 10g Anchovy
-- 20g Parmesan
 - 1Clove Garlic
 - 5Dash Worcestershire Sauce
-- 1 Lemon
+

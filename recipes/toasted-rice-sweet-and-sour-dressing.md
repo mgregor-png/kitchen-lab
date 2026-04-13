@@ -26,9 +26,13 @@ Serves 4
 
 ## Ingredients
 
+### Rice
 - 3tbsp Jasmine Rice
+- 1 Shallot
+- 15g Fresh Coriander
+
+### Sauce
 - 6tbsp Chilli Jam
 - 3tbsp Fish Sauce
 - 3 Lime
-- 1 Shallot
-- 15g Fresh Coriander
+

@@ -32,8 +32,7 @@ Serves 2
 
 ## Ingredients
 
-- 1 Courgette
-- 1 Red Onion
+### Chicken
 - 4 Bone-In Skin-On Chicken Thigh
 - 15g Fresh Parsley
 - 2 Lemon Wedge (to serve)
@@ -42,8 +41,15 @@ Serves 2
 - 1Clove Garlic
 - 1 Lemon
 - 250g Cooked Brown Rice
-- 200g Chickpeas
 - 1Clove Garlic
+
+### Rice
+- 1 Courgette
+- 1 Red Onion
+- 200g Chickpeas
+
+### Other
 - 1tsp Smoked Paprika
 - 1tsp Ground Cumin
 - 1tsp Ground Coriander
+

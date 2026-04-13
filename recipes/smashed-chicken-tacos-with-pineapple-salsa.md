@@ -26,22 +26,28 @@ Serves 4
 
 ## Ingredients
 
+### Chicken
 - 1 White Onion
 - 500g Chicken Mince
 - 80g Grated Mozzarella
-- 2tsp Ground Cumin
-- 1tbsp Garlic Powder
-- 1tbsp Dried Oregano
 - 4 Flour Tortilla
 - Olive Oil
-- 2 Jalapeño
-- 10g Fresh Coriander
-- .5 Pineapple
 - 1 Red Onion (to serve)
 - 2tbsp Hot Sauce
-- 1 Lime
 - .5 Cabbage
 - 1 Avocado
 - 40g Feta (to serve)
+
+### Sauce
+- 2 Jalapeño
+- 10g Fresh Coriander
+- .5 Pineapple
+- 1 Lime
 - 1 Lime (to serve)
+
+### Other
+- 2tsp Ground Cumin
+- 1tbsp Garlic Powder
+- 1tbsp Dried Oregano
 - 2tbsp Sour Cream (to serve)
+

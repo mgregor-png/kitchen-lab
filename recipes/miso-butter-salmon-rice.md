@@ -30,16 +30,22 @@ Serves 2
 
 ## Ingredients
 
+### Salmon
 - 500g Salmon
 - 20g White Miso
 - 30g Butter
 - 150g Sushi Rice
-- 180ml Water
-- 2 Egg
 - 1 Cucumber
 - 3 Spring Onion
-- 1 Lemon
 - 1tbsp Rice Vinegar
-- 1tsp Sugar
-- 1tbsp Soy Sauce
 - Salt
+
+### Eggs
+- 180ml Water
+- 2 Egg
+- 1tbsp Soy Sauce
+
+### Rice
+- 1 Lemon
+- 1tsp Sugar
+

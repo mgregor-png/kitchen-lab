@@ -26,6 +26,7 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 4 Bone-In Skin-On Chicken Thigh
 - 200g Cherry Tomatoes
 - 100g Pitted Green Olive
@@ -37,5 +38,8 @@ Serves 2
 - Black Pepper
 - 200g Greek Yoghurt
 - 2tsp Harissa Paste
-- .25 Lemon
 - 1Pinch Salt
+
+### Rice
+- .25 Lemon
+

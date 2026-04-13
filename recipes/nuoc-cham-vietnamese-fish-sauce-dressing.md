@@ -28,11 +28,15 @@ Serves 4
 
 ## Ingredients
 
-- 2 Garlic Clove
-- 20g Fresh Ginger
-- 2 Red Bird's Eye Chilli
+### Rice
 - 5tbsp Fish Sauce
 - 5tbsp Rice Vinegar
 - 4tbsp Lime Juice
 - 2.5tbsp Sugar
 - 60ml Water
+
+### Other
+- 2 Garlic Clove
+- 20g Fresh Ginger
+- 2 Red Bird's Eye Chilli
+

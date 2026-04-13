@@ -24,9 +24,13 @@ Serves 4
 
 ## Ingredients
 
+### Yoghurt
 - 250g 0% Fat Greek Yoghurt⁣
 - 2 Jalapeño
 - 1 Avocado
 - 30g Fresh Coriander
 - 2 Lime
+
+### Other
 - Salt
+

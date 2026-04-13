@@ -33,21 +33,27 @@ Pat the chicken dry and season with a pinch of salt and pepper. Set a large oven
 
 ## Ingredients
 
+### Chicken
 - 4 Chicken Thigh
 - 1 Onion
-- 8Clove Garlic
 - 150ml Rice Wine Vinegar
 - 75ml Shoyu Soy Sauce
 - 150ml Water
-- 1.5tbsp Brown Sugar
-- 2 Bay Leaf
 - Black Pepper
 - 1tbsp Vegetable Oil
 - 150g Jasmine Rice
 - 1tsp Ground Turmeric
 - 200ml Chicken Stock
-- 200g Spinach
 - 2tbsp Peanut Butter
 - Olive Oil
 - Salt
 - Black Pepper
+
+### Rice
+- 1.5tbsp Brown Sugar
+- 2 Bay Leaf
+
+### Other
+- 8Clove Garlic
+- 200g Spinach
+

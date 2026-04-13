@@ -30,19 +30,25 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 200g Tenderstem Broccoli
-- 2 Garlic Clove
 - 160g Jasmine Rice
-- 190ml Water
-- 10g Butter
 - 400g Boneless Skinless Chicken Thigh
 - 2tbsp Oyster Sauce
 - 1tbsp Soy Sauce
 - 1tbsp Rice Vinegar
-- 1tbsp Sriracha
-- 1tsp Honey
 - 2 Spring Onion
 - Sesame Seeds (to serve)
 - 1 Lemon Wedge
 - Olive Oil
 - Salt
+
+### Rice
+- 190ml Water
+- 1tbsp Sriracha
+- 1tsp Honey
+
+### Other
+- 2 Garlic Clove
+- 10g Butter
+

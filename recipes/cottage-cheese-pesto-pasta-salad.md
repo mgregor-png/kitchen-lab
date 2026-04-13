@@ -26,11 +26,17 @@ Serves 2
 
 ## Ingredients
 
+### Pasta
 - 160g Fusilli
-- 250g Cottage Cheese
-- 30g Parmesan
-- 30g Fresh Basil
 - 200g Cherry Tomatoes
 - 40g Baby Spinach
 - Salt
+
+### To Serve
+- 30g Parmesan
 - Black Pepper
+
+### Other
+- 250g Cottage Cheese
+- 30g Fresh Basil
+

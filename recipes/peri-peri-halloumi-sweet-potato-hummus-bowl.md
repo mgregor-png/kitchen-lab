@@ -28,6 +28,7 @@ Serves 2
 
 ## Ingredients
 
+### Hummus
 - 2 Sweet Potato
 - 225g Halloumi
 - 1tbsp Honey
@@ -39,6 +40,9 @@ Serves 2
 - Red Chilli (to serve)
 - 15g Fresh Coriander (to serve)
 - Sesame Seeds (to serve)
+
+### Other
 - Olive Oil
 - Salt
 - Black Pepper
+

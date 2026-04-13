@@ -28,9 +28,8 @@ Serves 4
 
 ## Ingredients
 
+### Chicken
 - 6 Garlic Clove
-- 20g Dill
-- 20g Parsley
 - 200g Jasmine Rice
 - 30g Butter
 - 20 Pitted Mixed Olives
@@ -42,9 +41,18 @@ Serves 4
 - 2tsp Black Pepper
 - 2tbsp Olive Oil
 - 200g Feta
-- 400g Greek Yoghurt
-- 1tsp Chilli Flakes
-- 1 Cucumber
 - 3 Red Chilli
 - 1 Red Onion
 - 1 Lemon
+
+### Salad
+- 1tsp Chilli Flakes
+- 1 Cucumber
+
+### Yoghurt
+- 400g Greek Yoghurt
+
+### Other
+- 20g Dill
+- 20g Parsley
+

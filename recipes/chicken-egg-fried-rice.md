@@ -32,17 +32,21 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 400g Boneless Skinless Chicken Thigh
 - 4 Egg
 - 300g Cooked Rice
 - 1tbsp Vegetable Oil
 - 5Clove Garlic
 - 4 Spring Onion
-- 100g Frozen Pea
-- 100g Beansprouts
 - 1tbsp Oyster Sauce
 - 1tbsp Dark Soy Sauce
 - 1tbsp Light Soy Sauce
+
+### Other
+- 100g Frozen Pea
+- 100g Beansprouts
 - 1tbsp Sriracha
 - 1tsp Sugar
 - 1tsp MSG
+

@@ -26,15 +26,21 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 75g Boneless Skinless Chicken Thigh
 - 60g Halloumi
 - 5g Peri Peri Seasoning
 - 10g Olive Oil
-- 200g Red Cabbage
-- 200g 0% Fat Greek Yoghurt⁣
 - 1 Lemon
-- 10g Fresh Parsley
 - Salt
+- Hot Sauce (optional)
+
+### Yoghurt
+- 200g Red Cabbage
+- 10g Fresh Parsley
+
+### Other
+- 200g 0% Fat Greek Yoghurt⁣
 - Black Pepper
 - 2 Flatbread
-- Hot Sauce (optional)
+

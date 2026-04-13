@@ -31,14 +31,18 @@ Scatter the spring onions, beansprouts, coriander, mint and chillies over each b
 
 ## Ingredients
 
+### Chicken
 - 2tbsp Fish Sauce
 - 1tsp Sugar
 - 1tsp Salt
 - 200g Flat Rice Noodle
+- 2 Red Bird's Eye Chilli
+
+### To Serve
 - 100g Beansprouts
 - 3 Spring Onion
 - 15g Fresh Coriander
 - 15g Fresh Mint
 - 2tbsp Sriracha
 - 2 Lime
-- 2 Red Bird's Eye Chilli
+

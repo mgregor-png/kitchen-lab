@@ -30,14 +30,24 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 250g Jasmine Rice
-- 1tbsp Butter
 - 4Clove Garlic
 - 100g Sugar Snap Pea
-- 15g Fresh Coriander
 - 30g Fresh Ginger
-- 2tbsp Sriracha
 - 2tbsp Oyster Sauce
-- 1 Lime
+
+### Rice
 - Salt
+
+### Sauce
+- 1tbsp Butter
+- 2tbsp Sriracha
+- 1 Lime
+
+### Salad
+- 15g Fresh Coriander
+
+### Other
 - Black Pepper
+

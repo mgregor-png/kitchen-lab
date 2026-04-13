@@ -28,6 +28,7 @@ Serves 2
 
 ## Ingredients
 
+### Lamb
 - 350g Lamb Mince
 - 1tbsp Cumin Seeds
 - 10g Fresh Ginger
@@ -36,11 +37,16 @@ Serves 2
 - 1tbsp Dark Soy Sauce
 - 1tbsp Oyster Sauce
 - 2 Green Chilli 
+- Salt
+- 300g Cooked Jasmine Rice
+
+### Eggs
+- Egg
+- 1tbsp Olive Oil
+
+### Salad
 - 15g Fresh Coriander
 - 2 Spring Onion
 - 2 Shallot
 - .5 Lime
-- Egg
-- 1tbsp Olive Oil
-- Salt
-- 300g Cooked Jasmine Rice
+

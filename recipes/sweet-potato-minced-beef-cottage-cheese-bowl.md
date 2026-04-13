@@ -28,15 +28,21 @@ Serves 2
 
 ## Ingredients
 
+### Beef
 - 260g Sweet Potato
 - 300g 5% Fat Beef Mince
 - 2tbsp Good-Quality Mild Taco Seasoning
 - 160g Cottage Cheese
-- 30g Hot Honey
 - 150g Cherry Tomatoes
 - 150g Iceberg Lettuce
 - 2tbsp Pickled Red Onion
-- 5g Vegetable Oil Spray
 - Salt
-- Black Pepper
+
+### To Serve
+- 30g Hot Honey
 - Chilli Flakes (optional)
+
+### Other
+- 5g Vegetable Oil Spray
+- Black Pepper
+

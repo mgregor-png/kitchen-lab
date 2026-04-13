@@ -28,6 +28,7 @@ Serves 4
 
 ## Ingredients
 
+### Chicken
 - 680g Chicken Sausage
 - 2 White Onion
 - 4Stalk Celery
@@ -39,8 +40,13 @@ Serves 4
 - 1tbsp Fennel Seed
 - 2tbsp Tomato Purée
 - 2 Bay Leaf
-- 80g Parmesan
 - 1L Chicken Stock
-- 2Slice Sourdough
+
+### To Serve
+- 80g Parmesan
 - 10g Fresh Parsley
+
+### Other
+- 2Slice Sourdough
 - Olive Oil
+

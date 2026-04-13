@@ -26,13 +26,19 @@ Serves 2
 
 ## Ingredients
 
-- 160g Fusilli
+### Chicken
 - 70g Cooked Chicken Breast
-- 150g Cottage Cheese
 - 1tbsp Sun-Dried Tomato
-- 1tbsp Gochujang
-- 1tsp Garlic Powder
 - 100g Cherry Tomatoes
 - 15g Fresh Basil
+
+### Pasta
+- 150g Cottage Cheese
+- 1tbsp Gochujang
+- 1tsp Garlic Powder
 - 20g Parmesan
 - Salt
+
+### Other
+- 160g Fusilli
+

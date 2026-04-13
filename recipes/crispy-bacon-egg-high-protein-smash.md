@@ -24,6 +24,7 @@ Serves 2
 
 ## Ingredients
 
+### Eggs
 - 4 Egg
 - 4Rasher Streaky Bacon
 - 100g Cherry Tomatoes
@@ -32,4 +33,7 @@ Serves 2
 - 2 Spring Onion
 - Salt
 - Black Pepper
+
+### Other
 - 2Slice Sourdough (to serve)
+

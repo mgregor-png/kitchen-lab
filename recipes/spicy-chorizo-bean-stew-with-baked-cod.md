@@ -30,17 +30,21 @@ Serves 2
 
 ## Ingredients
 
+### Cod
 - 200g Cod Fillet
 - 70g Chorizo
+- 1x 400g Can Chopped Tomatoes
+- 10g Olive Oil
+- 2tsp Paprika
+- 10g Fresh Parsley
+- Salt
+
+### Other
 - 1 Red Onion
 - 2Clove Garlic
-- 1x 400g Can Chopped Tomatoes
 - 40g Kale
 - 1x 400g Can Butter Beans
 - 200ml Water
-- 10g Olive Oil
-- 2tsp Paprika
 - 1 Lemon
 - 60g 0% Fat Greek Yoghurt⁣
-- 10g Fresh Parsley
-- Salt
+

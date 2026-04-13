@@ -30,20 +30,28 @@ Serves 2
 
 ## Ingredients
 
-- 2tbsp Vegetable Oil
+### Chicken
 - 70g Thai Green Curry Paste
-- 1tbsp Sugar
 - 400ml Coconut Milk
-- 3tbsp Fish Sauce
 - 200ml Chicken Stock
 - 500g Boneless Skinless Chicken Thigh
 - 175g Baby Corn
-- 150g Mangetout
 - 30g Fresh Coriander
-- Salt
-- Black Pepper
 - 300g Cooked Rice (to serve)
 - 1 Lime (to serve)
 - 1 Red Chilli (to serve)
-- Crispy Shallot (to serve)
 - Fresh Coriander (to serve)
+
+### Rice
+- Crispy Shallot (to serve)
+
+### Sauce
+- 1tbsp Sugar
+- 3tbsp Fish Sauce
+
+### Other
+- 2tbsp Vegetable Oil
+- 150g Mangetout
+- Salt
+- Black Pepper
+

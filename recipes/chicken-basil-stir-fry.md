@@ -30,17 +30,23 @@ Serves 4
 
 ## Ingredients
 
+### Chicken
 - 200g Jasmine Rice
 - 30ml Vegetable Oil
 - 500g Chicken Mince
-- 200g Tenderstem Broccoli
-- 20g Thai Basil
 - 4 Egg
-- 2 Shallot
-- 2 Red Chilli
-- 5 Garlic Clove
 - 3.5tbsp Sriracha
 - Fish Sauce (to taste)
 - 3tbsp Oyster Sauce (to serve)
 - 3tbsp Dark Soy Sauce (to serve)
+
+### Sauce
+- 200g Tenderstem Broccoli
+- 20g Thai Basil
+- 2 Red Chilli
+
+### Other
+- 2 Shallot
+- 5 Garlic Clove
 - 30g Caster Sugar
+

@@ -30,21 +30,25 @@ Serves 4
 
 ## Ingredients
 
+### Chicken
 - 8 Boneless Skinless Chicken Thigh
 - 2 Garlic Clove
 - 0.5 Lemon
 - 1tsp Dried Oregano
 - Olive Oil
-- Salt
-- Black Pepper
 - 250g Cooked Quinoa
 - 200g Cavolo Nero
-- 4 Spring Onion
 - 480g Drained Cooked Cannellini Beans
-- 4 Spring Onion
 - 1 Garlic Clove
+- 30g Fresh Parsley
+- 60ml Olive Oil
+
+### Other
+- Salt
+- Black Pepper
+- 4 Spring Onion
+- 4 Spring Onion
 - 125g Pickled Jalapeño
 - 40ml Pickled Jalapeño Brine
 - 70g Greek Yoghurt
-- 30g Fresh Parsley
-- 60ml Olive Oil
+

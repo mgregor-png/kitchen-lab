@@ -34,20 +34,34 @@ Serves 2
 
 ## Ingredients
 
-- 120g Dried Rice Noodles
+### Prawns
 - 200g Raw Prawn
 - 60g Firm Tofu
-- 2 Egg
-- 100g Beansprouts
-- 0.5 Large Pointed Cabbage
 - 3 Spring Onion
+- 1tbsp Vegetable Oil
+
+### Tofu
+- 0.5 Large Pointed Cabbage
 - 20g Roasted Peanuts
+
+### Eggs
+- 120g Dried Rice Noodles
+- 2 Egg
+
+### Noodles
+- 3tbsp Fish Sauce
+- 1tbsp Dark Soy Sauce
+
+### Sauce
 - 3Clove Garlic
 - 60g Tamarind Puree
 - 30g Brown Sugar
-- 3tbsp Fish Sauce
-- 1tbsp Dark Soy Sauce
-- 1tbsp Vegetable Oil
+
+### To Serve
 - Fresh Coriander (to serve)
 - 1 Lime (to serve)
 - Chilli Flakes (optional)
+
+### Other
+- 100g Beansprouts
+

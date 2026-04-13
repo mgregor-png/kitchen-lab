@@ -22,6 +22,7 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 2 Cooked Chicken Breast
 - 3 Spring Onion
 - 1Stick Celery
@@ -31,6 +32,9 @@ Serves 2
 - 2tbsp Mayonnaise
 - 1tsp Tahini
 - 1tabtbsp Sesame Seeds
-- 2Slice Sourdough
 - Salt
 - Black Pepper
+
+### To Serve
+- 2Slice Sourdough
+

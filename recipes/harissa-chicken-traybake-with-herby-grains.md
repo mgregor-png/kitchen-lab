@@ -32,6 +32,7 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 500g Boneless Skinless Chicken Thigh
 - 2 White Onion
 - 2Clove Garlic
@@ -39,12 +40,15 @@ Serves 2
 - Olive Oil
 - Salt
 - Black Pepper
-- 1 Courgette
 - 250g Mixed Cooked Grains
-- 0.5 Lemon
 - Olive Oil
 - Salt
 - Black Pepper
+- 2tbsp Skyr Natural Yoghurt (to serve)
+
+### Other
+- 1 Courgette
+- 0.5 Lemon
 - 15g Fresh Dill
 - 15g Fresh Flat Leaf Parsley
-- 2tbsp Skyr Natural Yoghurt (to serve)
+

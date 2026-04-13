@@ -35,23 +35,29 @@ To make crispy shallots and garlic (if using), thinly slice both and fry in a go
 
 ## Ingredients
 
+### Chicken
 - 250g Skyr Natural Yoghurt
 - 1Clove Garlic
 - 15g Tahini
-- .5 Lemon
-- 2 Pitta
 - 1tbsp Olive Oil
 - 1tbsp Za’atar
-- Salt
-- Black Pepper
 - 2tbsp Olive Oil
-- 1 Lemon
-- 1tsp Sumac
-- Salt
 - 20g Green Olive
-- 15g Fresh Dill
-- 15g Fresh Parsley
 - 2 Tomato
 - .5 Courgette
 - 1 Shallot (to serve)
 - 1Clove Garlic (to serve)
+
+### Yoghurt
+- .5 Lemon
+- Salt
+- 1 Lemon
+- Salt
+
+### Other
+- 2 Pitta
+- Black Pepper
+- 1tsp Sumac
+- 15g Fresh Dill
+- 15g Fresh Parsley
+

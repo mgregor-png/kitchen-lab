@@ -34,15 +34,19 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 300g Chicken Breast
 - 150g Spaghetti
 - 1 Egg
 - 20g Plain Flour
 - 30g Panko Breadcrumbs
 - 1x 400g Can Chopped Tomatoes
-- 1Clove Garlic
 - 30g Olive Oil
 - 30g Parmesan
 - 60g Cottage Cheese
 - Salt
 - Black Pepper
+
+### Other
+- 1Clove Garlic
+

@@ -32,24 +32,32 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 2tbsp Olive Oil
 - 400g Beef Mince
 - 1 Red Pepper
 - 1 Brown Onion
+- 1tbsp Tomato Purée
+- 1x 400g Can Chopped Tomatoes
+- 500ml Chicken Stock
+
+### Beef
+- Salt
+- Black Pepper
+- Black Pepper
+
+### Rice
+- 300g Cooked Rice (to serve)
+- Sour Cream (to serve)
+- Cheddar Cheese (to serve)
+- Fresh Coriander (to serve)
+- 1 Lime
+
+### Other
 - 3 Garlic Clove
 - 2 Dried Bay Leaf
 - 1tsp Ground Cayenne
 - 2tsp Ground Cumin
 - 1tbsp Dried Oregano
 - 1tsp Smoked Paprika
-- 1tbsp Tomato Purée
-- 1x 400g Can Chopped Tomatoes
-- 500ml Chicken Stock
-- Salt
-- Black Pepper
-- 300g Cooked Rice (to serve)
-- Sour Cream (to serve)
-- Cheddar Cheese (to serve)
-- Fresh Coriander (to serve)
-- 1 Lime
-- Black Pepper
+

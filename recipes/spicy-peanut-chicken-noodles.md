@@ -30,22 +30,28 @@ serves: 2
 
 ## Ingredients
 
+### Chicken
 - 40g peanut butter
 - 25g white miso
-- 20ml rice vinegar
 - 20ml soy sauce
-- 1 tbsp sugar
-- 1/2 tsp MSG (optional)
-- 65ml water
-- 1/2 cucumber
-- 10g fresh coriander
-- 4 spring onions
-- 1 garlic clove
-- 1 tbsp gochujang
 - 1 tbsp Korean chilli flakes
 - 1 tbsp dark soy sauce
-- 1 tbsp rice vinegar
-- 1 tbsp sugar
 - 400g chicken mince
 - 1 tbsp vegetable oil
 - 200g udon noodles
+
+### Rice
+- 20ml rice vinegar
+- 1 tbsp sugar
+- 1/2 tsp MSG (optional)
+- 65ml water
+- 4 spring onions
+- 1 garlic clove
+- 1 tbsp gochujang
+- 1 tbsp rice vinegar
+- 1 tbsp sugar
+
+### Salad
+- 1/2 cucumber
+- 10g fresh coriander
+

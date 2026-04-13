@@ -28,18 +28,24 @@ Serves 2
 
 ## Ingredients
 
+### Prawns
 - 100g Sushi Rice
-- 120ml Water
 - 2 Lime
 - 1 Cucumber
 - 2tbsp Rice Vinegar
-- 1tbsp Soy Sauce
 - 300g Raw Prawn
-- 20g Unsalted Butter
-- 3Clove Garlic
-- 1 Red Chilli
 - 3tbsp Sriracha
 - 10g White Sugar
 - 1 Spring Onion
 - 10g Fresh Coriander
 - Salt
+
+### Rice
+- 120ml Water
+- 1tbsp Soy Sauce
+- 1 Red Chilli
+
+### Other
+- 20g Unsalted Butter
+- 3Clove Garlic
+

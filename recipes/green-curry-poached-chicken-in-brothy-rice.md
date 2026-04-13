@@ -32,17 +32,23 @@ Serves 4
 
 ## Ingredients
 
+### Chicken
 - 200g Jasmine Rice
 - 2 Shallot
 - 4 Thai Red Chilli
 - 10g Fresh Thai Basil
-- 1x 400ml Can Coconut Milk
 - 70g Thai Green Curry Paste
-- 1tbsp Sugar
 - 3tbsp Fish Sauce
 - 500ml Chicken Stock
-- 250g Spinach
 - 30g Fresh Coriander
 - 4 Chicken Breast
 - 175g Baby Corn
 - 2 Lime
+
+### Sauce
+- 1x 400ml Can Coconut Milk
+- 1tbsp Sugar
+
+### Other
+- 250g Spinach
+

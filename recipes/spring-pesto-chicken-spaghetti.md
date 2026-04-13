@@ -30,21 +30,27 @@ Serves 2
 
 ## Ingredients
 
-- 60g Pine Nuts
+### Chicken
 - 100g Parmesan
-- 50g Fresh Basil
 - 30ml Extra Virgin Olive Oil
-- 3tbsp Cold Water
 - 1 Garlic Clove
 - 1 Lemon
 - 200g Chicken Mince
 - 1tbsp Olive Oil
-- 2tsp Chilli Flakes
 - 25g Parmesan
 - .5 Lemon
+- 15g Parmesan
+- Black Pepper
+
+### Pasta
+- 3tbsp Cold Water
 - 200g Spaghetti
 - 200g Asparagus
 - 100g Petit Pois
-- 15g Parmesan
 - Salt
-- Black Pepper
+
+### Other
+- 60g Pine Nuts
+- 50g Fresh Basil
+- 2tsp Chilli Flakes
+

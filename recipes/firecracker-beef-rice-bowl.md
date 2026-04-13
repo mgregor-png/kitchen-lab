@@ -32,18 +32,24 @@ Serves 2
 
 ## Ingredients
 
+### Beef
 - 100g Sushi Rice
-- 120ml Water
-- 1tbsp Neutral Oil
 - 1 Onion
+- 225g 5% Fat Beef Mince
+- 1tbsp Rice Vinegar
+- 2 Spring Onion
+- 80g Tenderstem Broccoli
+
+### Rice
+- 120ml Water
 - 2Clove Garlic
 - 15g Fresh Ginger
-- 225g 5% Fat Beef Mince
 - 2tbsp Sriracha
 - 1tbsp Honey
 - 1tbsp Soy Sauce
-- 1tbsp Rice Vinegar
 - 2 Red Chilli
-- 2 Spring Onion
-- 80g Tenderstem Broccoli
 - Salt
+
+### Other
+- 1tbsp Neutral Oil
+

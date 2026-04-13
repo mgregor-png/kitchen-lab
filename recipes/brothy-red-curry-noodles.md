@@ -32,16 +32,26 @@ Serves 2
 
 ## Ingredients
 
-- 100g Dried Rice Noodles
+### Prawns
 - 300g Raw King Prawn
 - 50g Firm Tofu
 - 150g Baby Button Mushroom
 - 100g Tenderstem Broccoli
-- 30g Thai Red Curry Paste
-- 10g White Sugar
-- 2tbsp Fish Sauce
-- 300g Light Coconut Milk
+
+### Rice
+- 100g Dried Rice Noodles
 - 150ml Water
+
+### Noodles
+- 30g Thai Red Curry Paste
 - 1 Lime
 - 15g Fresh Coriander
+
+### Sauce
+- 10g White Sugar
+- 2tbsp Fish Sauce
 - Salt
+
+### Other
+- 300g Light Coconut Milk
+

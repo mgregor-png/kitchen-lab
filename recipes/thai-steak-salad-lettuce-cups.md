@@ -28,6 +28,7 @@ Serves 2
 
 ## Ingredients
 
+### Rice
 - 25g Jasmine Rice
 - 2 Shallot
 - 15g Fresh Coriander
@@ -37,11 +38,14 @@ Serves 2
 - 1tbsp Sugar
 - 1tbsp Chilli Powder
 - 400g Rump Steak
-- 15g Fresh Mint
-- 15g Fresh Thai Basil
 - 100g Cooked Jasmine Rice
 - 1Head Lettuce
 - 2 Lime Wedge
+
+### Other
+- 15g Fresh Mint
+- 15g Fresh Thai Basil
 - Olive Oil
 - Salt
 - Black Pepper
+

@@ -30,6 +30,7 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 4 Small Corn Tortilla
 - 300g Chicken Mince
 - 1tsp Ground Cumin
@@ -38,10 +39,17 @@ Serves 2
 - 1tsp Salt
 - 1 Onion
 - 3Clove Garlic
+- Low-Calorie Cooking Spray
+
+### Salsa
 - 200g Cherry Tomatoes
 - 2 Red Chilli
 - 20g Fresh Coriander
 - 2 Lime
+
+### Yoghurt
 - 150g Hispi Cabbage
+
+### Other
 - 100g 0% Fat Greek Yoghurt⁣
-- Low-Calorie Cooking Spray
+

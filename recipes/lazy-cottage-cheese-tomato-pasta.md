@@ -24,7 +24,7 @@ Serves 2
 
 ## Ingredients
 
-- 250g Conchiglie
+### Pasta
 - 1x 350g Jar Tomato Pasta Sauce
 - 300g Cottage Cheese
 - 30g Spinach
@@ -32,3 +32,7 @@ Serves 2
 - 50g Parmesan
 - Salt
 - Black Pepper
+
+### Other
+- 250g Conchiglie
+

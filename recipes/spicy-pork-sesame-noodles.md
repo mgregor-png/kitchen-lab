@@ -32,22 +32,26 @@ Serves 4
 
 ## Ingredients
 
+### Pork
 - 120g Tahini
 - 50g White Miso
-- 40ml Rice Vinegar
 - 40ml Shoyu Soy Sauce
-- 1tsp MSG (optional)
 - 130ml Water
 - 1 Cucumber
 - 15g Fresh Coriander
 - 15g Fresh Mint
 - 8 Spring Onion
-- 6 Garlic Clove
-- 2tbsp Gochujang
-- 2tbsp Korean Chilli Flake
 - 2tbsp Chinese Dark Soy Sauce
-- 1tbsp Rice Vinegar
-- 1tbsp Sugar
 - 1kg 5% Fat Pork Mince
 - Vegetable Oil
 - 400g Egg Noodle
+
+### Other
+- 40ml Rice Vinegar
+- 1tsp MSG (optional)
+- 6 Garlic Clove
+- 2tbsp Gochujang
+- 2tbsp Korean Chilli Flake
+- 1tbsp Rice Vinegar
+- 1tbsp Sugar
+

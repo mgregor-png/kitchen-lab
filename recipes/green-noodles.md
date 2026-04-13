@@ -30,9 +30,8 @@ Serves 5
 
 ## Ingredients
 
+### Eggs
 - 4 Garlic Clove
-- 2 Red Chilli
-- 2 Shallot
 - 250ml Vegetable Oil
 - 1tsp Sugar
 - 1tsp MSG (optional)
@@ -40,10 +39,17 @@ Serves 5
 - 100g Baby Spinach
 - 15g Fresh Coriander
 - 2Clove Garlic
+- 25ml Light Soy Sauce
+- 750g Udon Noodle
+- 2 Egg
+
+### Sauce
+- 2 Red Chilli
+
+### Other
+- 2 Shallot
 - 300g Silken Tofu
 - 30g Tahini
 - 30g Sriracha
 - 30g Miso Paste
-- 25ml Light Soy Sauce
-- 750g Udon Noodle
-- 2 Egg
+

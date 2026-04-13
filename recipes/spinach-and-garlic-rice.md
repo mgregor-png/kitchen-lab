@@ -30,10 +30,16 @@ Serves 4
 
 ## Ingredients
 
+### Rice
 - 250g Jasmine Rice
 - 220ml Water
 - 80g Spinach
+
+### Smoothie
 - 1 Garlic Clove
 - 20g Salted Butter
+
+### Other
 - Salt
 - Black Pepper
+

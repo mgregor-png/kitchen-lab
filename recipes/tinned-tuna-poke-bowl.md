@@ -30,18 +30,26 @@ Serves 2
 
 ## Ingredients
 
+### Rice
 - 2x 165g Can Tuna
-- 20g Light Mayonnaise
-- 30g Sriracha
 - 1tbsp Soy Sauce
-- 2 Carrot
-- 100g Red Cabbage
 - 30g Edamame
 - 1tbsp Miso
 - 1tbsp Honey
 - 1tbsp Soy Sauce
 - 2tbsp Rice Vinegar
-- 1 Lime
 - 200g Cooked Sushi Rice
-- 2Sheet Nori Seaweed
+
+### Sauce
+- 30g Sriracha
+
+### Dressing
+- 2 Carrot
+- 100g Red Cabbage
+- 1 Lime
 - 2tsp Sesame Seeds (to serve)
+
+### Other
+- 20g Light Mayonnaise
+- 2Sheet Nori Seaweed
+

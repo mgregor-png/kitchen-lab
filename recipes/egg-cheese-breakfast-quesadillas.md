@@ -28,13 +28,19 @@ Serves 6
 
 ## Ingredients
 
+### Eggs
 - 18 Egg
 - 6 Flour Tortilla
 - 30g Light Cream Cheese
 - 20g Butter
 - 150g Grated Mozzarella
+
+### Sauce
 - Hot Sauce (to serve)
 - Lime (to serve)
+
+### Other
 - Bacon (to serve)
 - Kimchi (to serve)
 - Spring Onion (to serve)
+

@@ -32,19 +32,23 @@ Serves 2
 
 ## Ingredients
 
+### Beef
 - 250g 5% Fat Beef Mince
 - 1tbsp Vegetable Oil
-- 1tsp Fresh Ginger
-- 3Clove Garlic
 - 1 Broccoli
-- 3tbsp Water
 - 1tbsp Sesame Oil
-- 2tsp Sesame Seeds
-- 75ml Chicken Stock
 - 2tbsp Light Soy Sauce
 - 1tbsp Dark Soy Sauce
 - 1tbsp Oyster Sauce
+
+### Other
+- 1tsp Fresh Ginger
+- 3Clove Garlic
+- 3tbsp Water
+- 2tsp Sesame Seeds
+- 75ml Chicken Stock
 - 1tbsp Sugar
 - 0.25tsp Ground White Pepper
 - 1tbsp Cornflour
 - 2 Spring Onion
+

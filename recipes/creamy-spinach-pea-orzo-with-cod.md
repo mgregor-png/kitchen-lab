@@ -30,8 +30,14 @@ Serves 2
 
 ## Ingredients
 
+### Cod
 - 200g Skinless Cod Fillet
 - 130g Orzo
+- 1 Lemon
+- Salt
+- Black Pepper
+
+### Other
 - 80g Spinach
 - 80g Frozen Pea
 - 2 Shallot
@@ -40,7 +46,5 @@ Serves 2
 - 10g Fresh Parsley
 - 60g 0% Fat Greek Yoghurt⁣
 - 1tbsp Olive Oil
-- 1 Lemon
 - 320ml Water
-- Salt
-- Black Pepper
+

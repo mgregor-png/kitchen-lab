@@ -22,6 +22,7 @@ Serves 1
 
 ## Ingredients
 
+### Yoghurt
 - 50g Frozen Mango
 - 100g Frozen Pineapple
 - 50g Frozen Banana
@@ -32,8 +33,13 @@ Serves 1
 - 5g Fresh Ginger
 - 30g Vanilla Protein Powder
 - Banana
+
+### Granola
 - Toasted Coconut Flake
 - Granola
 - Chia Seed
-- Crushed Frozen Raspberries
 - Almond Butter
+
+### Other
+- Crushed Frozen Raspberries
+

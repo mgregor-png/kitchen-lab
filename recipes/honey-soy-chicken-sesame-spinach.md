@@ -26,8 +26,7 @@ Serves 4
 
 ## Ingredients
 
-- 3tbsp Honey
-- 4tsp Dijon Mustard
+### Chicken
 - 4tbsp Soy Sauce
 - 4tbsp Rice Wine Vinegar
 - 3tbsp Oyster Sauce
@@ -40,6 +39,11 @@ Serves 4
 - Shichimi Togarashi (to serve)
 - 600g Spinach
 - 30g Toasted Sesame Seeds
-- 1tbsp Tahini
 - 2tsp Soy Sauce
 - 1tsp Rice Wine Vinegar
+
+### Rice
+- 3tbsp Honey
+- 4tsp Dijon Mustard
+- 1tbsp Tahini
+

@@ -28,8 +28,8 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 300g Skinless Chicken Thigh
-- 250g 0% Fat Greek Yoghurt⁣
 - 1tsp Onion Powder
 - 1tbsp Paprika
 - 1tsp Ground Cumin
@@ -37,8 +37,14 @@ Serves 2
 - 3Clove Garlic
 - 1 Lemon
 - 1tsp Salt
-- 2 Pitta
 - 100g Frozen French Fry (optional)
 - 1 Red Onion
 - 1 Tomato
+
+### Yoghurt
 - 0.5 Cucumber
+
+### Other
+- 250g 0% Fat Greek Yoghurt⁣
+- 2 Pitta
+

@@ -30,11 +30,18 @@ Serves 2
 
 ## Ingredients
 
-- 100g Dried Rice Noodles
+### Pork
 - 250g 5% Fat Pork Mince
 - 2tsp Sesame Oil
-- 3Clove Garlic
+- 1tsp Sesame Seeds
+
+### Noodles
+- 100g Dried Rice Noodles
 - 20g Fresh Ginger
+- 10g Fresh Coriander
+
+### Sauce
+- 3Clove Garlic
 - 2tbsp Sriracha
 - 4tsp Oyster Sauce
 - 4tsp Soy Sauce
@@ -42,7 +49,8 @@ Serves 2
 - 2tsp Sugar
 - 1tbsp Chinese Black Vinegar
 - 1 Hispi Cabbage
-- 0.5 Cucumber
 - 2 Spring Onion
-- 10g Fresh Coriander
-- 1tsp Sesame Seeds
+
+### Other
+- 0.5 Cucumber
+

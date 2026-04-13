@@ -26,20 +26,26 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 400g 5% Fat Pork Mince
-- 4 Spring Onion
-- 2 Garlic Clove
-- 10g Fresh Ginger
 - 1tbsp Light Soy Sauce
-- 1tsp Sesame Oil
 - .5tsp Ground White Pepper
-- 120g Jasmine Rice
-- 240ml Water
 - 600ml Chicken Stock
 - 1tbsp Light Soy Sauce
 - .5tsp Ground White Pepper
 - 1tbsp Chicken Powder
 - 5 Wonton Wrapper (optional)
 - 2 Baby Pak Choi
+
+### Pork
+- 4 Spring Onion
+- 2 Garlic Clove
+- 10g Fresh Ginger
+- 1tsp Sesame Oil
+- 120g Jasmine Rice
 - 1tsp Crispy Chilli Oil
 - 1tsp Toasted Sesame Seeds
+
+### Rice
+- 240ml Water
+

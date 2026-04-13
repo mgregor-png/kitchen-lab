@@ -34,6 +34,7 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 300g Chicken Breast
 - 1 Onion
 - 20g Fresh Ginger
@@ -47,7 +48,10 @@ Serves 2
 - 120g Flat Rice Noodle
 - 100g Beansprouts
 - 2 Spring Onion
-- 10g Fresh Mint
-- 10g Fresh Coriander
 - Red Bird's Eye Chilli (optional)
 - Chilli Oil (optional)
+
+### Noodles
+- 10g Fresh Mint
+- 10g Fresh Coriander
+

@@ -28,6 +28,7 @@ Serves 4
 
 ## Ingredients
 
+### Beef
 - 700ml Beef Stock
 - 10g Fresh Ginger
 - 1 Star Anise
@@ -45,7 +46,10 @@ Serves 4
 - Salt
 - 2x 250g Pouch Microwave Rice
 - 1 Brown Onion
-- 15g Coriander
 - 1 Red Chilli
 - 2 Lime
 - Fish Sauce (to taste)
+
+### To Serve
+- 15g Coriander
+

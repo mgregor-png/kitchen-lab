@@ -32,6 +32,7 @@ Serves 4
 
 ## Ingredients
 
+### Chicken
 - 2 Lemon
 - 1tbsp Honey
 - 1tbsp Paprika
@@ -41,10 +42,13 @@ Serves 4
 - 1 Green Chilli  (optional)
 - 10g Fresh Dill
 - 10g Fresh Parsley
-- 4 Leek
-- 6Clove Garlic
 - 1tbsp Chilli Flakes
 - 3x 400g Can Chickpeas
 - 200ml Chicken Stock
 - 60g Parmesan
+
+### Other
+- 4 Leek
+- 6Clove Garlic
 - Olive Oil
+

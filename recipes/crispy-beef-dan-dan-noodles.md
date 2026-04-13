@@ -28,22 +28,28 @@ Serves 2
 
 ## Ingredients
 
+### Noodles
 - 2tbsp Neutral Oil
 - 2 Spring Onion
 - 400g Beef Mince
-- 10g Fresh Ginger
-- 2tbsp Shaoxing Wine
 - 1tsp Light Soy Sauce
 - .5tsp Dark Soy Sauce
-- .5tsp Sugar (optional)
 - 45g Peanut Butter
 - 1tbsp Light Soy Sauce
 - 1tbsp Dark Soy Sauce
-- 1tbsp Chinese Black Vinegar
 - 1tbsp Crispy Chilli Oil
-- 1tsp Sugar
-- 2Clove Garlic
 - 200g Choy Sum
 - 2Nest Fresh Wheat Noodles
 - 30g Peanut
 - Crispy Chilli Oil
+
+### Sauce
+- 10g Fresh Ginger
+- 2tbsp Shaoxing Wine
+- .5tsp Sugar (optional)
+- 1tsp Sugar
+- 2Clove Garlic
+
+### Other
+- 1tbsp Chinese Black Vinegar
+

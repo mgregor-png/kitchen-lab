@@ -30,16 +30,13 @@ Serves 2
 
 ## Ingredients
 
+### Chicken
 - 4 Boneless Skinless Chicken Thigh
 - 1 Lime
 - 1tbsp Soy Sauce
 - Salt
 - Black Pepper
-- 3tbsp Peanut Butter
-- 1tbsp Sriracha
 - 1tbsp Soy Sauce
-- 1tsp Honey
-- 1tbsp Water
 - 1 Lime
 - 250g Kale
 - 400g Cooked Mixed Grains
@@ -47,4 +44,13 @@ Serves 2
 - 2 Spring Onion
 - 1 Red Bird's Eye Chilli
 - 1 Lime
+
+### Sauce
+- 3tbsp Peanut Butter
+- 1tbsp Sriracha
+- 1tsp Honey
+- 1tbsp Water
+
+### Other
 - Olive Oil
+
