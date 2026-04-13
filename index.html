@@ -349,6 +349,7 @@
     let activeFilters = new Set();
     let activeTimeFilter = null; // null, 'quick', 'medium', 'long'
     let searchQuery = '';
+    let activeCategoryCard = null; // null, 'speedy', 'one-pot', 'sunday'
 
     async function renderList(container) {
       container.innerHTML = '<div class="max-w-2xl mx-auto px-4 py-8 text-center font-headline">Loading...</div>';
@@ -387,6 +388,11 @@
         );
       }
 
+      // Filter by category card
+      if (activeCategoryCard === 'speedy') filtered = filtered.filter(r => r.time < 30);
+      else if (activeCategoryCard === 'one-pot') filtered = filtered.filter(r => (r.tags || []).includes('one-pot'));
+      else if (activeCategoryCard === 'sunday') filtered = filtered.filter(r => r.time > 60);
+
       const timeBtn = (label, value, icon) => `
         <button onclick="setTimeFilter('${value}')"
           class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 transition-colors flex items-center gap-1 ${activeTimeFilter === value ? 'bg-primary-fixed text-on-background border-on-background' : 'bg-surface-white text-on-background border-outline-variant hover:border-on-background'}">
@@ -402,6 +408,34 @@
           onclick="toggleFilter('${tag}')"
           class="font-headline font-bold text-xs uppercase tracking-widest px-3 py-1 border-2 border-on-background transition-colors whitespace-nowrap flex-shrink-0 ${isActive ? 'bg-on-background text-surface-white' : 'bg-surface-white text-on-background hover:bg-on-background hover:text-surface-white'}"
         >${tag}</button>`;
+
+      // Category card counts
+      const speedyCount = allRecipes.filter(r => r.time < 30).length;
+      const onePotCount = allRecipes.filter(r => (r.tags || []).includes('one-pot')).length;
+      const sundayCount = allRecipes.filter(r => r.time > 60).length;
+
+      const catCard = (id, icon, title, subtitle, count, accent) => {
+        const isActive = activeCategoryCard === id;
+        return `
+          <button onclick="setCategoryCard('${id}')"
+            class="w-full flex items-center gap-4 px-4 py-3 text-left transition-all"
+            style="background:${isActive ? '#3a3c3c' : '#2d2f2f'}; border-left:3px solid ${accent};">
+            <span class="material-symbols-outlined text-2xl" style="color:${accent}; font-variation-settings:'FILL' 1,'wght' 700;">${icon}</span>
+            <div class="flex-1 min-w-0">
+              <div class="font-headline font-black text-sm uppercase tracking-wider leading-tight" style="color:${accent};">${title}</div>
+              <div class="font-body italic text-xs text-outline-variant">${subtitle}</div>
+            </div>
+            <div class="font-headline font-black text-2xl text-surface-white">${count}</div>
+          </button>`;
+      };
+
+      const categoryCards = `
+        <div class="flex flex-col gap-2 mb-3">
+          ${catCard('speedy', 'bolt', 'Speedy', 'Under 30 minutes', speedyCount, '#2ff801')}
+          ${catCard('one-pot', 'soup_kitchen', 'One-Pot Wonders', 'Minimal dishes, maximum flavour', onePotCount, '#0846ed')}
+          ${catCard('sunday', 'local_fire_department', 'Sunday Projects', '60+ minutes of slow cooking', sundayCount, '#ffffff')}
+        </div>
+      `;
 
       const filterBar = `
         <div class="flex items-center gap-2 mb-3">
@@ -431,6 +465,7 @@
             </button>
           </div>
         </div>
+        ${categoryCards}
         <div class="mb-2">
           <div class="scroll-fade">
             <div class="scroll-row">
@@ -541,6 +576,14 @@
       } else if (!searchQuery) {
         row.classList.add('hidden');
       }
+    };
+
+    window.setCategoryCard = function(id) {
+      activeCategoryCard = activeCategoryCard === id ? null : id;
+      if (activeCategoryCard) {
+        activeTimeFilter = null;
+      }
+      renderList(document.getElementById('app'));
     };
 
     // ─── View: Recipe Detail ───────────────────────────────────────────────────
